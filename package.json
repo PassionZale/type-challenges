@@ -1,0 +1,17 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript 类型体操姿势合集",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lei Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@type-challenges/utils": "^0.1.1",
+    "eslint": "^8.56.0"
+  }
+}
