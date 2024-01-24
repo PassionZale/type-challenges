@@ -1,11 +1,8 @@
 export const sidebar = {
   "/guide/": [
     {
-      text: "快速开始",
-      items: [
-        { text: "什么是 Type Challenges", link: "/guide/introduction" },
-        { text: "安装", link: "/guide/installation" },
-      ],
+      text: "指南",
+      items: [{ text: "什么是 Type Challenges", link: "/guide/introduction" }],
     },
   ],
   "/challenges/": [
@@ -26,10 +23,10 @@ export const sidebar = {
           items: [
             {
               text: "实现 Pick",
-              link: "/challenges/easy/00004-easy-shi-xian-pick"
-            }
-          ]
-        }
+              link: "/challenges/easy/00004-easy-shi-xian-pick",
+            },
+          ],
+        },
       ],
     },
   ],
