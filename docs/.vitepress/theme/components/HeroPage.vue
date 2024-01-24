@@ -1,3 +1,7 @@
+<script setup lang="ts">
+defineOptions({ name: "HeroPage" });
+</script>
+
 <template>
   <main class="hero-page-wrapper">
     <div class="content">
@@ -7,12 +11,7 @@
       <div>
         <h1>Collection of TypeScript type challenges with online judge</h1>
         <p>
-          <a
-            href="/guide/introduction.html"
-            class="button"
-          >
-            开始使用
-          </a>
+          <a href="/guide/introduction.html" class="button"> 快速开始 </a>
         </p>
       </div>
     </div>
