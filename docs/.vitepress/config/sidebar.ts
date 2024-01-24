@@ -25,6 +25,10 @@ export const sidebar = {
               text: "实现 Pick",
               link: "/challenges/easy/00004-easy-shi-xian-pick",
             },
+            {
+              text: "对象属性只读",
+              link: "/challenges/easy/00007-easy-dui-xiang-shu-xing-zhi-du",
+            }
           ],
         },
       ],
