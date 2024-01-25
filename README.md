@@ -23,6 +23,8 @@
   - [题目](./playground/easy/00014-easy-di-yi-ge-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31855)
 - 18・获取元组长度
+  - [题目](./playground/easy/00018-easy-huo-qu-yuan-zu-zhang-du.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31857)
 - 43・实现 Exclude
 - 189・Awaited
 - 268・If

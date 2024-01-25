@@ -27,6 +27,10 @@ type First<T extends any[]> = T extends [] ? never : T[0];
 
 > 精选
 
+<BtnGroup 
+  featured="https://github.com/type-challenges/type-challenges/issues/16315"
+/>
+
 > ```ts
 > //answer1
 > type First<T extends any[]> = T extends [] ? never : T[0];
@@ -37,7 +41,3 @@ type First<T extends any[]> = T extends [] ? never : T[0];
 > //answer3
 > type First<T extends any[]> = T extends [infer A, ...infer rest] ? A : never;
 > ```
-
-<BtnGroup 
-  featured="https://github.com/type-challenges/type-challenges/issues/16315"
-/>

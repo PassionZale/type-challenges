@@ -36,6 +36,10 @@ export const sidebar = {
             {
               text: "第一个元素",
               link: "/challenges/easy/00014-easy-di-yi-ge-yuan-su"
+            },
+            {
+              text: "获取元组长度",
+              link: "/challenges/easy/00018-easy-huo-qu-yuan-zu-zhang-du"
             }
           ],
         },
