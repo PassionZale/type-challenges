@@ -20,6 +20,8 @@
   - [题目](./playground/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31849)
 - 14・第一个元素
+  - [题目](./playground/easy/00014-easy-di-yi-ge-yuan-su.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31855)
 - 18・获取元组长度
 - 43・实现 Exclude
 - 189・Awaited

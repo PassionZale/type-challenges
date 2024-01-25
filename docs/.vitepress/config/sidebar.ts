@@ -32,6 +32,10 @@ export const sidebar = {
             {
               text: "元组转换为对象",
               link: "/challenges/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang"
+            },
+            {
+              text: "第一个元素",
+              link: "/challenges/easy/00014-easy-di-yi-ge-yuan-su"
             }
           ],
         },
