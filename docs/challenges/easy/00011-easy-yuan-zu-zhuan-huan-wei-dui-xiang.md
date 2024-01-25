@@ -29,7 +29,7 @@ type TupleToObject<T extends readonly PropertyKey[]> = {
 > 精选
 
 <BtnGroup 
-  featured="https://github.com/type-challenges/type-challenges/issues/2737"
+  featured="https://github.com/type-challenges/type-challenges/issues/5896"
 />
 
 ```ts
