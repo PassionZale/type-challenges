@@ -40,6 +40,10 @@ export const sidebar = {
             {
               text: "获取元组长度",
               link: "/challenges/easy/00018-easy-huo-qu-yuan-zu-zhang-du"
+            },
+            {
+              text: "实现 Exclude",
+              link: "/challenges/easy/00043-easy-shi-xian-exclude"
             }
           ],
         },

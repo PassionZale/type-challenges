@@ -26,6 +26,8 @@
   - [题目](./playground/easy/00018-easy-huo-qu-yuan-zu-zhang-du.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31857)
 - 43・实现 Exclude
+  - [题目](./playground/easy/00043-easy-shi-xian-exclude.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 189・Awaited
 - 268・If
 - 533・Concat
