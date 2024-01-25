@@ -36,7 +36,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/31861)
 - 533・Concat
   - [题目](./playground/easy/00533-easy-concat.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31862)
 - 898・Includes
   - [题目](./playground/easy/00898-easy-includes.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
