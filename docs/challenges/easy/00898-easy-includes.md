@@ -1,8 +1,8 @@
 # Includes
 
 <BtnGroup 
-  issue="https://tsch.js.org/4/solutions"
-  answer="https://github.com/type-challenges/type-challenges/issues/31823"
+  issue="https://tsch.js.org/898/solutions"
+  answer="https://github.com/type-challenges/type-challenges/issues/31866"
 />
 
 > 题目

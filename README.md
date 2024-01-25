@@ -42,7 +42,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/31866)
 - 3057・Push
   - [题目](./playground/easy/03057-easy-push.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31867)
 - 3060・Unshift
   - [题目](./playground/easy/03060-easy-unshift.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
