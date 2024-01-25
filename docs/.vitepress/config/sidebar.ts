@@ -28,6 +28,10 @@ export const sidebar = {
             {
               text: "对象属性只读",
               link: "/challenges/easy/00007-easy-dui-xiang-shu-xing-zhi-du",
+            },
+            {
+              text: "元组转换为对象",
+              link: "/challenges/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang"
             }
           ],
         },
