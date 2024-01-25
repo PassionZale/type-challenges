@@ -14,7 +14,11 @@
   - [题目](./playground/easy/00004-easy-shi-xian-pick.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31823)
 - 7・对象属性只读
+  - [题目](./playground/easy/00007-easy-dui-xiang-shu-xing-zhi-du.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31842)
 - 11・元组转换为对象
+  - [题目](./playground/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31849)
 - 14・第一个元素
 - 18・获取元组长度
 - 43・实现 Exclude
