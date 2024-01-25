@@ -48,7 +48,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/31868)
 - 3312・Parameters
   - [题目](./playground/easy/03312-easy-parameters.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31870)
 
 ### 中等 (97)
 

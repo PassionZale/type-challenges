@@ -70,7 +70,7 @@ export const sidebar = {
               link: "/challenges/easy/03060-easy-unshift"
             },
             {
-              text: "Parameters",
+              text: "🎯 Parameters",
               link: "/challenges/easy/03312-easy-parameters"
             },
           ],

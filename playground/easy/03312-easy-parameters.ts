@@ -19,8 +19,15 @@
 */
 
 /* _____________ 你的代码 _____________ */
-
-type MyParameters<T extends (...args: any[]) => any> = any
+/**
+ * 使用infer表示待推断的类型变量。
+ * 由于...args本身已经是元组类型，因此infer P最终推导出的，也是元组类型。
+ */
+type MyParameters<T extends (...args: any[]) => any> = T extends (
+  ...args: infer P
+) => unknown
+  ? P
+  : never
 
 /* _____________ 测试用例 _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
