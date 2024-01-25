@@ -44,7 +44,35 @@ export const sidebar = {
             {
               text: "实现 Exclude",
               link: "/challenges/easy/00043-easy-shi-xian-exclude"
-            }
+            },
+            {
+              text: "Await",
+              link: "/challenges/easy/00189-easy-awaited"
+            },
+            {
+              text: "If",
+              link: "/challenges/easy/00268-easy-if"
+            },
+            {
+              text: "Concat",
+              link: "/challenges/easy/00533-easy-concat"
+            },
+            {
+              text: "Includes",
+              link: "/challenges/easy/00898-easy-includes"
+            },
+            {
+              text: "Push",
+              link: "/challenges/easy/03057-easy-push"
+            },
+            {
+              text: "Unshift",
+              link: "/challenges/easy/03060-easy-unshift"
+            },
+            {
+              text: "Parameters",
+              link: "/challenges/easy/03312-easy-parameters"
+            },
           ],
         },
       ],

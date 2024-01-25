@@ -29,12 +29,26 @@
   - [题目](./playground/easy/00043-easy-shi-xian-exclude.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 189・Awaited
+  - [题目](./playground/easy/00189-easy-awaited.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 268・If
+  - [题目](./playground/easy/00268-easy-if.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 533・Concat
+  - [题目](./playground/easy/00533-easy-concat.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 898・Includes
+  - [题目](./playground/easy/00898-easy-includes.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 3057・Push
+  - [题目](./playground/easy/03057-easy-push.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 3060・Unshift
+  - [题目](./playground/easy/03060-easy-unshift.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 3312・Parameters
+  - [题目](./playground/easy/03312-easy-parameters.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 
 ### 中等 (97)
 
