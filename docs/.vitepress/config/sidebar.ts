@@ -46,7 +46,7 @@ export const sidebar = {
               link: "/challenges/easy/00043-easy-shi-xian-exclude"
             },
             {
-              text: "Await",
+              text: "Awaited",
               link: "/challenges/easy/00189-easy-awaited"
             },
             {

@@ -30,7 +30,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
 - 189・Awaited
   - [题目](./playground/easy/00189-easy-awaited.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31859)
 - 268・If
   - [题目](./playground/easy/00268-easy-if.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31858)
