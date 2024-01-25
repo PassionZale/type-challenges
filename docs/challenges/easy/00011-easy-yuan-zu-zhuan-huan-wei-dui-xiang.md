@@ -31,3 +31,17 @@ type TupleToObject<T extends readonly PropertyKey[]> = {
 <BtnGroup 
   featured="https://github.com/type-challenges/type-challenges/issues/2737"
 />
+
+```ts
+// 使用原来的  any[]  无法满足 test-case
+// 为 string symbol number这三个可以为对象键的类型
+type TupleToObject<T extends readonly (string | symbol | number)[]> = {
+  [P in T[number]]: P
+}
+
+// ts 内置的类型 PropertyKey
+// declare type PropertyKey = string | number | symbol;
+type TupleToObject<T extends readonly PropertyKey[]> = {
+  [P in T[number]]: P
+}
+```
