@@ -54,11 +54,11 @@ export const sidebar = {
               link: "/challenges/easy/00268-easy-if"
             },
             {
-              text: "🎯 Concat",
+              text: "Concat 🎯",
               link: "/challenges/easy/00533-easy-concat"
             },
             {
-              text: "🎯 Includes",
+              text: "Includes 🎯",
               link: "/challenges/easy/00898-easy-includes"
             },
             {
@@ -70,7 +70,7 @@ export const sidebar = {
               link: "/challenges/easy/03060-easy-unshift"
             },
             {
-              text: "🎯 Parameters",
+              text: "Parameters 🎯",
               link: "/challenges/easy/03312-easy-parameters"
             },
           ],
