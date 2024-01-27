@@ -1,4 +1,4 @@
-# 标题
+# 元祖转换为对象
 
 <BtnGroup 
   issue="https://tsch.js.org/11/solutions"
