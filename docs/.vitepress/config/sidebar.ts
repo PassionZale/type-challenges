@@ -75,6 +75,15 @@ export const sidebar = {
             },
           ],
         },
+        {
+          text: "中等",
+          items: [
+            {
+              text: "获取函数返回类型",
+              link: "/challenges/medium/00002-medium-huo-qu-han-shu-fan-hui-lei-xing"
+            }
+          ]
+        }
       ],
     },
   ],
