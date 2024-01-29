@@ -97,7 +97,12 @@ export const sidebar = {
             {
               text: "元组转合集",
               link: "/challenges/medium/00010-medium-yuan-zu-zhuan-he-ji"
+            },
+            {
+              text: "可串联构造器 🎯",
+              link: "/challenges/medium/00012-medium-ke-chuan-lian-gou-zao-qi"
             }
+            
           ]
         }
       ],
