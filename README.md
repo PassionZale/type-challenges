@@ -62,6 +62,8 @@
   - [题目](./playground/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31910)
 - 9・对象属性只读（递归）
+  - [题目](./playground/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31912)
 - 10・元组转合集
 - 12・可串联构造器
 - 15・最后一个元素

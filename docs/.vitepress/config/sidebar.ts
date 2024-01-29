@@ -46,7 +46,7 @@ export const sidebar = {
               link: "/challenges/easy/00043-easy-shi-xian-exclude"
             },
             {
-              text: "Awaited",
+              text: "Awaited 🎯",
               link: "/challenges/easy/00189-easy-awaited"
             },
             {
@@ -89,7 +89,11 @@ export const sidebar = {
             {
               text: "对象部分属性只读 🎯",
               link: "/challenges/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du"
-            }
+            },
+            {
+              text: "对象属性只读（递归）",
+              link: "/challenges/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui"
+            },
           ]
         }
       ],

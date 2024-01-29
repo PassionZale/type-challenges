@@ -25,6 +25,8 @@ type Result = MyAwaited<ExampleType>; // string
 
 > 解答
 
+**这是第一次遇到递归**
+
 ```ts
 type MyAwaited<T extends PromiseLike<any>> = T extends PromiseLike<infer U>
   ? U extends PromiseLike<any>
