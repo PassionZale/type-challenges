@@ -30,7 +30,15 @@
 
 /* _____________ 你的代码 _____________ */
 
-type MyOmit<T, K> = any
+type MyExclude<T, K> = T extends K ? never : T
+
+type MyOmit<T, K extends keyof T> = {
+  [P in MyExclude<keyof T, K>]: T[P]
+}
+
+type _MyOmit<T, K extends keyof T> = {
+  [P in keyof T as P extends K ? never : P]: T[P]
+}
 
 /* _____________ 测试用例 _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

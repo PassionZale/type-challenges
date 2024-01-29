@@ -56,6 +56,8 @@
   - [题目](./playground/medium/00002-medium-huo-qu-han-shu-fan-hui-lei-xing.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31892)
 - 3・实现 Omit
+  - [题目](./playground/medium/00003-medium-shi-xian-omit.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31909)
 - 8・对象部分属性只读
 - 9・对象属性只读（递归）
 - 10・元组转合集
