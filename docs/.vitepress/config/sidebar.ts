@@ -94,6 +94,10 @@ export const sidebar = {
               text: "对象属性只读（递归）",
               link: "/challenges/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui"
             },
+            {
+              text: "元组转合集",
+              link: "/challenges/medium/00010-medium-yuan-zu-zhuan-he-ji"
+            }
           ]
         }
       ],

@@ -65,6 +65,8 @@
   - [题目](./playground/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31912)
 - 10・元组转合集
+  - [题目](./playground/medium/00010-medium-yuan-zu-zhuan-he-ji.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31914)
 - 12・可串联构造器
 - 15・最后一个元素
 - 16・排除最后一项
