@@ -85,6 +85,10 @@ export const sidebar = {
             {
               text: "实现 Omit",
               link: "/challenges/medium/00003-medium-shi-xian-omit"
+            },
+            {
+              text: "对象部分属性只读 🎯",
+              link: "/challenges/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du"
             }
           ]
         }

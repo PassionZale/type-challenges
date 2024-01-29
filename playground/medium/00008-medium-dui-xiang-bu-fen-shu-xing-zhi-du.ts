@@ -34,37 +34,50 @@
 
 /* _____________ 你的代码 _____________ */
 
-type MyReadonly2<T, K> = any
+type MyReadonly1<T, K extends keyof T = keyof T> = Omit<T, K> &
+  Readonly<Pick<T, K>>;
+
+type MyReadonly2<T, K extends keyof T = keyof T> = {
+  readonly [P in K]: T[P];
+} & {
+  [P in keyof T as Exclude<P, K>]: T[P];
+};
+
+type MyReadonly3<T, K extends keyof T = keyof T> = {
+  [Key in keyof T as Key extends K ? never : Key]: T[Key];
+} & {
+  readonly [key in K]: T[key];
+};
 
 /* _____________ 测试用例 _____________ */
-import type { Alike, Expect } from '@type-challenges/utils'
+import type { Alike, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Alike<MyReadonly2<Todo1>, Readonly<Todo1>>>,
-  Expect<Alike<MyReadonly2<Todo1, 'title' | 'description'>, Expected>>,
-  Expect<Alike<MyReadonly2<Todo2, 'title' | 'description'>, Expected>>,
-  Expect<Alike<MyReadonly2<Todo2, 'description' >, Expected>>,
-]
+  Expect<Alike<MyReadonly2<Todo1, "title" | "description">, Expected>>,
+  Expect<Alike<MyReadonly2<Todo2, "title" | "description">, Expected>>,
+  Expect<Alike<MyReadonly2<Todo2, "description">, Expected>>
+];
 
 // @ts-expect-error
-type error = MyReadonly2<Todo1, 'title' | 'invalid'>
+type error = MyReadonly2<Todo1, "title" | "invalid">;
 
 interface Todo1 {
-  title: string
-  description?: string
-  completed: boolean
+  title: string;
+  description?: string;
+  completed: boolean;
 }
 
 interface Todo2 {
-  readonly title: string
-  description?: string
-  completed: boolean
+  readonly title: string;
+  description?: string;
+  completed: boolean;
 }
 
 interface Expected {
-  readonly title: string
-  readonly description?: string
-  completed: boolean
+  readonly title: string;
+  readonly description?: string;
+  completed: boolean;
 }
 
 /* _____________ 下一步 _____________ */

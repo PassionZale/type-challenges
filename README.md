@@ -59,6 +59,8 @@
   - [题目](./playground/medium/00003-medium-shi-xian-omit.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31909)
 - 8・对象部分属性只读
+  - [题目](./playground/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31910)
 - 9・对象属性只读（递归）
 - 10・元组转合集
 - 12・可串联构造器
