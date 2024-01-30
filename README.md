@@ -77,6 +77,8 @@
     - [题目](./playground/medium/00016-medium-pai-chu-zui-hou-yi-xiang.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31922)
 - 20・Promise.all
+    - [题目](./playground/medium/00020-medium-promise-all.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31923)
 - 62・查找类型
 - 106・去除左侧空白
 - 108・去除两端空白字符

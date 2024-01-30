@@ -109,6 +109,10 @@ export const sidebar = {
             {
               text: "排除最后一项",
               link: "/challenges/medium/00016-medium-pai-chu-zui-hou-yi-xiang"
+            },
+            {
+              text: "Promise.all",
+              link: "/challenges/medium/00020-medium-promise-all"
             }
           ]
         }
