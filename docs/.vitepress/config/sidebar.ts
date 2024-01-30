@@ -118,6 +118,10 @@ export const sidebar = {
               text: "查找类型",
               link: "/challenges/medium/00062-medium-cha-zhao-lei-xing"
             },
+            {
+              text: "去除左侧空白",
+              link: "/challenges/medium/00106-medium-qu-chu-zuo-ce-kong-bai"
+            },
           ]
         }
       ],

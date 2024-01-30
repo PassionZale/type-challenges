@@ -83,6 +83,8 @@
     - [题目](./playground/medium/00062-medium-cha-zhao-lei-xing.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31924)
 - 106・去除左侧空白
+    - [题目](./playground/medium/00106-medium-qu-chu-zuo-ce-kong-bai.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31926)
 - 108・去除两端空白字符
 - 110・Capitalize
 - 116・Replace
