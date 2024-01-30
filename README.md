@@ -92,6 +92,8 @@
     - [题目](./playground/medium/00110-medium-capitalize.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31928)
 - 116・Replace
+    - [题目](./playground/medium/00110-medium-replace.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31932)
 - 119・ReplaceAll
 - 191・追加参数
 - 296・Permutation

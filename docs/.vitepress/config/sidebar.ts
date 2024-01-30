@@ -129,6 +129,10 @@ export const sidebar = {
             {
               text: "Capitalize",
               link: "/challenges/medium/00110-medium-capitalize"
+            },
+            {
+              text: "Replace",
+              link: "/challenges/medium/00116-medium-replace"
             }
           ]
         }
