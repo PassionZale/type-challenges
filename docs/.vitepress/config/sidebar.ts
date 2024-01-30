@@ -133,7 +133,11 @@ export const sidebar = {
             {
               text: "Replace",
               link: "/challenges/medium/00116-medium-replace"
-            }
+            },
+            {
+              text: "ReplaceAll",
+              link: "/challenges/medium/00119-medium-replaceall"
+            },
           ]
         }
       ],

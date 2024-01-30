@@ -95,6 +95,8 @@
     - [题目](./playground/medium/00110-medium-replace.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31932)
 - 119・ReplaceAll
+    - [题目](./playground/medium/00110-medium-replaceall.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31933)
 - 191・追加参数
 - 296・Permutation
 - 298・Length of String
