@@ -74,6 +74,8 @@
   - [题目](./playground/medium/00015-medium-zui-hou-yi-ge-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31921)
 - 16・排除最后一项
+    - [题目](./playground/medium/00016-medium-pai-chu-zui-hou-yi-xiang.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31922)
 - 20・Promise.all
 - 62・查找类型
 - 106・去除左侧空白

@@ -105,6 +105,10 @@ export const sidebar = {
             {
               text: "最后一个元素",
               link: "/challenges/medium/00015-medium-zui-hou-yi-ge-yuan-su"
+            },
+            {
+              text: "排除最后一项",
+              link: "/challenges/medium/00016-medium-pai-chu-zui-hou-yi-xiang"
             }
           ]
         }
