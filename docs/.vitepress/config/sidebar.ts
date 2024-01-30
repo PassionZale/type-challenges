@@ -101,8 +101,11 @@ export const sidebar = {
             {
               text: "可串联构造器 🎯",
               link: "/challenges/medium/00012-medium-ke-chuan-lian-gou-zao-qi"
+            },
+            {
+              text: "最后一个元素",
+              link: "/challenges/medium/00015-medium-zui-hou-yi-ge-yuan-su"
             }
-            
           ]
         }
       ],

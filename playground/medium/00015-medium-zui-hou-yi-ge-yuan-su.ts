@@ -24,7 +24,7 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Last<T extends any[]> = any
+type Last<T extends unknown[]> = T extends [...infer _, infer R] ? R : never
 
 /* _____________ 测试用例 _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

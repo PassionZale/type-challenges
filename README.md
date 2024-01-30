@@ -71,6 +71,8 @@
   - [题目](./playground/medium/00012-medium-ke-chuan-lian-gou-zao-qi.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31920)
 - 15・最后一个元素
+  - [题目](./playground/medium/00015-medium-zui-hou-yi-ge-yuan-su.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31921)
 - 16・排除最后一项
 - 20・Promise.all
 - 62・查找类型
