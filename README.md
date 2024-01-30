@@ -89,6 +89,8 @@
     - [题目](./playground/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31927)
 - 110・Capitalize
+    - [题目](./playground/medium/00110-medium-capitalize.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31928)
 - 116・Replace
 - 119・ReplaceAll
 - 191・追加参数

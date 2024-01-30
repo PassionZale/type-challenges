@@ -126,6 +126,10 @@ export const sidebar = {
               text: "去除两端空白字符",
               link: "/challenges/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu"
             },
+            {
+              text: "Capitalize",
+              link: "/challenges/medium/00110-medium-capitalize"
+            }
           ]
         }
       ],

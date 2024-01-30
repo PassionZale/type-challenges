@@ -1,4 +1,4 @@
-# 标题
+# Promise.all
 
 <BtnGroup
   issue="https://tsch.js.org/20/solutions"
