@@ -98,6 +98,8 @@
     - [题目](./playground/medium/00110-medium-replaceall.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31933)
 - 191・追加参数
+    - [题目](./playground/medium/00191-medium-zhui-jia-can-shu.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31940)
 - 296・Permutation
 - 298・Length of String
 - 459・Flatten

@@ -138,6 +138,10 @@ export const sidebar = {
               text: "ReplaceAll",
               link: "/challenges/medium/00119-medium-replaceall"
             },
+            {
+              text: "追加参数",
+              link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu"
+            },
           ]
         }
       ],

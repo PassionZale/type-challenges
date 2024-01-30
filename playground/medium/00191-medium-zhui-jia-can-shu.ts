@@ -23,23 +23,25 @@
 
 /* _____________ 你的代码 _____________ */
 
-type AppendArgument<Fn, A> = any
+type AppendArgument<Fn extends Function, A> = Fn extends (...args: infer R) => infer T
+  ? (...args: [...R, A]) => T
+  : never
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
-type Case1 = AppendArgument<(a: number, b: string) => number, boolean>
-type Result1 = (a: number, b: string, x: boolean) => number
+type Case1 = AppendArgument<(a: number, b: string) => number, boolean>;
+type Result1 = (a: number, b: string, x: boolean) => number;
 
-type Case2 = AppendArgument<() => void, undefined>
-type Result2 = (x: undefined) => void
+type Case2 = AppendArgument<() => void, undefined>;
+type Result2 = (x: undefined) => void;
 
 type cases = [
   Expect<Equal<Case1, Result1>>,
   Expect<Equal<Case2, Result2>>,
   // @ts-expect-error
-  AppendArgument<unknown, undefined>,
-]
+  AppendArgument<unknown, undefined>
+];
 
 /* _____________ 下一步 _____________ */
 /*
