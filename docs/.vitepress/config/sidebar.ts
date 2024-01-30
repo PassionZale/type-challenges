@@ -113,7 +113,11 @@ export const sidebar = {
             {
               text: "Promise.all",
               link: "/challenges/medium/00020-medium-promise-all"
-            }
+            },
+            {
+              text: "查找类型",
+              link: "/challenges/medium/00062-medium-cha-zhao-lei-xing"
+            },
           ]
         }
       ],
