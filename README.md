@@ -86,6 +86,8 @@
     - [题目](./playground/medium/00106-medium-qu-chu-zuo-ce-kong-bai.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31926)
 - 108・去除两端空白字符
+    - [题目](./playground/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31927)
 - 110・Capitalize
 - 116・Replace
 - 119・ReplaceAll

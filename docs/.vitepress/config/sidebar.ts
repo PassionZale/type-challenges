@@ -122,6 +122,10 @@ export const sidebar = {
               text: "去除左侧空白",
               link: "/challenges/medium/00106-medium-qu-chu-zuo-ce-kong-bai"
             },
+            {
+              text: "去除两端空白字符",
+              link: "/challenges/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu"
+            },
           ]
         }
       ],
