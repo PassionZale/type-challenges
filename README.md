@@ -74,39 +74,41 @@
   - [题目](./playground/medium/00015-medium-zui-hou-yi-ge-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31921)
 - 16・排除最后一项
-    - [题目](./playground/medium/00016-medium-pai-chu-zui-hou-yi-xiang.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31922)
+  - [题目](./playground/medium/00016-medium-pai-chu-zui-hou-yi-xiang.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31922)
 - 20・Promise.all
-    - [题目](./playground/medium/00020-medium-promise-all.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31923)
+  - [题目](./playground/medium/00020-medium-promise-all.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31923)
 - 62・查找类型
-    - [题目](./playground/medium/00062-medium-cha-zhao-lei-xing.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31924)
+  - [题目](./playground/medium/00062-medium-cha-zhao-lei-xing.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31924)
 - 106・去除左侧空白
-    - [题目](./playground/medium/00106-medium-qu-chu-zuo-ce-kong-bai.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31926)
+  - [题目](./playground/medium/00106-medium-qu-chu-zuo-ce-kong-bai.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31926)
 - 108・去除两端空白字符
-    - [题目](./playground/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31927)
+  - [题目](./playground/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31927)
 - 110・Capitalize
-    - [题目](./playground/medium/00110-medium-capitalize.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31928)
+  - [题目](./playground/medium/00110-medium-capitalize.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31928)
 - 116・Replace
-    - [题目](./playground/medium/00110-medium-replace.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31932)
+  - [题目](./playground/medium/00110-medium-replace.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31932)
 - 119・ReplaceAll
-    - [题目](./playground/medium/00110-medium-replaceall.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31933)
+  - [题目](./playground/medium/00110-medium-replaceall.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31933)
 - 191・追加参数
-    - [题目](./playground/medium/00191-medium-zhui-jia-can-shu.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31940)
+  - [题目](./playground/medium/00191-medium-zhui-jia-can-shu.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31940)
 - 296・Permutation
-    - [题目](./playground/medium/00296-medium-permutation.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31947)
+  - [题目](./playground/medium/00296-medium-permutation.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31947)
 - 298・Length of String
-    - [题目](./playground/medium/00298-medium-length-of-string.ts)
-    - [解答](https://github.com/type-challenges/type-challenges/issues/31950)
+  - [题目](./playground/medium/00298-medium-length-of-string.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31950)
 - 459・Flatten
+  - [题目](./playground/medium/00459-medium-flatten.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31958)
 - 527・Append to object
 - 529・Absolute
 - 531・String to Union

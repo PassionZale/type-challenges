@@ -31,47 +31,47 @@ export const sidebar = {
             },
             {
               text: "元组转换为对象",
-              link: "/challenges/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang"
+              link: "/challenges/easy/00011-easy-yuan-zu-zhuan-huan-wei-dui-xiang",
             },
             {
               text: "第一个元素",
-              link: "/challenges/easy/00014-easy-di-yi-ge-yuan-su"
+              link: "/challenges/easy/00014-easy-di-yi-ge-yuan-su",
             },
             {
               text: "获取元组长度",
-              link: "/challenges/easy/00018-easy-huo-qu-yuan-zu-zhang-du"
+              link: "/challenges/easy/00018-easy-huo-qu-yuan-zu-zhang-du",
             },
             {
               text: "实现 Exclude",
-              link: "/challenges/easy/00043-easy-shi-xian-exclude"
+              link: "/challenges/easy/00043-easy-shi-xian-exclude",
             },
             {
               text: "Awaited 🎯",
-              link: "/challenges/easy/00189-easy-awaited"
+              link: "/challenges/easy/00189-easy-awaited",
             },
             {
               text: "If",
-              link: "/challenges/easy/00268-easy-if"
+              link: "/challenges/easy/00268-easy-if",
             },
             {
               text: "Concat 🎯",
-              link: "/challenges/easy/00533-easy-concat"
+              link: "/challenges/easy/00533-easy-concat",
             },
             {
               text: "Includes 🎯",
-              link: "/challenges/easy/00898-easy-includes"
+              link: "/challenges/easy/00898-easy-includes",
             },
             {
               text: "Push",
-              link: "/challenges/easy/03057-easy-push"
+              link: "/challenges/easy/03057-easy-push",
             },
             {
               text: "Unshift",
-              link: "/challenges/easy/03060-easy-unshift"
+              link: "/challenges/easy/03060-easy-unshift",
             },
             {
               text: "Parameters 🎯",
-              link: "/challenges/easy/03312-easy-parameters"
+              link: "/challenges/easy/03312-easy-parameters",
             },
           ],
         },
@@ -80,78 +80,82 @@ export const sidebar = {
           items: [
             {
               text: "获取函数返回类型",
-              link: "/challenges/medium/00002-medium-huo-qu-han-shu-fan-hui-lei-xing"
+              link: "/challenges/medium/00002-medium-huo-qu-han-shu-fan-hui-lei-xing",
             },
             {
               text: "实现 Omit",
-              link: "/challenges/medium/00003-medium-shi-xian-omit"
+              link: "/challenges/medium/00003-medium-shi-xian-omit",
             },
             {
               text: "对象部分属性只读 🎯",
-              link: "/challenges/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du"
+              link: "/challenges/medium/00008-medium-dui-xiang-bu-fen-shu-xing-zhi-du",
             },
             {
               text: "对象属性只读（递归）",
-              link: "/challenges/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui"
+              link: "/challenges/medium/00009-medium-dui-xiang-shu-xing-zhi-du-di-gui",
             },
             {
               text: "元组转合集",
-              link: "/challenges/medium/00010-medium-yuan-zu-zhuan-he-ji"
+              link: "/challenges/medium/00010-medium-yuan-zu-zhuan-he-ji",
             },
             {
               text: "可串联构造器 🎯",
-              link: "/challenges/medium/00012-medium-ke-chuan-lian-gou-zao-qi"
+              link: "/challenges/medium/00012-medium-ke-chuan-lian-gou-zao-qi",
             },
             {
               text: "最后一个元素",
-              link: "/challenges/medium/00015-medium-zui-hou-yi-ge-yuan-su"
+              link: "/challenges/medium/00015-medium-zui-hou-yi-ge-yuan-su",
             },
             {
               text: "排除最后一项",
-              link: "/challenges/medium/00016-medium-pai-chu-zui-hou-yi-xiang"
+              link: "/challenges/medium/00016-medium-pai-chu-zui-hou-yi-xiang",
             },
             {
               text: "Promise.all",
-              link: "/challenges/medium/00020-medium-promise-all"
+              link: "/challenges/medium/00020-medium-promise-all",
             },
             {
               text: "查找类型",
-              link: "/challenges/medium/00062-medium-cha-zhao-lei-xing"
+              link: "/challenges/medium/00062-medium-cha-zhao-lei-xing",
             },
             {
               text: "去除左侧空白",
-              link: "/challenges/medium/00106-medium-qu-chu-zuo-ce-kong-bai"
+              link: "/challenges/medium/00106-medium-qu-chu-zuo-ce-kong-bai",
             },
             {
               text: "去除两端空白字符",
-              link: "/challenges/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu"
+              link: "/challenges/medium/00108-medium-qu-chu-liang-duan-kong-bai-zi-fu",
             },
             {
               text: "Capitalize",
-              link: "/challenges/medium/00110-medium-capitalize"
+              link: "/challenges/medium/00110-medium-capitalize",
             },
             {
               text: "Replace",
-              link: "/challenges/medium/00116-medium-replace"
+              link: "/challenges/medium/00116-medium-replace",
             },
             {
               text: "ReplaceAll",
-              link: "/challenges/medium/00119-medium-replaceall"
+              link: "/challenges/medium/00119-medium-replaceall",
             },
             {
               text: "追加参数",
-              link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu"
+              link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu",
             },
             {
               text: "Permutation 🎯",
-              link: "/challenges/medium/00296-medium-permutation"
+              link: "/challenges/medium/00296-medium-permutation",
             },
             {
               text: "Length of String",
-              link: "/challenges/medium/00298-medium-length-of-string"
-            }
-          ]
-        }
+              link: "/challenges/medium/00298-medium-length-of-string",
+            },
+            {
+              text: "Flatten",
+              link: "/challenges/medium/00459-medium-flatten",
+            },
+          ],
+        },
       ],
     },
   ],
