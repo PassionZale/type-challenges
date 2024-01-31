@@ -12,17 +12,34 @@
 
 /* _____________ 你的代码 _____________ */
 
-type LengthOfString<S extends string> = any
+namespace t00298 {
+  // 原始类型
+  type S = "kumiko";
+
+  // 字符串转换为数据
+  type StringToArray<S extends string> = S extends `${infer First}${infer Rest}`
+    ? [First, ...StringToArray<Rest>]
+    : [];
+
+  // type S1 = ["k", "u", "m", "i", "k", "o"]
+  type S1 = StringToArray<S>;
+
+  // 通过数组的 length 属性获取长度
+  // type S2 = 6
+  type S2 = S1["length"];
+
+  export type LengthOfString<T extends string> = StringToArray<T>["length"];
+}
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<LengthOfString<''>, 0>>,
-  Expect<Equal<LengthOfString<'kumiko'>, 6>>,
-  Expect<Equal<LengthOfString<'reina'>, 5>>,
-  Expect<Equal<LengthOfString<'Sound! Euphonium'>, 16>>,
-]
+  Expect<Equal<t00298.LengthOfString<"">, 0>>,
+  Expect<Equal<t00298.LengthOfString<"kumiko">, 6>>,
+  Expect<Equal<t00298.LengthOfString<"reina">, 5>>,
+  Expect<Equal<t00298.LengthOfString<"Sound! Euphonium">, 16>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

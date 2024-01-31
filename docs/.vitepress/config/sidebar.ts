@@ -143,9 +143,13 @@ export const sidebar = {
               link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu"
             },
             {
-              text: "Permutation 🫨",
+              text: "Permutation 🎯",
               link: "/challenges/medium/00296-medium-permutation"
             },
+            {
+              text: "Length of String",
+              link: "/challenges/medium/00298-medium-length-of-string"
+            }
           ]
         }
       ],

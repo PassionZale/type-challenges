@@ -104,6 +104,8 @@
     - [题目](./playground/medium/00296-medium-permutation.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31947)
 - 298・Length of String
+    - [题目](./playground/medium/00298-medium-length-of-string.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31950)
 - 459・Flatten
 - 527・Append to object
 - 529・Absolute
