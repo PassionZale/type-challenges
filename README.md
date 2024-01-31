@@ -113,6 +113,8 @@
   - [题目](./playground/medium/00527-medium-append-to-object.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31960)
 - 529・Absolute
+  - [题目](./playground/medium/00529-medium-absolute.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31961)
 - 531・String to Union
 - 599・Merge
 - 612・KebabCase

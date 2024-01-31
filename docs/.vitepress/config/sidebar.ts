@@ -158,6 +158,10 @@ export const sidebar = {
               text: "Append to object",
               link: "/challenges/medium/00527-medium-append-to-object",
             },
+            {
+              text: "Absolute",
+              link: "/challenges/medium/00529-medium-absolute",
+            },
           ],
         },
       ],
