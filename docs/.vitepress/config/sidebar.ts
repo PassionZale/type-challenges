@@ -166,6 +166,10 @@ export const sidebar = {
               text: "String to Union",
               link: "/challenges/medium/00531-medium-string-to-union",
             },
+            {
+              text: "Merge",
+              link: "/challenges/medium/00599-medium-merge",
+            },
           ],
         },
       ],
