@@ -142,6 +142,10 @@ export const sidebar = {
               text: "追加参数",
               link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu"
             },
+            {
+              text: "Permutation 🫨",
+              link: "/challenges/medium/00296-medium-permutation"
+            },
           ]
         }
       ],

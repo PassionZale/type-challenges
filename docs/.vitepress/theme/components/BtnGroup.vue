@@ -18,7 +18,7 @@ const props = defineProps<Props>();
       :href="props.issue"
       target="_blank"
     >
-      查看解答
+      <slot name="issue">查看解答</slot>
     </a>
     <a
       v-if="props.answer"
@@ -26,7 +26,7 @@ const props = defineProps<Props>();
       :href="props.answer"
       target="_blank"
     >
-      我的解答
+      <slot name="answer">我的解答</slot>
     </a>
     <a
       v-if="props.featured"
@@ -34,7 +34,7 @@ const props = defineProps<Props>();
       :href="props.featured"
       target="_blank"
     >
-      查看精选
+      <slot name="featured">查看精选</slot>
     </a>
   </div>
 </template>

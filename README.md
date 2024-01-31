@@ -101,6 +101,8 @@
     - [题目](./playground/medium/00191-medium-zhui-jia-can-shu.ts)
     - [解答](https://github.com/type-challenges/type-challenges/issues/31940)
 - 296・Permutation
+    - [题目](./playground/medium/00296-medium-permutation.ts)
+    - [解答](https://github.com/type-challenges/type-challenges/issues/31947)
 - 298・Length of String
 - 459・Flatten
 - 527・Append to object
