@@ -162,6 +162,10 @@ export const sidebar = {
               text: "Absolute",
               link: "/challenges/medium/00529-medium-absolute",
             },
+            {
+              text: "String to Union",
+              link: "/challenges/medium/00531-medium-string-to-union",
+            },
           ],
         },
       ],

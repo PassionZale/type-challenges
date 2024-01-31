@@ -116,6 +116,8 @@
   - [题目](./playground/medium/00529-medium-absolute.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31961)
 - 531・String to Union
+  - [题目](./playground/medium/00531-medium-string-to-union.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31962)
 - 599・Merge
 - 612・KebabCase
 - 645・Diff
