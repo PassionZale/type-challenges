@@ -154,6 +154,10 @@ export const sidebar = {
               text: "Flatten",
               link: "/challenges/medium/00459-medium-flatten",
             },
+            {
+              text: "Append to object",
+              link: "/challenges/medium/00527-medium-append-to-object",
+            },
           ],
         },
       ],

@@ -110,6 +110,8 @@
   - [题目](./playground/medium/00459-medium-flatten.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31958)
 - 527・Append to object
+  - [题目](./playground/medium/00527-medium-append-to-object.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31960)
 - 529・Absolute
 - 531・String to Union
 - 599・Merge

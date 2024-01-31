@@ -19,53 +19,55 @@
 
 /* _____________ 你的代码 _____________ */
 
-type AppendToObject<T, U, V> = any
+type AppendToObject<T, U extends PropertyKey, V> = T extends object
+  ? { [key in keyof T | U]: key extends keyof T ? T[key] : V }
+  : T;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type test1 = {
-  key: 'cat'
-  value: 'green'
-}
+  key: "cat";
+  value: "green";
+};
 
 type testExpect1 = {
-  key: 'cat'
-  value: 'green'
-  home: boolean
-}
+  key: "cat";
+  value: "green";
+  home: boolean;
+};
 
 type test2 = {
-  key: 'dog' | undefined
-  value: 'white'
-  sun: true
-}
+  key: "dog" | undefined;
+  value: "white";
+  sun: true;
+};
 
 type testExpect2 = {
-  key: 'dog' | undefined
-  value: 'white'
-  sun: true
-  home: 1
-}
+  key: "dog" | undefined;
+  value: "white";
+  sun: true;
+  home: 1;
+};
 
 type test3 = {
-  key: 'cow'
-  value: 'yellow'
-  sun: false
-}
+  key: "cow";
+  value: "yellow";
+  sun: false;
+};
 
 type testExpect3 = {
-  key: 'cow'
-  value: 'yellow'
-  sun: false
-  moon: false | undefined
-}
+  key: "cow";
+  value: "yellow";
+  sun: false;
+  moon: false | undefined;
+};
 
 type cases = [
-  Expect<Equal<AppendToObject<test1, 'home', boolean>, testExpect1>>,
-  Expect<Equal<AppendToObject<test2, 'home', 1>, testExpect2>>,
-  Expect<Equal<AppendToObject<test3, 'moon', false | undefined>, testExpect3>>,
-]
+  Expect<Equal<AppendToObject<test1, "home", boolean>, testExpect1>>,
+  Expect<Equal<AppendToObject<test2, "home", 1>, testExpect2>>,
+  Expect<Equal<AppendToObject<test3, "moon", false | undefined>, testExpect3>>
+];
 
 /* _____________ 下一步 _____________ */
 /*
