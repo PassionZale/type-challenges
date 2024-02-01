@@ -194,6 +194,10 @@ export const sidebar = {
               text: "ReplaceKeys",
               link: "/challenges/medium/01130-medium-replacekeys",
             },
+						{
+              text: "Remove Index Signature 🎯",
+              link: "/challenges/medium/01367-medium-remove-index-signature",
+            },
           ],
         },
       ],

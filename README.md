@@ -142,6 +142,8 @@
   - [题目](./playground/medium/01130-medium-replacekeys.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31982)
 - 1367・Remove Index Signature
+  - [题目](./playground/medium/01130-medium-replacekeys.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31983)
 - 1978・Percentage Parser
 - 2070・Drop Char
 - 2257・MinusOne
