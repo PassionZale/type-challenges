@@ -170,6 +170,10 @@ export const sidebar = {
               text: "Merge",
               link: "/challenges/medium/00599-medium-merge",
             },
+            {
+              text: "Kebabcase",
+              link: "/challenges/medium/00612-medium-kebabcase",
+            },
           ],
         },
       ],
