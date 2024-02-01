@@ -125,6 +125,8 @@
   - [题目](./playground/medium/00612-medium-kebabcase.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31972)
 - 645・Diff
+  - [题目](./playground/medium/00645-medium-diff.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31974)
 - 949・AnyOf
 - 1042・IsNever
 - 1097・IsUnion

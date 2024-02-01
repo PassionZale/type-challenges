@@ -171,8 +171,12 @@ export const sidebar = {
               link: "/challenges/medium/00599-medium-merge",
             },
             {
-              text: "Kebabcase",
+              text: "Kebabcase 🎯",
               link: "/challenges/medium/00612-medium-kebabcase",
+            },
+						{
+              text: "Diff",
+              link: "/challenges/medium/00645-medium-diff",
             },
           ],
         },
