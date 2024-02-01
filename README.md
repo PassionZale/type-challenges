@@ -139,6 +139,8 @@
   - [题目](./playground/medium/01097-medium-isunion.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31981)
 - 1130・ReplaceKeys
+  - [题目](./playground/medium/01130-medium-replacekeys.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31982)
 - 1367・Remove Index Signature
 - 1978・Percentage Parser
 - 2070・Drop Char

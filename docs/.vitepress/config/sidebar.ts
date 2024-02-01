@@ -174,21 +174,25 @@ export const sidebar = {
               text: "Kebabcase 🎯",
               link: "/challenges/medium/00612-medium-kebabcase",
             },
-						{
+            {
               text: "Diff",
               link: "/challenges/medium/00645-medium-diff",
             },
-						{
+            {
               text: "Anyof",
               link: "/challenges/medium/00949-medium-anyof",
             },
-						{
+            {
               text: "IsNever",
               link: "/challenges/medium/01042-medium-isnever",
             },
-						{
+            {
               text: "IsUnion 🎯",
               link: "/challenges/medium/01097-medium-isunion",
+            },
+            {
+              text: "ReplaceKeys",
+              link: "/challenges/medium/01130-medium-replacekeys",
             },
           ],
         },
