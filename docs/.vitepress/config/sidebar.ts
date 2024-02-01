@@ -178,6 +178,10 @@ export const sidebar = {
               text: "Diff",
               link: "/challenges/medium/00645-medium-diff",
             },
+						{
+              text: "Anyof",
+              link: "/challenges/medium/00949-medium-anyof",
+            },
           ],
         },
       ],

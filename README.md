@@ -128,6 +128,8 @@
   - [题目](./playground/medium/00645-medium-diff.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31974)
 - 949・AnyOf
+  - [题目](./playground/medium/00949-medium-anyof.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31977)
 - 1042・IsNever
 - 1097・IsUnion
 - 1130・ReplaceKeys
