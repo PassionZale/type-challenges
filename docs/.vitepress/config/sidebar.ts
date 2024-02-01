@@ -186,6 +186,10 @@ export const sidebar = {
               text: "IsNever",
               link: "/challenges/medium/01042-medium-isnever",
             },
+						{
+              text: "IsUnion 🎯",
+              link: "/challenges/medium/01097-medium-isunion",
+            },
           ],
         },
       ],

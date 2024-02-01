@@ -136,6 +136,8 @@
   - [题目](./playground/medium/01042-medium-isnever.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31980)
 - 1097・IsUnion
+  - [题目](./playground/medium/01097-medium-isunion.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/31981)
 - 1130・ReplaceKeys
 - 1367・Remove Index Signature
 - 1978・Percentage Parser
