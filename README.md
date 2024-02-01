@@ -1,6 +1,8 @@
 # type-challenges
 
-[TypeScript 类型体操姿势合集](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md#题库)
+[在线预览](https://tsch.lovchun.com)
+
+[浏览题库](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md#题库)
 
 ### 热身 (1)
 
