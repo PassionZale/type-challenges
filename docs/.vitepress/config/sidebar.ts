@@ -214,6 +214,7 @@ export const sidebar = {
               text: "PickByType",
               link: "/challenges/medium/02595-medium-pickbytype",
             },
+						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
       ],
