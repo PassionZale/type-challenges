@@ -9,13 +9,18 @@ const getFolders = (folderPath) =>
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 
-const getFiles = (folderPath) =>
-  fs
-    .readdirSync(new URL(folderPath, import.meta.url), {
-      withFileTypes: true,
-    })
-    .filter((dirent) => dirent.isFile())
-    .map((dirent) => dirent.name);
+const getFiles = (folderPath) => {
+  try {
+    return fs
+      .readdirSync(new URL(folderPath, import.meta.url), {
+        withFileTypes: true,
+      })
+      .filter((dirent) => dirent.isFile())
+      .map((dirent) => dirent.name);
+  } catch (error) {
+    return [];
+  }
+};
 
 const renderChallenge = (plop, { level, challenge }) => {
   const challengeFileContent = fs.readFileSync(
@@ -31,12 +36,7 @@ const renderChallenge = (plop, { level, challenge }) => {
   );
 
   const [no, title] = challengeContents[1].trim().split(" - ");
-  const content = challengeContents
-    .slice(7, foundIndex - 2)
-    // .map((lineContent) => {
-    //   return lineContent.replace(/\s/, "");
-    // })
-    .join("\n");
+  const content = challengeContents.slice(7, foundIndex - 2).join("\n");
 
   const challengeDocTemplate = `
 # {{title}}
@@ -65,7 +65,10 @@ const renderChallenge = (plop, { level, challenge }) => {
     content,
   });
 
-  // TODO 判断目录是否存在
+  // 判断目录是否存在
+  if (!fs.existsSync(`./docs/challenges/${level}`)) {
+    fs.mkdirSync(`./docs/challenges/${level}`, { recursive: true });
+  }
 
   fs.writeFileSync(
     `./docs/challenges/${level}/${challengeFilename}.md`,
@@ -114,6 +117,7 @@ export default function (
     actions: [
       async function initChallenge({ level }) {
         const challenges = getFiles(`./playground/${level}`);
+
         const completedChallenges = getFiles(`./docs/challenges/${level}`).map(
           (item) => item.replace(".md", ".ts")
         );
@@ -133,7 +137,7 @@ export default function (
             type: "list",
             name: "challenge",
             loop: false,
-            message: "请选择挑战",
+            message: `请选择挑战(${unCompletedChallenges.length})`,
             choices: unCompletedChallenges,
           });
 
