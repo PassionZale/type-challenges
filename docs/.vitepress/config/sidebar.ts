@@ -198,6 +198,10 @@ export const sidebar = {
               text: "Remove Index Signature 🎯",
               link: "/challenges/medium/01367-medium-remove-index-signature",
             },
+						{
+              text: "Percentage Parser",
+              link: "/challenges/medium/01978-medium-percentage-parser",
+            },
           ],
         },
       ],
