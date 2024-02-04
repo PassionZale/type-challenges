@@ -19,24 +19,24 @@
 /* _____________ 你的代码 _____________ */
 
 type DropChar<S, C> = S extends `${infer First}${infer Rest}`
-	? First extends C 
-		? DropChar<Rest, C>
-		: `${First}${DropChar<Rest, C>}`
-	: S
+  ? First extends C
+    ? DropChar<Rest, C>
+    : `${First}${DropChar<Rest, C>}`
+  : S;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   // @ts-expect-error
-  Expect<Equal<DropChar<'butter fly!', ''>, 'butterfly!'>>,
-  Expect<Equal<DropChar<'butter fly!', ' '>, 'butterfly!'>>,
-  Expect<Equal<DropChar<'butter fly!', '!'>, 'butter fly'>>,
-  Expect<Equal<DropChar<'    butter fly!        ', ' '>, 'butterfly!'>>,
-  Expect<Equal<DropChar<' b u t t e r f l y ! ', ' '>, 'butterfly!'>>,
-  Expect<Equal<DropChar<' b u t t e r f l y ! ', 'b'>, '  u t t e r f l y ! '>>,
-  Expect<Equal<DropChar<' b u t t e r f l y ! ', 't'>, ' b u   e r f l y ! '>>,
-]
+  Expect<Equal<DropChar<"butter fly!", "">, "butterfly!">>,
+  Expect<Equal<DropChar<"butter fly!", " ">, "butterfly!">>,
+  Expect<Equal<DropChar<"butter fly!", "!">, "butter fly">>,
+  Expect<Equal<DropChar<"    butter fly!        ", " ">, "butterfly!">>,
+  Expect<Equal<DropChar<" b u t t e r f l y ! ", " ">, "butterfly!">>,
+  Expect<Equal<DropChar<" b u t t e r f l y ! ", "b">, "  u t t e r f l y ! ">>,
+  Expect<Equal<DropChar<" b u t t e r f l y ! ", "t">, " b u   e r f l y ! ">>
+];
 
 /* _____________ 下一步 _____________ */
 /*
