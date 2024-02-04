@@ -7,7 +7,7 @@ export const nav = [
   {
     text: "挑战",
     activeMatch: "^/challenges/",
-    link: "/challenges/warm-up/00013-warm-hello-world",
+    link: "/challenges/warm/00013-warm-hello-world",
   },
   {
     text: "心得",

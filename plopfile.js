@@ -1,13 +1,6 @@
 import fs from "node:fs";
 import inquirer from "inquirer";
 
-const LEVELS = {
-  easy: "简单",
-  medium: "中等",
-  hard: "困难",
-  extreme: "地狱",
-};
-
 const getFolders = (folderPath) =>
   fs
     .readdirSync(new URL(folderPath, import.meta.url), {
@@ -121,17 +114,31 @@ export default function (
     actions: [
       async function initChallenge({ level }) {
         const challenges = getFiles(`./playground/${level}`);
+        const completedChallenges = getFiles(`./docs/challenges/${level}`).map(
+          (item) => item.replace(".md", ".ts")
+        );
 
-        // TODO 判断 challenges.length 为 1
-        const { challenge } = await inquirer.prompt({
-          type: "list",
-          name: "challenge",
-          loop: false,
-          message: "请选择挑战",
-          choices: challenges,
-        });
+        const unCompletedChallenges = challenges.filter(
+          (item) => !completedChallenges.includes(item)
+        );
 
-        renderChallenge(plop, { level, challenge });
+        if (unCompletedChallenges.length === 0) {
+          return `🎉 你已经完成了全部 ${level} 挑战！`;
+        }
+
+        if (unCompletedChallenges.length === 1) {
+          renderChallenge(plop, { level, challenge: unCompletedChallenges[1] });
+        } else {
+          const { challenge } = await inquirer.prompt({
+            type: "list",
+            name: "challenge",
+            loop: false,
+            message: "请选择挑战",
+            choices: unCompletedChallenges,
+          });
+
+          renderChallenge(plop, { level, challenge });
+        }
 
         return `challenge init success`;
       },

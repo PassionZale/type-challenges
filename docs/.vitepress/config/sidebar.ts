@@ -14,7 +14,7 @@ export const sidebar = {
           items: [
             {
               text: "Hello World",
-              link: "/challenges/warm-up/00013-warm-hello-world",
+              link: "/challenges/warm/00013-warm-hello-world",
             },
           ],
         },
@@ -140,7 +140,7 @@ export const sidebar = {
             },
             {
               text: "追加参数",
-              link: "/challenges/medium/00191-medium-zhui-jia-can-shu00191-medium-zhui-jia-can-shu",
+              link: "/challenges/medium/00191-medium-zhui-jia-can-shu",
             },
             {
               text: "Permutation 🎯",

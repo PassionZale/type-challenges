@@ -14,4 +14,4 @@
 
 >  ⚡️ 使用 [VS Code 插件](https://marketplace.visualstudio.com/items?itemName=YRM.type-challenges) 开始挑战
 
-> 👨‍💻 查阅我的 [挑战记录](/challenges/warm-up/00013-warm-hello-world.html)
+> 👨‍💻 查阅我的 [挑战记录](/challenges/warm/00013-warm-hello-world.html)
