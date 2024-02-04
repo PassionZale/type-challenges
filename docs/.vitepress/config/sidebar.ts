@@ -203,8 +203,12 @@ export const sidebar = {
               link: "/challenges/medium/01978-medium-percentage-parser",
             },
 						{
-              text: "Percentage Parser",
+              text: "Drop Char",
               link: "/challenges/medium/02070-medium-drop-char",
+            },
+						{
+              text: "MinusOne 🎯",
+              link: "/challenges/medium/02257-medium-minusone",
             },
           ],
         },

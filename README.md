@@ -151,6 +151,8 @@
   - [题目](./playground/medium/02070-medium-drop-char.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32009)
 - 2257・MinusOne
+  - [题目](./playground/medium/02257-medium-minusone.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32010)
 - 2595・PickByType
 - 2688・StartsWith
 - 2693・EndsWith
