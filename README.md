@@ -148,6 +148,8 @@
   - [题目](./playground/medium/01978-medium-percentage-parser.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32007)
 - 2070・Drop Char
+  - [题目](./playground/medium/02070-medium-drop-char.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32009)
 - 2257・MinusOne
 - 2595・PickByType
 - 2688・StartsWith

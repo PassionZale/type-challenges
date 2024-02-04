@@ -202,6 +202,10 @@ export const sidebar = {
               text: "Percentage Parser",
               link: "/challenges/medium/01978-medium-percentage-parser",
             },
+						{
+              text: "Percentage Parser",
+              link: "/challenges/medium/02070-medium-drop-char",
+            },
           ],
         },
       ],

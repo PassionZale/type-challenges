@@ -18,7 +18,11 @@
 
 /* _____________ 你的代码 _____________ */
 
-type DropChar<S, C> = any
+type DropChar<S, C> = S extends `${infer First}${infer Rest}`
+	? First extends C 
+		? DropChar<Rest, C>
+		: `${First}${DropChar<Rest, C>}`
+	: S
 
 /* _____________ 测试用例 _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
