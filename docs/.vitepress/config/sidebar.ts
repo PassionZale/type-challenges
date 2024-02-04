@@ -210,6 +210,10 @@ export const sidebar = {
               text: "MinusOne 🎯",
               link: "/challenges/medium/02257-medium-minusone",
             },
+						{
+              text: "PickByType",
+              link: "/challenges/medium/02595-medium-pickbytype",
+            },
           ],
         },
       ],

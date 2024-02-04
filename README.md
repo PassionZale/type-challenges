@@ -154,6 +154,8 @@
   - [题目](./playground/medium/02257-medium-minusone.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32010)
 - 2595・PickByType
+  - [题目](./playground/medium/02595-medium-pickbytype.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32011)
 - 2688・StartsWith
 - 2693・EndsWith
 - 2757・PartialByKeys

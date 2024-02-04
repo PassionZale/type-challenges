@@ -53,6 +53,12 @@ type MinusOne<T extends number> = T extends 0
   featured="https://github.com/type-challenges/type-challenges/issues/13507"
 />
 
+<BtnGroup 
+  featured="https://github.com/type-challenges/type-challenges/issues/22797"
+>
+	<template #featured>Video Explanation and Solution</template>
+</BtnGroup>
+
 > Playground version needs to be set to v4.8.0+. (As of 24.07.2022 "v4.8.0" is still in beta, so select v4.8.0-beta)
 >
 > This solution makes use of the newly added feature to add extends constraints on infer types in conditional types. Microsoft devblog: [Improved Inference for infer Types in Template String Types](https://devblogs.microsoft.com/typescript/announcing-typescript-4-8-beta/#improved-inference-for-infer-types-in-template-string-types). Using this you can create a simple ParseInt Type, that parses strings to integers. Using that, you can do the entire "MinusOne" calculation as a string and parse it to an integer at the end. The limit for this method of "MinusOne" is the Javascript Integer limit 2^53 = 9007199254740991. As there is no massive recursion, it is also very fast.
