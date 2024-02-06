@@ -230,6 +230,10 @@ export const sidebar = {
 							text: "RequiredByKeys",
 							link: "/challenges/medium/02759-medium-requiredbykeys"
 						},
+						{
+							text: "Mutable",
+							link: "/challenges/medium/02793-medium-mutable"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

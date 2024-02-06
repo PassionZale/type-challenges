@@ -169,6 +169,8 @@
   - [题目](./playground/medium/02759-medium-requiredbykeys.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32046)
 - 2793・Mutable
+  - [题目](./playground/medium/02793-medium-mutable.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32047)
 - 2852・OmitByType
 - 2946・ObjectEntries
 - 3062・Shift
