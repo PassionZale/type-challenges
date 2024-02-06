@@ -234,6 +234,10 @@ export const sidebar = {
 							text: "Mutable",
 							link: "/challenges/medium/02793-medium-mutable"
 						},
+						{
+							text: "OmitByType",
+							link: "/challenges/medium/02852-medium-omitbytype"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

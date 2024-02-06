@@ -172,6 +172,8 @@
   - [题目](./playground/medium/02793-medium-mutable.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32047)
 - 2852・OmitByType
+  - [题目](./playground/medium/02852-medium-omitbytype.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32048)
 - 2946・ObjectEntries
 - 3062・Shift
 - 3188・Tuple to Nested Object
