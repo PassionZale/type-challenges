@@ -226,6 +226,10 @@ export const sidebar = {
 							text: "PartialByKeys 🎯",
 							link: "/challenges/medium/02757-medium-partialbykeys"
 						},
+						{
+							text: "RequiredByKeys",
+							link: "/challenges/medium/02759-medium-requiredbykeys"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

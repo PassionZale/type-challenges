@@ -166,6 +166,8 @@
   - [题目](./playground/medium/02757-medium-partialbykeys.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32044)
 - 2759・RequiredByKeys
+  - [题目](./playground/medium/02759-medium-requiredbykeys.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32046)
 - 2793・Mutable
 - 2852・OmitByType
 - 2946・ObjectEntries
