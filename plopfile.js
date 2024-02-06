@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath } from "node:url";
 import { execa } from "execa";
 import inquirer from "inquirer";
 
@@ -102,13 +102,13 @@ const renderChallenge = (plop, { level, challenge }) => {
 
   execa("code", [
     fileURLToPath(
+      new URL(`./playground/${level}/${challengeFilename}.ts`, import.meta.url)
+    ),
+    fileURLToPath(
       new URL(
         `./docs/challenges/${level}/${challengeFilename}.md`,
         import.meta.url
       )
-    ),
-    fileURLToPath(
-      new URL(`./playground/${level}/${challengeFilename}.ts`, import.meta.url)
     ),
   ]);
 };
