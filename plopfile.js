@@ -158,7 +158,7 @@ export default function (
           renderChallenge(plop, { level, challenge });
         }
 
-        return `challenge init success`;
+        return `🎉 初始化完毕，现在！开始挑战！`;
       },
     ],
   });
