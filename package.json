@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Collection of TypeScript type challenges with OJ",
   "scripts": {
-		"plop": "plop",
+    "plop": "plop",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
@@ -19,6 +19,7 @@
     "@type-challenges/utils": "^0.1.1",
     "@types/node": "^20.11.5",
     "eslint": "^8.56.0",
+    "execa": "^8.0.1",
     "plop": "^4.0.1",
     "vitepress": "^1.0.0-rc.40"
   }
