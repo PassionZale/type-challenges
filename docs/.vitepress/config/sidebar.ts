@@ -218,6 +218,10 @@ export const sidebar = {
 							text: "StartsWith",
 							link: "/challenges/medium/02688-medium-startswith"
 						},
+						{
+							text: "EndsWith",
+							link: "/challenges/medium/02693-medium-endswith"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

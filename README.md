@@ -160,6 +160,8 @@
   - [题目](./playground/medium/02688-medium-startswith.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32041)
 - 2693・EndsWith
+  - [题目](./playground/medium/02693-medium-endswith.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32042)
 - 2757・PartialByKeys
 - 2759・RequiredByKeys
 - 2793・Mutable
