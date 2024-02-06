@@ -20,20 +20,24 @@
 
 /* _____________ 你的代码 _____________ */
 
-type StartsWith<T extends string, U extends string> = any
+type StartsWith<T extends string, U extends string> = U extends ""
+  ? true
+  : T extends `${U}${infer _}`
+  ? true
+  : false;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<StartsWith<'abc', 'ac'>, false>>,
-  Expect<Equal<StartsWith<'abc', 'ab'>, true>>,
-  Expect<Equal<StartsWith<'abc', 'abc'>, true>>,
-  Expect<Equal<StartsWith<'abc', 'abcd'>, false>>,
-  Expect<Equal<StartsWith<'abc', ''>, true>>,
-  Expect<Equal<StartsWith<'abc', ' '>, false>>,
-  Expect<Equal<StartsWith<'', ''>, true>>,
-]
+  Expect<Equal<StartsWith<"abc", "ac">, false>>,
+  Expect<Equal<StartsWith<"abc", "ab">, true>>,
+  Expect<Equal<StartsWith<"abc", "abc">, true>>,
+  Expect<Equal<StartsWith<"abc", "abcd">, false>>,
+  Expect<Equal<StartsWith<"abc", "">, true>>,
+  Expect<Equal<StartsWith<"abc", " ">, false>>,
+  Expect<Equal<StartsWith<"", "">, true>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

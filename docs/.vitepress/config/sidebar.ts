@@ -214,6 +214,10 @@ export const sidebar = {
               text: "PickByType",
               link: "/challenges/medium/02595-medium-pickbytype",
             },
+						{
+							text: "StartsWith",
+							link: "/challenges/medium/02688-medium-startswith"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

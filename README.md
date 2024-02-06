@@ -157,6 +157,8 @@
   - [题目](./playground/medium/02595-medium-pickbytype.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32011)
 - 2688・StartsWith
+  - [题目](./playground/medium/02688-medium-startswith.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32041)
 - 2693・EndsWith
 - 2757・PartialByKeys
 - 2759・RequiredByKeys
