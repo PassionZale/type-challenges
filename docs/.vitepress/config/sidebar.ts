@@ -222,6 +222,10 @@ export const sidebar = {
 							text: "EndsWith",
 							link: "/challenges/medium/02693-medium-endswith"
 						},
+						{
+							text: "PartialByKeys 🎯",
+							link: "/challenges/medium/02757-medium-partialbykeys"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

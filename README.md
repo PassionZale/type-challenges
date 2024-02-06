@@ -163,6 +163,8 @@
   - [题目](./playground/medium/02693-medium-endswith.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32042)
 - 2757・PartialByKeys
+  - [题目](./playground/medium/02757-medium-partialbykeys.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32044)
 - 2759・RequiredByKeys
 - 2793・Mutable
 - 2852・OmitByType
