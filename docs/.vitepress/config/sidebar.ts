@@ -258,6 +258,10 @@ export const sidebar = {
 							text: "Flip Arguments",
 							link: "/challenges/medium/03196-medium-flip-arguments"
 						},
+						{
+							text: "FlattenDepth 🎯",
+							link: "/challenges/medium/03243-medium-flattendepth"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

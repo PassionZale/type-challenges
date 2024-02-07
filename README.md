@@ -190,6 +190,8 @@
   - [题目](./playground/medium/03196-medium-flip-arguments.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32082)
 - 3243・FlattenDepth
+  - [题目](./playground/medium/03243-medium-flattendepth.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32083)
 - 3326・BEM style string
 - 3376・InorderTraversal
 - 4179・Flip
