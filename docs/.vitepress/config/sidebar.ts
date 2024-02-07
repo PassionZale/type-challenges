@@ -194,123 +194,139 @@ export const sidebar = {
               text: "ReplaceKeys",
               link: "/challenges/medium/01130-medium-replacekeys",
             },
-						{
+            {
               text: "Remove Index Signature 🎯",
               link: "/challenges/medium/01367-medium-remove-index-signature",
             },
-						{
+            {
               text: "Percentage Parser",
               link: "/challenges/medium/01978-medium-percentage-parser",
             },
-						{
+            {
               text: "Drop Char",
               link: "/challenges/medium/02070-medium-drop-char",
             },
-						{
+            {
               text: "MinusOne 🎯",
               link: "/challenges/medium/02257-medium-minusone",
             },
-						{
+            {
               text: "PickByType",
               link: "/challenges/medium/02595-medium-pickbytype",
             },
-						{
-							text: "StartsWith",
-							link: "/challenges/medium/02688-medium-startswith"
-						},
-						{
-							text: "EndsWith",
-							link: "/challenges/medium/02693-medium-endswith"
-						},
-						{
-							text: "PartialByKeys 🎯",
-							link: "/challenges/medium/02757-medium-partialbykeys"
-						},
-						{
-							text: "RequiredByKeys",
-							link: "/challenges/medium/02759-medium-requiredbykeys"
-						},
-						{
-							text: "Mutable",
-							link: "/challenges/medium/02793-medium-mutable"
-						},
-						{
-							text: "OmitByType",
-							link: "/challenges/medium/02852-medium-omitbytype"
-						},
-						{
-							text: "ObjectEntries 🎯",
-							link: "/challenges/medium/02946-medium-objectentries"
-						},
-						{
-							text: "Shift",
-							link: "/challenges/medium/03062-medium-shift"
-						},
-						{
-							text: "Tuple to Nested Object",
-							link: "/challenges/medium/03188-medium-tuple-to-nested-object"
-						},
-						{
-							text: "Reverse",
-							link: "/challenges/medium/03192-medium-reverse"
-						},
-						{
-							text: "Flip Arguments",
-							link: "/challenges/medium/03196-medium-flip-arguments"
-						},
-						{
-							text: "FlattenDepth 🎯",
-							link: "/challenges/medium/03243-medium-flattendepth"
-						},
-						{
-							text: "BEM style string",
-							link: "/challenges/medium/03326-medium-bem-style-string"
-						},
-						{
-							text: "Flip",
-							link: "/challenges/medium/04179-medium-flip"
-						},
-						{
-							text: "斐波那契序列 🎯",
-							link: "/challenges/medium/04182-medium-fei-bo-na-qi-xu-lie"
-						},
-						{
-							text: "AllCombinations 🎯",
-							link: "/challenges/medium/04260-medium-allcombinations"
-						},
-						{
-							text: "Greater Than 🎯",
-							link: "/challenges/medium/04425-medium-greater-than"
-						},
-						{
-							text: "Zip",
-							link: "/challenges/medium/04471-medium-zip"
-						},
-						{
-							text: "IsTuple",
-							link: "/challenges/medium/04484-medium-istuple"
-						},
-						{
-							text: "Chunk 🎯",
-							link: "/challenges/medium/04499-medium-chunk"
-						},
-						{
-							text: "Fill 🎯",
-							link: "/challenges/medium/04518-medium-fill"
-						},
-						{
-							text: "Trim Right",
-							link: "/challenges/medium/04803-medium-trim-right"
-						},
-						{
-							text: "去除数组指定元素",
-							link: "/challenges/medium/05117-medium-qu-chu-shu-zu-zhi-ding-yuan-su"
-						},
-						{
-							text: "Trunc",
-							link: "/challenges/medium/05140-medium-trunc"
-						},
-						/** PLOP_INJECT_SIDEBAR_MEDIUM */
+            {
+              text: "StartsWith",
+              link: "/challenges/medium/02688-medium-startswith",
+            },
+            {
+              text: "EndsWith",
+              link: "/challenges/medium/02693-medium-endswith",
+            },
+            {
+              text: "PartialByKeys 🎯",
+              link: "/challenges/medium/02757-medium-partialbykeys",
+            },
+            {
+              text: "RequiredByKeys",
+              link: "/challenges/medium/02759-medium-requiredbykeys",
+            },
+            {
+              text: "Mutable",
+              link: "/challenges/medium/02793-medium-mutable",
+            },
+            {
+              text: "OmitByType",
+              link: "/challenges/medium/02852-medium-omitbytype",
+            },
+            {
+              text: "ObjectEntries 🎯",
+              link: "/challenges/medium/02946-medium-objectentries",
+            },
+            {
+              text: "Shift",
+              link: "/challenges/medium/03062-medium-shift",
+            },
+            {
+              text: "Tuple to Nested Object",
+              link: "/challenges/medium/03188-medium-tuple-to-nested-object",
+            },
+            {
+              text: "Reverse",
+              link: "/challenges/medium/03192-medium-reverse",
+            },
+            {
+              text: "Flip Arguments",
+              link: "/challenges/medium/03196-medium-flip-arguments",
+            },
+            {
+              text: "FlattenDepth 🎯",
+              link: "/challenges/medium/03243-medium-flattendepth",
+            },
+            {
+              text: "BEM style string",
+              link: "/challenges/medium/03326-medium-bem-style-string",
+            },
+            {
+              text: "Flip",
+              link: "/challenges/medium/04179-medium-flip",
+            },
+            {
+              text: "斐波那契序列 🎯",
+              link: "/challenges/medium/04182-medium-fei-bo-na-qi-xu-lie",
+            },
+            {
+              text: "AllCombinations 🎯",
+              link: "/challenges/medium/04260-medium-allcombinations",
+            },
+            {
+              text: "Greater Than 🎯",
+              link: "/challenges/medium/04425-medium-greater-than",
+            },
+            {
+              text: "Zip",
+              link: "/challenges/medium/04471-medium-zip",
+            },
+            {
+              text: "IsTuple",
+              link: "/challenges/medium/04484-medium-istuple",
+            },
+            {
+              text: "Chunk 🎯",
+              link: "/challenges/medium/04499-medium-chunk",
+            },
+            {
+              text: "Fill 🎯",
+              link: "/challenges/medium/04518-medium-fill",
+            },
+            {
+              text: "Trim Right",
+              link: "/challenges/medium/04803-medium-trim-right",
+            },
+            {
+              text: "去除数组指定元素",
+              link: "/challenges/medium/05117-medium-qu-chu-shu-zu-zhi-ding-yuan-su",
+            },
+            {
+              text: "Trunc",
+              link: "/challenges/medium/05140-medium-trunc",
+            },
+            {
+              text: "IndexOf 🎯",
+              link: "/challenges/medium/05153-medium-indexof",
+            },
+            /** PLOP_INJECT_SIDEBAR_MEDIUM */
+          ],
+        },
+        {
+          text: "困难",
+          items: [
+            /** PLOP_INJECT_SIDEBAR_HARD */
+          ],
+        },
+        {
+          text: "地狱",
+          items: [
+            /** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
       ],

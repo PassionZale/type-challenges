@@ -229,6 +229,8 @@
   - [题目](./playground/medium/05140-medium-trunc.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32098)
 - 5153・IndexOf
+  - [题目](./playground/medium/05153-medium-indexof.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32099)
 - 5310・Join
 - 5317・LastIndexOf
 - 5360・Unique
