@@ -193,6 +193,8 @@
   - [题目](./playground/medium/03243-medium-flattendepth.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32083)
 - 3326・BEM style string
+  - [题目](./playground/medium/03326-medium-bem-style-string.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32085)
 - 3376・InorderTraversal
 - 4179・Flip
 - 4182・斐波那契序列

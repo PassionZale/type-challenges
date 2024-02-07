@@ -262,6 +262,10 @@ export const sidebar = {
 							text: "FlattenDepth 🎯",
 							link: "/challenges/medium/03243-medium-flattendepth"
 						},
+						{
+							text: "BEM style string",
+							link: "/challenges/medium/03326-medium-bem-style-string"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
