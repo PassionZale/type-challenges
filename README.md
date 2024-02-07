@@ -224,7 +224,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/32096)
 - 5117・去除数组指定元素
   - [题目](./playground/medium/05117-medium-qu-chu-shu-zu-zhi-ding-yuan-su.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/32096)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32097)
 - 5140・Trunc
 - 5153・IndexOf
 - 5310・Join
