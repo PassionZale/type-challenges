@@ -238,6 +238,10 @@ export const sidebar = {
 							text: "OmitByType",
 							link: "/challenges/medium/02852-medium-omitbytype"
 						},
+						{
+							text: "ObjectEntries 🎯",
+							link: "/challenges/medium/02946-medium-objectentries"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
