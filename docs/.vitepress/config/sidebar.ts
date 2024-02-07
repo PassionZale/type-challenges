@@ -278,6 +278,10 @@ export const sidebar = {
 							text: "AllCombinations 🎯",
 							link: "/challenges/medium/04260-medium-allcombinations"
 						},
+						{
+							text: "Greater Than 🎯",
+							link: "/challenges/medium/04425-medium-greater-than"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

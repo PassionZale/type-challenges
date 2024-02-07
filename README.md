@@ -205,6 +205,8 @@
   - [题目](./playground/medium/04260-medium-allcombinations.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32088)
 - 4425・Greater Than
+  - [题目](./playground/medium/04425-medium-greater-than.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32091)
 - 4471・Zip
 - 4484・IsTuple
 - 4499・Chunk
