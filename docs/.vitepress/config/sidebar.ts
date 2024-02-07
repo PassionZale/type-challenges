@@ -242,6 +242,10 @@ export const sidebar = {
 							text: "ObjectEntries 🎯",
 							link: "/challenges/medium/02946-medium-objectentries"
 						},
+						{
+							text: "Shift",
+							link: "/challenges/medium/03062-medium-shift"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

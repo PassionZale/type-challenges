@@ -18,10 +18,12 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Shift<T> = any
+type Shift<T extends unknown[]> = T extends [infer _, ...infer Rest]
+  ? [...Rest]
+  : T;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   // @ts-expect-error
@@ -29,8 +31,8 @@ type cases = [
   Expect<Equal<Shift<[]>, []>>,
   Expect<Equal<Shift<[1]>, []>>,
   Expect<Equal<Shift<[3, 2, 1]>, [2, 1]>>,
-  Expect<Equal<Shift<['a', 'b', 'c', 'd']>, ['b', 'c', 'd']>>,
-]
+  Expect<Equal<Shift<["a", "b", "c", "d"]>, ["b", "c", "d"]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

@@ -178,6 +178,8 @@
   - [题目](./playground/medium/02946-medium-objectentries.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32076)
 - 3062・Shift
+  - [题目](./playground/medium/03062-medium-shift.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32077)
 - 3188・Tuple to Nested Object
 - 3192・Reverse
 - 3196・Flip Arguments
