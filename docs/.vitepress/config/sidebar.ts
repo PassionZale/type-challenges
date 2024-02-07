@@ -294,6 +294,10 @@ export const sidebar = {
 							text: "Chunk 🎯",
 							link: "/challenges/medium/04499-medium-chunk"
 						},
+						{
+							text: "Fill 🎯",
+							link: "/challenges/medium/04518-medium-fill"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

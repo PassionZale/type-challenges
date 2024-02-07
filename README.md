@@ -217,6 +217,8 @@
   - [题目](./playground/medium/04499-medium-chunk.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32094)
 - 4518・Fill
+  - [题目](./playground/medium/04518-medium-fill.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32095)
 - 4803・Trim Right
 - 5117・去除数组指定元素
 - 5140・Trunc
