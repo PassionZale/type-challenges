@@ -182,7 +182,7 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/32077)
 - 3188・Tuple to Nested Object
   - [题目](./playground/medium/03188-medium-tuple-to-nested-object.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/32079)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32080)
 - 3192・Reverse
 - 3196・Flip Arguments
 - 3243・FlattenDepth

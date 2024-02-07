@@ -250,6 +250,10 @@ export const sidebar = {
 							text: "Tuple to Nested Object",
 							link: "/challenges/medium/03188-medium-tuple-to-nested-object"
 						},
+						{
+							text: "Reverse",
+							link: "/challenges/medium/03192-medium-reverse"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
