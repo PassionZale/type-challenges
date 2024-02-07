@@ -274,6 +274,10 @@ export const sidebar = {
 							text: "斐波那契序列 🎯",
 							link: "/challenges/medium/04182-medium-fei-bo-na-qi-xu-lie"
 						},
+						{
+							text: "AllCombinations 🎯",
+							link: "/challenges/medium/04260-medium-allcombinations"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
