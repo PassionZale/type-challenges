@@ -254,6 +254,10 @@ export const sidebar = {
 							text: "Reverse",
 							link: "/challenges/medium/03192-medium-reverse"
 						},
+						{
+							text: "Flip Arguments",
+							link: "/challenges/medium/03196-medium-flip-arguments"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

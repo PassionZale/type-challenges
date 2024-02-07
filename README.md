@@ -182,9 +182,13 @@
   - [解答](https://github.com/type-challenges/type-challenges/issues/32077)
 - 3188・Tuple to Nested Object
   - [题目](./playground/medium/03188-medium-tuple-to-nested-object.ts)
-  - [解答](https://github.com/type-challenges/type-challenges/issues/32080)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32079)
 - 3192・Reverse
+  - [题目](./playground/medium/03192-medium-reverse.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32080)
 - 3196・Flip Arguments
+  - [题目](./playground/medium/03196-medium-flip-arguments.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32082)
 - 3243・FlattenDepth
 - 3326・BEM style string
 - 3376・InorderTraversal
