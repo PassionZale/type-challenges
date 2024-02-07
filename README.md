@@ -195,8 +195,9 @@
 - 3326・BEM style string
   - [题目](./playground/medium/03326-medium-bem-style-string.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32085)
-- 3376・InorderTraversal
 - 4179・Flip
+  - [题目](./playground/medium/04179-medium-flip.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32086)
 - 4182・斐波那契序列
 - 4260・AllCombinations
 - 4425・Greater Than
@@ -277,6 +278,7 @@
 - 2828・ClassPublicKeys
 - 2857・IsRequiredKey
 - 2949・ObjectFromEntries
+- 3376・InorderTraversal
 - 4037・IsPalindrome
 - 5181・Mutable Keys
 - 5423・Intersection

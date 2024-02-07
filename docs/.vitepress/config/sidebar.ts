@@ -266,6 +266,10 @@ export const sidebar = {
 							text: "BEM style string",
 							link: "/challenges/medium/03326-medium-bem-style-string"
 						},
+						{
+							text: "Flip",
+							link: "/challenges/medium/04179-medium-flip"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
