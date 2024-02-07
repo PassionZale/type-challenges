@@ -211,6 +211,8 @@
   - [题目](./playground/medium/04471-medium-zip.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32092)
 - 4484・IsTuple
+  - [题目](./playground/medium/04484-medium-istuple.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32093)
 - 4499・Chunk
 - 4518・Fill
 - 4803・Trim Right

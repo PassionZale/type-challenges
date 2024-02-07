@@ -44,7 +44,7 @@ type Foo = {
 type FooUnion = Foo[keyof Foo];
 ```
 
-第一步，需要将所给定的泛型 `Model` 的 `value` 转换为 `[key, value]` 的元祖：
+第一步，需要将所给定的泛型 `Model` 的 `value` 转换为 `[key, value]` 的元组：
 
 ```ts
 interface Model {
@@ -102,7 +102,7 @@ type S3 = ObjectEntries<{ key?: undefined }>
 
 当 `value` 为 `undefined` 时，返回 `undefined`，兼容 `undefined` 被移除的场景。
 
-> 当需要判断两个类型全等时，可以将源类型和目标类型转换为元祖，使用 `extends` 进行判断：
+> 当需要判断两个类型全等时，可以将源类型和目标类型转换为元组，使用 `extends` 进行判断：
 > `[T[K]] extends [undefined]`
 
 ```ts

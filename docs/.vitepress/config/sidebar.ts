@@ -286,6 +286,10 @@ export const sidebar = {
 							text: "Zip",
 							link: "/challenges/medium/04471-medium-zip"
 						},
+						{
+							text: "IsTuple",
+							link: "/challenges/medium/04484-medium-istuple"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
