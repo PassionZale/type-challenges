@@ -15,18 +15,25 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Zip<T, U> = any
+type Zip<T extends unknown[], U extends unknown[]> = T extends [
+  infer A,
+  ...infer B
+]
+  ? U extends [infer M, ...infer N]
+    ? [[A, M], ...Zip<B, N>]
+    : []
+  : [];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Zip<[], []>, []>>,
   Expect<Equal<Zip<[1, 2], [true, false]>, [[1, true], [2, false]]>>,
-  Expect<Equal<Zip<[1, 2, 3], ['1', '2']>, [[1, '1'], [2, '2']]>>,
+  Expect<Equal<Zip<[1, 2, 3], ["1", "2"]>, [[1, "1"], [2, "2"]]>>,
   Expect<Equal<Zip<[], [1, 2, 3]>, []>>,
-  Expect<Equal<Zip<[[1, 2]], [3]>, [[[1, 2], 3]]>>,
-]
+  Expect<Equal<Zip<[[1, 2]], [3]>, [[[1, 2], 3]]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

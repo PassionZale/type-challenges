@@ -282,6 +282,10 @@ export const sidebar = {
 							text: "Greater Than 🎯",
 							link: "/challenges/medium/04425-medium-greater-than"
 						},
+						{
+							text: "Zip",
+							link: "/challenges/medium/04471-medium-zip"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
