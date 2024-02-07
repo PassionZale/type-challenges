@@ -270,6 +270,10 @@ export const sidebar = {
 							text: "Flip",
 							link: "/challenges/medium/04179-medium-flip"
 						},
+						{
+							text: "斐波那契序列 🎯",
+							link: "/challenges/medium/04182-medium-fei-bo-na-qi-xu-lie"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

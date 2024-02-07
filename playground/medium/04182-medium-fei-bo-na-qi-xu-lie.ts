@@ -21,17 +21,26 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Fibonacci<T extends number> = any
+type Fibonacci<
+  T extends number,
+  No extends 1[] = [1, 1, 1],
+  N_2 extends 1[] = [1],
+  N_1 extends 1[] = [1]
+> = T extends 1 | 2
+  ? 1
+  : T extends No["length"]
+  ? [...N_2, ...N_1]["length"]
+  : Fibonacci<T, [...No, 1], N_1, [...N_2, ...N_1]>;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Fibonacci<1>, 1>>,
   Expect<Equal<Fibonacci<2>, 1>>,
   Expect<Equal<Fibonacci<3>, 2>>,
-  Expect<Equal<Fibonacci<8>, 21>>,
-]
+  Expect<Equal<Fibonacci<8>, 21>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

@@ -199,6 +199,8 @@
   - [题目](./playground/medium/04179-medium-flip.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32086)
 - 4182・斐波那契序列
+  - [题目](./playground/medium/04182-medium-fei-bo-na-qi-xu-lie.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32087)
 - 4260・AllCombinations
 - 4425・Greater Than
 - 4471・Zip
