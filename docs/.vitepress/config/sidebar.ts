@@ -246,6 +246,10 @@ export const sidebar = {
 							text: "Shift",
 							link: "/challenges/medium/03062-medium-shift"
 						},
+						{
+							text: "Tuple to Nested Object",
+							link: "/challenges/medium/03188-medium-tuple-to-nested-object"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
