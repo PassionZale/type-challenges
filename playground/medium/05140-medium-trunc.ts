@@ -18,22 +18,33 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Trunc = any
+type Trunc<T extends string | number> = `${T}` extends `${infer L}.${infer _}`
+  ? L extends ""
+    ? "0"
+    : L
+  : `${T}`;
+
+type s<T extends string | number> = `${T}` extends `${infer L}.${infer _}`
+  ? L
+  : false;
+
+type a = s<".3">;
+type b = s<10>;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Trunc<0.1>, '0'>>,
-  Expect<Equal<Trunc<0.2>, '0'>>,
-  Expect<Equal<Trunc<1.234>, '1'>>,
-  Expect<Equal<Trunc<12.345>, '12'>>,
-  Expect<Equal<Trunc<-5.1>, '-5'>>,
-  Expect<Equal<Trunc<'.3'>, '0'>>,
-  Expect<Equal<Trunc<'1.234'>, '1'>>,
-  Expect<Equal<Trunc<'-10.234'>, '-10'>>,
-  Expect<Equal<Trunc<10>, '10'>>,
-]
+  Expect<Equal<Trunc<0.1>, "0">>,
+  Expect<Equal<Trunc<0.2>, "0">>,
+  Expect<Equal<Trunc<1.234>, "1">>,
+  Expect<Equal<Trunc<12.345>, "12">>,
+  Expect<Equal<Trunc<-5.1>, "-5">>,
+  Expect<Equal<Trunc<".3">, "0">>,
+  Expect<Equal<Trunc<"1.234">, "1">>,
+  Expect<Equal<Trunc<"-10.234">, "-10">>,
+  Expect<Equal<Trunc<10>, "10">>
+];
 
 /* _____________ 下一步 _____________ */
 /*

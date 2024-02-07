@@ -226,6 +226,8 @@
   - [题目](./playground/medium/05117-medium-qu-chu-shu-zu-zhi-ding-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32097)
 - 5140・Trunc
+  - [题目](./playground/medium/05140-medium-trunc.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32098)
 - 5153・IndexOf
 - 5310・Join
 - 5317・LastIndexOf
