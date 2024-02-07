@@ -302,6 +302,10 @@ export const sidebar = {
 							text: "Trim Right",
 							link: "/challenges/medium/04803-medium-trim-right"
 						},
+						{
+							text: "去除数组指定元素",
+							link: "/challenges/medium/05117-medium-qu-chu-shu-zu-zhi-ding-yuan-su"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
