@@ -290,6 +290,10 @@ export const sidebar = {
 							text: "IsTuple",
 							link: "/challenges/medium/04484-medium-istuple"
 						},
+						{
+							text: "Chunk 🎯",
+							link: "/challenges/medium/04499-medium-chunk"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

@@ -19,10 +19,20 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Chunk = any
+type Chunk<
+  T extends any[],
+  U extends number = 1,
+  S extends any[] = []
+> = T extends [infer F, ...infer R]
+  ? S["length"] extends U
+    ? [S, ...Chunk<T, U>]
+    : Chunk<R, U, [...S, F]>
+  : S["length"] extends 0
+  ? S
+  : [S];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Chunk<[], 1>, []>>,
@@ -30,8 +40,8 @@ type cases = [
   Expect<Equal<Chunk<[1, 2, 3], 2>, [[1, 2], [3]]>>,
   Expect<Equal<Chunk<[1, 2, 3, 4], 2>, [[1, 2], [3, 4]]>>,
   Expect<Equal<Chunk<[1, 2, 3, 4], 5>, [[1, 2, 3, 4]]>>,
-  Expect<Equal<Chunk<[1, true, 2, false], 2>, [[1, true], [2, false]]>>,
-]
+  Expect<Equal<Chunk<[1, true, 2, false], 2>, [[1, true], [2, false]]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*
