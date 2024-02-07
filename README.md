@@ -220,6 +220,8 @@
   - [题目](./playground/medium/04518-medium-fill.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32095)
 - 4803・Trim Right
+  - [题目](./playground/medium/04803-medium-trim-right.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32096)
 - 5117・去除数组指定元素
 - 5140・Trunc
 - 5153・IndexOf

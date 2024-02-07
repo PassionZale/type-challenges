@@ -298,6 +298,10 @@ export const sidebar = {
 							text: "Fill 🎯",
 							link: "/challenges/medium/04518-medium-fill"
 						},
+						{
+							text: "Trim Right",
+							link: "/challenges/medium/04803-medium-trim-right"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
