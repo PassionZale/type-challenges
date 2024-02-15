@@ -19,18 +19,25 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Join<T, U> = any
+type Join<T extends unknown[], U extends string | number> = T extends [
+  infer F extends string,
+  ...infer R
+]
+  ? R["length"] extends 0
+    ? `${F}`
+    : `${F}${U}${Join<R, U>}`
+  : '';
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Join<['a', 'p', 'p', 'l', 'e'], '-'>, 'a-p-p-l-e'>>,
-  Expect<Equal<Join<['Hello', 'World'], ' '>, 'Hello World'>>,
-  Expect<Equal<Join<['2', '2', '2'], 1>, '21212'>>,
-  Expect<Equal<Join<['o'], 'u'>, 'o'>>,
-  Expect<Equal<Join<[], 'u'>, ''>>,
-]
+  Expect<Equal<Join<["a", "p", "p", "l", "e"], "-">, "a-p-p-l-e">>,
+  Expect<Equal<Join<["Hello", "World"], " ">, "Hello World">>,
+  Expect<Equal<Join<["2", "2", "2"], 1>, "21212">>,
+  Expect<Equal<Join<["o"], "u">, "o">>,
+  Expect<Equal<Join<[], "u">, "">>
+];
 
 /* _____________ 下一步 _____________ */
 /*

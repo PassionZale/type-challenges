@@ -314,7 +314,11 @@ export const sidebar = {
               text: "IndexOf 🎯",
               link: "/challenges/medium/05153-medium-indexof",
             },
-            /** PLOP_INJECT_SIDEBAR_MEDIUM */
+            {
+							text: "Join",
+							link: "/challenges/medium/05310-medium-join"
+						},
+						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
         {

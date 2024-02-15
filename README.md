@@ -232,6 +232,8 @@
   - [题目](./playground/medium/05153-medium-indexof.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32099)
 - 5310・Join
+  - [题目](./playground/medium/05310-medium-join.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32221)
 - 5317・LastIndexOf
 - 5360・Unique
 - 5821・MapTypes
