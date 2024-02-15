@@ -326,6 +326,10 @@ export const sidebar = {
 							text: "Unique",
 							link: "/challenges/medium/05360-medium-unique"
 						},
+						{
+							text: "MapTypes",
+							link: "/challenges/medium/05821-medium-maptypes"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

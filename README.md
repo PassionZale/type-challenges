@@ -241,6 +241,8 @@
   - [题目](./playground/medium/05360-medium-unique.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32223)
 - 5821・MapTypes
+  - [题目](./playground/medium/05821-medium-maptypes.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32224)
 - 7544・Construct Tuple
 - 8640・Number Range
 - 8767・Combination
