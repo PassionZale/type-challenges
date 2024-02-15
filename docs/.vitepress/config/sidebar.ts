@@ -330,6 +330,10 @@ export const sidebar = {
 							text: "MapTypes",
 							link: "/challenges/medium/05821-medium-maptypes"
 						},
+						{
+							text: "Construct Tuple 🎯",
+							link: "/challenges/medium/07544-medium-construct-tuple"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

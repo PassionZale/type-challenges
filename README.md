@@ -244,6 +244,8 @@
   - [题目](./playground/medium/05821-medium-maptypes.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32224)
 - 7544・Construct Tuple
+  - [题目](./playground/medium/07544-medium-construct-tuple.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32225)
 - 8640・Number Range
 - 8767・Combination
 - 8987・Subsequence
