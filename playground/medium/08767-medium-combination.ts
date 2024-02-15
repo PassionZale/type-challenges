@@ -18,14 +18,39 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Combination<T extends string[]> = any
+type Combination<
+  T extends string[],
+  U extends string = T[number],
+  P extends string = U
+> = U extends U
+  ? U | `${U} ${Combination<T, Exclude<P, U>, Exclude<P, U>>}`
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Combination<['foo', 'bar', 'baz']>, 'foo' | 'bar' | 'baz' | 'foo bar' | 'foo bar baz' | 'foo baz' | 'foo baz bar' | 'bar foo' | 'bar foo baz' | 'bar baz' | 'bar baz foo' | 'baz foo' | 'baz foo bar' | 'baz bar' | 'baz bar foo'>>,
-]
+  Expect<
+    Equal<
+      Combination<["foo", "bar", "baz"]>,
+      | "foo"
+      | "bar"
+      | "baz"
+      | "foo bar"
+      | "foo bar baz"
+      | "foo baz"
+      | "foo baz bar"
+      | "bar foo"
+      | "bar foo baz"
+      | "bar baz"
+      | "bar baz foo"
+      | "baz foo"
+      | "baz foo bar"
+      | "baz bar"
+      | "baz bar foo"
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

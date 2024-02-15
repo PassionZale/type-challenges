@@ -250,6 +250,8 @@
   - [题目](./playground/medium/08640-medium-number-range.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32226)
 - 8767・Combination
+  - [题目](./playground/medium/08767-medium-combination.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32227)
 - 8987・Subsequence
 - 9142・CheckRepeatedChars
 - 9286・FirstUniqueCharIndex

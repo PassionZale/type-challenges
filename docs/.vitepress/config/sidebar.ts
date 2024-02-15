@@ -338,6 +338,10 @@ export const sidebar = {
 							text: "Number Range 🎯",
 							link: "/challenges/medium/08640-medium-number-range"
 						},
+						{
+							text: "Combination 🎯",
+							link: "/challenges/medium/08767-medium-combination"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
