@@ -235,6 +235,8 @@
   - [题目](./playground/medium/05310-medium-join.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32221)
 - 5317・LastIndexOf
+  - [题目](./playground/medium/05317-medium-lastindexof.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32222)
 - 5360・Unique
 - 5821・MapTypes
 - 7544・Construct Tuple

@@ -318,6 +318,10 @@ export const sidebar = {
 							text: "Join",
 							link: "/challenges/medium/05310-medium-join"
 						},
+						{
+							text: "LastIndexOf",
+							link: "/challenges/medium/05317-medium-lastindexof"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
