@@ -247,6 +247,8 @@
   - [题目](./playground/medium/07544-medium-construct-tuple.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32225)
 - 8640・Number Range
+  - [题目](./playground/medium/08640-medium-number-range.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32226)
 - 8767・Combination
 - 8987・Subsequence
 - 9142・CheckRepeatedChars

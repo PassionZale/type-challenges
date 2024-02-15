@@ -334,6 +334,10 @@ export const sidebar = {
 							text: "Construct Tuple 🎯",
 							link: "/challenges/medium/07544-medium-construct-tuple"
 						},
+						{
+							text: "Number Range 🎯",
+							link: "/challenges/medium/08640-medium-number-range"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
