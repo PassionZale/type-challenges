@@ -238,6 +238,8 @@
   - [题目](./playground/medium/05317-medium-lastindexof.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32222)
 - 5360・Unique
+  - [题目](./playground/medium/05360-medium-unique.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32223)
 - 5821・MapTypes
 - 7544・Construct Tuple
 - 8640・Number Range

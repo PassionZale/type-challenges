@@ -322,6 +322,10 @@ export const sidebar = {
 							text: "LastIndexOf",
 							link: "/challenges/medium/05317-medium-lastindexof"
 						},
+						{
+							text: "Unique",
+							link: "/challenges/medium/05360-medium-unique"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
