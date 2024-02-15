@@ -20,15 +20,22 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Subsequence<T extends any[]> = any
+type Subsequence<T> = T extends [infer One, ...infer Rest]
+  ? [One] | [...Subsequence<Rest>] | [One, ...Subsequence<Rest>]
+  : [];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Subsequence<[1, 2]>, [] | [1] | [2] | [1, 2]>>,
-  Expect<Equal<Subsequence<[1, 2, 3]>, [] | [1] | [2] | [1, 2] | [3] | [1, 3] | [2, 3] | [1, 2, 3] >>,
-]
+  Expect<
+    Equal<
+      Subsequence<[1, 2, 3]>,
+      [] | [1] | [2] | [1, 2] | [3] | [1, 3] | [2, 3] | [1, 2, 3]
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

@@ -342,6 +342,10 @@ export const sidebar = {
 							text: "Combination 🎯",
 							link: "/challenges/medium/08767-medium-combination"
 						},
+						{
+							text: "Subsequence",
+							link: "/challenges/medium/08987-medium-subsequence"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
