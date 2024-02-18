@@ -358,6 +358,10 @@ export const sidebar = {
 							text: "Parse URL Params",
 							link: "/challenges/medium/09616-medium-parse-url-params"
 						},
+						{
+							text: "获取数组的中间元素",
+							link: "/challenges/medium/09896-medium-huo-qu-shu-zu-de-zhong-jian-yuan-su"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

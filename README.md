@@ -265,6 +265,8 @@
   - [题目](./playground/medium/09616-medium-parse-url-params.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32263)
 - 9896・获取数组的中间元素
+  - [题目](./playground/medium/09896-medium-huo-qu-shu-zu-de-zhong-jian-yuan-su.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32264)
 - 9898・找出目标数组中只出现过一次的元素
 - 9989・统计数组中的元素个数
 - 10969・整数
