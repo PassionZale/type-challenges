@@ -354,6 +354,10 @@ export const sidebar = {
 							text: "FirstUniqueCharIndex",
 							link: "/challenges/medium/09286-medium-firstuniquecharindex"
 						},
+						{
+							text: "Parse URL Params",
+							link: "/challenges/medium/09616-medium-parse-url-params"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
