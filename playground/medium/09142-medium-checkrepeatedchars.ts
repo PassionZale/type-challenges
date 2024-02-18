@@ -16,17 +16,21 @@
 
 /* _____________ 你的代码 _____________ */
 
-type CheckRepeatedChars<T extends string> = any
+type CheckRepeatedChars<T extends string> = T extends `${infer F}${infer E}`
+  ? E extends `${string}${F}${string}`
+    ? true
+    : CheckRepeatedChars<E>
+  : false;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<CheckRepeatedChars<'abc'>, false>>,
-  Expect<Equal<CheckRepeatedChars<'abb'>, true>>,
-  Expect<Equal<CheckRepeatedChars<'cbc'>, true>>,
-  Expect<Equal<CheckRepeatedChars<''>, false>>,
-]
+  Expect<Equal<CheckRepeatedChars<"abc">, false>>,
+  Expect<Equal<CheckRepeatedChars<"abb">, true>>,
+  Expect<Equal<CheckRepeatedChars<"cbc">, true>>,
+  Expect<Equal<CheckRepeatedChars<"">, false>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

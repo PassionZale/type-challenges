@@ -346,6 +346,10 @@ export const sidebar = {
 							text: "Subsequence",
 							link: "/challenges/medium/08987-medium-subsequence"
 						},
+						{
+							text: "CheckRepeatedChars 🎯",
+							link: "/challenges/medium/09142-medium-checkrepeatedchars"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

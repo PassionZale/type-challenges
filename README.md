@@ -256,6 +256,8 @@
   - [题目](./playground/medium/08987-medium-subsequence.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32228)
 - 9142・CheckRepeatedChars
+  - [题目](./playground/medium/09142-medium-checkrepeatedchars.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32261)
 - 9286・FirstUniqueCharIndex
 - 9616・Parse URL Params
 - 9896・获取数组的中间元素
