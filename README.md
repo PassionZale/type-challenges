@@ -283,6 +283,8 @@
   - [题目](./playground/medium/17973-medium-deepmutable.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32273)
 - 18142・All
+  - [题目](./playground/medium/18142-medium-all.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32274)
 - 18220・Filter
 - 21104・FindAll
 - 21106・组合键类型 Combination key type

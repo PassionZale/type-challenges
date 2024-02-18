@@ -382,6 +382,10 @@ export const sidebar = {
 							text: "DeepMutable",
 							link: "/challenges/medium/17973-medium-deepmutable"
 						},
+						{
+							text: "All",
+							link: "/challenges/medium/18142-medium-all"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
