@@ -301,6 +301,8 @@
   - [题目](./playground/medium/25170-medium-replace-first.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32279)
 - 25270・Transpose
+  - [题目](./playground/medium/25270-medium-transpose.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32280)
 - 26401・JSON Schema to TypeScript
 - 27133・Square
 - 27152・Triangular number

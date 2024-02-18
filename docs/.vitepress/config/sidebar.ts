@@ -406,6 +406,10 @@ export const sidebar = {
 							text: "Replace First",
 							link: "/challenges/medium/25170-medium-replace-first"
 						},
+						{
+							text: "Transpose 🎯",
+							link: "/challenges/medium/25270-medium-transpose"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
