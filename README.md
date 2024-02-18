@@ -295,6 +295,8 @@
   - [题目](./playground/medium/21106-medium-zu-he-jian-lei-xing-combination-key-type.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32277)
 - 21220・Permutations of Tuple
+  - [题目](./playground/medium/21220-medium-permutations-of-tuple.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32278)
 - 25170・Replace First
 - 25270・Transpose
 - 26401・JSON Schema to TypeScript

@@ -398,6 +398,10 @@ export const sidebar = {
 							text: "组合键类型 Combination key type",
 							link: "/challenges/medium/21106-medium-zu-he-jian-lei-xing-combination-key-type"
 						},
+						{
+							text: "Permutations of Tuple 🎯",
+							link: "/challenges/medium/21220-medium-permutations-of-tuple"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
