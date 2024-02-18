@@ -350,6 +350,10 @@ export const sidebar = {
 							text: "CheckRepeatedChars 🎯",
 							link: "/challenges/medium/09142-medium-checkrepeatedchars"
 						},
+						{
+							text: "FirstUniqueCharIndex",
+							link: "/challenges/medium/09286-medium-firstuniquecharindex"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

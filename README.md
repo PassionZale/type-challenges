@@ -259,6 +259,8 @@
   - [题目](./playground/medium/09142-medium-checkrepeatedchars.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32261)
 - 9286・FirstUniqueCharIndex
+  - [题目](./playground/medium/09286-medium-firstuniquecharindex.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32262)
 - 9616・Parse URL Params
 - 9896・获取数组的中间元素
 - 9898・找出目标数组中只出现过一次的元素
