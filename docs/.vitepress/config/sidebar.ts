@@ -378,6 +378,10 @@ export const sidebar = {
 							text: "将类型为字面类型（标签类型）的属性，转换为基本类型。",
 							link: "/challenges/medium/16259-medium-jiang-lei-xing-wei-zi-mian-lei-xing-biao-qian-lei-xing-de-shu-xing-zhuan-huan-wei-ji-ben-lei-xing"
 						},
+						{
+							text: "DeepMutable",
+							link: "/challenges/medium/17973-medium-deepmutable"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
