@@ -289,6 +289,8 @@
   - [题目](./playground/medium/18220-medium-filter.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32275)
 - 21104・FindAll
+  - [题目](./playground/medium/21104-medium-findall.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32276)
 - 21106・组合键类型 Combination key type
 - 21220・Permutations of Tuple
 - 25170・Replace First
