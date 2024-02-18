@@ -12,18 +12,20 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Filter<T extends any[], P> = []
+type Filter<T extends any[], P> = T extends [infer A, ...infer rest]
+  ? [...(A extends P ? [A] : []), ...Filter<rest, P>]
+  : [];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
-type Falsy = false | 0 | '' | null | undefined
+type Falsy = false | 0 | "" | null | undefined;
 
 type cases = [
   Expect<Equal<Filter<[0, 1, 2], 2>, [2]>>,
   Expect<Equal<Filter<[0, 1, 2], 0 | 1>, [0, 1]>>,
-  Expect<Equal<Filter<[0, 1, 2], Falsy>, [0]>>,
-]
+  Expect<Equal<Filter<[0, 1, 2], Falsy>, [0]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

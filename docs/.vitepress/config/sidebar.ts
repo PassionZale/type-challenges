@@ -386,6 +386,10 @@ export const sidebar = {
 							text: "All",
 							link: "/challenges/medium/18142-medium-all"
 						},
+						{
+							text: "Filter",
+							link: "/challenges/medium/18220-medium-filter"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
