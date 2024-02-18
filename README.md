@@ -298,6 +298,8 @@
   - [题目](./playground/medium/21220-medium-permutations-of-tuple.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32278)
 - 25170・Replace First
+  - [题目](./playground/medium/25170-medium-replace-first.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32279)
 - 25270・Transpose
 - 26401・JSON Schema to TypeScript
 - 27133・Square

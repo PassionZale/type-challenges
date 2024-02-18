@@ -402,6 +402,10 @@ export const sidebar = {
 							text: "Permutations of Tuple 🎯",
 							link: "/challenges/medium/21220-medium-permutations-of-tuple"
 						},
+						{
+							text: "Replace First",
+							link: "/challenges/medium/25170-medium-replace-first"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
