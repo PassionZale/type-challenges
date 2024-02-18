@@ -12,16 +12,30 @@
 
 /* _____________ 你的代码 _____________ */
 
-type FindEles<T extends any[]> = any
+type Has<T extends any[], K> = T extends [infer Left, ...infer Rest]
+  ? Equal<Left, K> extends true
+    ? true
+    : Has<Rest, K>
+  : false;
+
+type FindEles<
+  T extends any[],
+  R extends any[] = [],
+  Old extends any[] = []
+> = T extends [infer First, ...infer Rest]
+  ? Has<[...Rest, ...Old], First> extends true
+    ? FindEles<Rest, R, [...Old, First]>
+    : FindEles<Rest, [...R, First], [...Old, First]>
+  : R;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<FindEles<[1, 2, 2, 3, 3, 4, 5, 6, 6, 6]>, [1, 4, 5]>>,
   Expect<Equal<FindEles<[2, 2, 3, 3, 6, 6, 6]>, []>>,
-  Expect<Equal<FindEles<[1, 2, 3]>, [1, 2, 3]>>,
-]
+  Expect<Equal<FindEles<[1, 2, 3]>, [1, 2, 3]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

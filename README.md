@@ -268,6 +268,8 @@
   - [题目](./playground/medium/09896-medium-huo-qu-shu-zu-de-zhong-jian-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32264)
 - 9898・找出目标数组中只出现过一次的元素
+  - [题目](./playground/medium/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32265)
 - 9989・统计数组中的元素个数
 - 10969・整数
 - 16259・将类型为字面类型（标签类型）的属性，转换为基本类型。

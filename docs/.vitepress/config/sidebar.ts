@@ -362,6 +362,10 @@ export const sidebar = {
 							text: "获取数组的中间元素",
 							link: "/challenges/medium/09896-medium-huo-qu-shu-zu-de-zhong-jian-yuan-su"
 						},
+						{
+							text: "找出目标数组中只出现过一次的元素 🎯",
+							link: "/challenges/medium/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
