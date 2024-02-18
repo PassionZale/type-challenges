@@ -13,18 +13,29 @@
 
 /* _____________ 你的代码 _____________ */
 
-// 实现 Combs
-type Combs<T extends any[]> = any
+// never会被联合类型过滤，所以U的默认值给到never
+type Combs<T extends string[], U = never> = T extends [
+  infer F extends string,
+  ...infer R extends string[]
+]
+  ? // 当遍历到最后一个元素时，R为空数组，空数组[number]为never
+    // 此时`${F} ${R[number]}`为`${最后一个元素类型} ${never}`，与never组成模板字符串类型时会返回never
+    Combs<R, U | `${F} ${R[number]}`>
+  : U;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
-type ModifierKeys = ['cmd', 'ctrl', 'opt', 'fn']
-type CaseTypeOne = 'cmd ctrl' | 'cmd opt' | 'cmd fn' | 'ctrl opt' | 'ctrl fn' | 'opt fn'
+type ModifierKeys = ["cmd", "ctrl", "opt", "fn"];
+type CaseTypeOne =
+  | "cmd ctrl"
+  | "cmd opt"
+  | "cmd fn"
+  | "ctrl opt"
+  | "ctrl fn"
+  | "opt fn";
 
-type cases = [
-  Expect<Equal<Combs<ModifierKeys>, CaseTypeOne>>,
-]
+type cases = [Expect<Equal<Combs<ModifierKeys>, CaseTypeOne>>];
 
 /* _____________ 下一步 _____________ */
 /*

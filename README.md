@@ -292,6 +292,8 @@
   - [题目](./playground/medium/21104-medium-findall.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32276)
 - 21106・组合键类型 Combination key type
+  - [题目](./playground/medium/21106-medium-zu-he-jian-lei-xing-combination-key-type.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32277)
 - 21220・Permutations of Tuple
 - 25170・Replace First
 - 25270・Transpose

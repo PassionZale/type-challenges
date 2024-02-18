@@ -394,6 +394,10 @@ export const sidebar = {
 							text: "FindAll 🎯",
 							link: "/challenges/medium/21104-medium-findall"
 						},
+						{
+							text: "组合键类型 Combination key type",
+							link: "/challenges/medium/21106-medium-zu-he-jian-lei-xing-combination-key-type"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
