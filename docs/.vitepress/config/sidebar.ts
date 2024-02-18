@@ -374,6 +374,10 @@ export const sidebar = {
 							text: "整数",
 							link: "/challenges/medium/10969-medium-zheng-shu"
 						},
+						{
+							text: "将类型为字面类型（标签类型）的属性，转换为基本类型。",
+							link: "/challenges/medium/16259-medium-jiang-lei-xing-wei-zi-mian-lei-xing-biao-qian-lei-xing-de-shu-xing-zhuan-huan-wei-ji-ben-lei-xing"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
