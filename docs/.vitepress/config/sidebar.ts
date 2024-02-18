@@ -370,6 +370,10 @@ export const sidebar = {
 							text: "统计数组中的元素个数 🎯",
 							link: "/challenges/medium/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu"
 						},
+						{
+							text: "整数",
+							link: "/challenges/medium/10969-medium-zheng-shu"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
