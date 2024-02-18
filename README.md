@@ -271,6 +271,8 @@
   - [题目](./playground/medium/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32265)
 - 9989・统计数组中的元素个数
+  - [题目](./playground/medium/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32268)
 - 10969・整数
 - 16259・将类型为字面类型（标签类型）的属性，转换为基本类型。
 - 17973・DeepMutable

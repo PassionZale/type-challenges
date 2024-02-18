@@ -366,6 +366,10 @@ export const sidebar = {
 							text: "找出目标数组中只出现过一次的元素 🎯",
 							link: "/challenges/medium/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su"
 						},
+						{
+							text: "统计数组中的元素个数 🎯",
+							link: "/challenges/medium/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
