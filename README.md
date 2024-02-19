@@ -389,7 +389,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/10450)
 - 545・printf
 	- [题目](./playground/hard/00545-hard-printf.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/2830)
 - 553・Deep object to unique
 	- [题目](./playground/hard/00553-hard-deep-object-to-unique.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

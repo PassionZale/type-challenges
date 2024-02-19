@@ -524,6 +524,10 @@ export const sidebar = {
 							text: "Tuple to Enum Object",
 							link: "/challenges/hard/00472-hard-tuple-to-enum-object"
 						},
+						{
+							text: "printf",
+							link: "/challenges/hard/00545-hard-printf"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
