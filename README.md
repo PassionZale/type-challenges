@@ -343,6 +343,8 @@
 	- [题目](./playground/hard/00006-hard-jian-dan-de-vue-lei-xing.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/172)
 - 17・柯里化 1
+	- [题目](./playground/hard/00017-hard-ke-li-hua-1.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 55・联合类型转化为交叉类型
 - 57・获得必需的属性
 - 59・获得可选属性

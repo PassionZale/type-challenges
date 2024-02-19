@@ -28,26 +28,58 @@
 
 /* _____________ 你的代码 _____________ */
 
-declare function Currying(fn: any): any
+// See https://stackoverflow.com/a/72244704/388951
+type FirstAsTuple<T extends any[]> = T extends [any, ...infer R]
+  ? T extends [...infer F, ...R]
+    ? F
+    : never
+  : never;
+
+type Curried<F> = F extends (...args: infer Args) => infer Return
+  ? Args["length"] extends 0 | 1
+    ? F
+    : Args extends [any, ...infer Rest]
+    ? (...args: FirstAsTuple<Args>) => Curried<(...rest: Rest) => Return>
+    : never
+  : never;
+
+declare function Currying<T extends Function>(fn: T): Curried<T>;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
-const curried1 = Currying((a: string, b: number, c: boolean) => true)
-const curried2 = Currying((a: string, b: number, c: boolean, d: boolean, e: boolean, f: string, g: boolean) => true)
-const curried3 = Currying(() => true)
+const curried1 = Currying((a: string, b: number, c: boolean) => true);
+const curried2 = Currying(
+  (
+    a: string,
+    b: number,
+    c: boolean,
+    d: boolean,
+    e: boolean,
+    f: string,
+    g: boolean
+  ) => true
+);
+const curried3 = Currying(() => true);
 
 type cases = [
-  Expect<Equal<
-    typeof curried1,
-(a: string) => (b: number) => (c: boolean) => true
-  >>,
-  Expect<Equal<
-    typeof curried2,
-(a: string) => (b: number) => (c: boolean) => (d: boolean) => (e: boolean) => (f: string) => (g: boolean) => true
-  >>,
-  Expect<Equal<typeof curried3, () => true>>,
-]
+  Expect<
+    Equal<typeof curried1, (a: string) => (b: number) => (c: boolean) => true>
+  >,
+  Expect<
+    Equal<
+      typeof curried2,
+      (
+        a: string
+      ) => (
+        b: number
+      ) => (
+        c: boolean
+      ) => (d: boolean) => (e: boolean) => (f: string) => (g: boolean) => true
+    >
+  >,
+  Expect<Equal<typeof curried3, () => true>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

@@ -464,6 +464,10 @@ export const sidebar = {
 							text: "简单的 Vue 类型",
 							link: "/challenges/hard/00006-hard-jian-dan-de-vue-lei-xing"
 						},
+						{
+							text: "柯里化 1",
+							link: "/challenges/hard/00017-hard-ke-li-hua-1"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
