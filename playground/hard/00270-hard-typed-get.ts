@@ -33,31 +33,37 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Get<T, K> = string
+type Get<T, K> = K extends keyof T
+  ? T[K]
+  : K extends `${infer First}.${infer Rest}`
+  ? First extends keyof T
+    ? Get<T[First], Rest>
+    : never
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Get<Data, 'hello'>, 'world'>>,
-  Expect<Equal<Get<Data, 'foo.bar.count'>, 6>>,
-  Expect<Equal<Get<Data, 'foo.bar'>, { value: 'foobar', count: 6 }>>,
-  Expect<Equal<Get<Data, 'foo.baz'>, false>>,
+  Expect<Equal<Get<Data, "hello">, "world">>,
+  Expect<Equal<Get<Data, "foo.bar.count">, 6>>,
+  Expect<Equal<Get<Data, "foo.bar">, { value: "foobar"; count: 6 }>>,
+  Expect<Equal<Get<Data, "foo.baz">, false>>,
 
-  Expect<Equal<Get<Data, 'no.existed'>, never>>,
-]
+  Expect<Equal<Get<Data, "no.existed">, never>>
+];
 
 type Data = {
   foo: {
     bar: {
-      value: 'foobar'
-      count: 6
-    }
-    included: true
-  }
-  'foo.baz': false
-  hello: 'world'
-}
+      value: "foobar";
+      count: 6;
+    };
+    included: true;
+  };
+  "foo.baz": false;
+  hello: "world";
+};
 
 /* _____________ 下一步 _____________ */
 /*

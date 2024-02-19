@@ -377,7 +377,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/232)
 - 270・Typed Get
 	- [题目](./playground/hard/00270-hard-typed-get.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/397)
 - 300・String to Number
 	- [题目](./playground/hard/00300-hard-string-to-number.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

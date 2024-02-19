@@ -508,6 +508,10 @@ export const sidebar = {
 							text: "IsAny",
 							link: "/challenges/hard/00223-hard-isany"
 						},
+						{
+							text: "Typed Get",
+							link: "/challenges/hard/00270-hard-typed-get"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
