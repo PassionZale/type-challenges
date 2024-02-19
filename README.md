@@ -443,7 +443,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/25878)
 - 7258・Object Key Paths
 	- [题目](./playground/hard/07258-hard-object-key-paths.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/22298)
 - 8804・两数之和
 	- [题目](./playground/hard/08804-hard-liang-shu-zhi-he.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

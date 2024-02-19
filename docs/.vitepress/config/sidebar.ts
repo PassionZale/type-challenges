@@ -596,6 +596,10 @@ export const sidebar = {
 							text: "Binary to Decimal",
 							link: "/challenges/hard/06141-hard-binary-to-decimal"
 						},
+						{
+							text: "Object Key Paths",
+							link: "/challenges/hard/07258-hard-object-key-paths"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
