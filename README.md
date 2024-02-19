@@ -452,7 +452,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/9174)
 - 9160・Assign
 	- [题目](./playground/hard/09160-hard-assign.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/9277)
 - 9384・Maximum
 	- [题目](./playground/hard/09384-hard-maximum.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

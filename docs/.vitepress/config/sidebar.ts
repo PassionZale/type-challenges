@@ -608,6 +608,10 @@ export const sidebar = {
 							text: "ValidDate",
 							link: "/challenges/hard/09155-hard-validdate"
 						},
+						{
+							text: "Assign",
+							link: "/challenges/hard/09160-hard-assign"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
