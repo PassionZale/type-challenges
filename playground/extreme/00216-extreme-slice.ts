@@ -19,12 +19,36 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Slice<Arr, Start, End> = any
+// if N is negative, convert it to its positive counterpart by the Arr
+type ToPositive<
+  N extends number,
+  Arr extends unknown[]
+> = `${N}` extends `-${infer P extends number}` ? Slice<Arr, P>["length"] : N;
+
+// get the initial N items of Arr
+type InitialN<
+  Arr extends unknown[],
+  N extends number,
+  _Acc extends unknown[] = []
+> = _Acc["length"] extends N | Arr["length"]
+  ? _Acc
+  : InitialN<Arr, N, [..._Acc, Arr[_Acc["length"]]]>;
+
+type Slice<
+  Arr extends unknown[],
+  Start extends number = 0,
+  End extends number = Arr["length"]
+> = InitialN<Arr, ToPositive<End, Arr>> extends [
+  ...InitialN<Arr, ToPositive<Start, Arr>>,
+  ...infer Rest
+]
+  ? Rest
+  : [];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
-type Arr = [1, 2, 3, 4, 5]
+type Arr = [1, 2, 3, 4, 5];
 
 type cases = [
   // basic
@@ -45,8 +69,8 @@ type cases = [
   // invalid
   Expect<Equal<Slice<Arr, 10>, []>>,
   Expect<Equal<Slice<Arr, 1, 0>, []>>,
-  Expect<Equal<Slice<Arr, 10, 20>, []>>,
-]
+  Expect<Equal<Slice<Arr, 10, 20>, []>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

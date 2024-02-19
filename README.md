@@ -494,7 +494,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/21419)
 - 216・Slice
 	- [题目](./playground/extreme/00216-extreme-slice.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/22110)
 - 274・Integers Comparator
 	- [题目](./playground/extreme/00274-extreme-integers-comparator.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)

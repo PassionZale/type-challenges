@@ -666,6 +666,10 @@ export const sidebar = {
 							text: "Query String Parser",
 							link: "/challenges/extreme/00151-extreme-query-string-parser"
 						},
+						{
+							text: "Slice",
+							link: "/challenges/extreme/00216-extreme-slice"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
