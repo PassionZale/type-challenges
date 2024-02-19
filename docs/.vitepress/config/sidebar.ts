@@ -592,6 +592,10 @@ export const sidebar = {
 							text: "Intersection",
 							link: "/challenges/hard/05423-hard-intersection"
 						},
+						{
+							text: "Binary to Decimal",
+							link: "/challenges/hard/06141-hard-binary-to-decimal"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
