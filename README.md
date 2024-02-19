@@ -484,7 +484,7 @@
 	- [题目](./playground/hard/30575-hard-bitwisexor.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/30577)
 
-### 地狱 (15)
+### 地狱 (14)
 
 - 5・获取只读属性
 	- [题目](./playground/extreme/00005-extreme-huo-qu-zhi-du-shu-xing.ts)
@@ -519,9 +519,6 @@
 - 869・DistributeUnions
 	- [题目](./playground/extreme/00869-extreme-distributeunions.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/11761)
-- 925・Assert Array Index
-	- [题目](./playground/extreme/00925-extreme-assert-array-index.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 6228・JSON Parser
 	- [题目](./playground/extreme/06228-extreme-json-parser.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)
