@@ -632,6 +632,10 @@ export const sidebar = {
 							text: "Run-length encoding",
 							link: "/challenges/hard/14188-hard-run-length-encoding"
 						},
+						{
+							text: "Tree path array",
+							link: "/challenges/hard/15260-hard-tree-path-array"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

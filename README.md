@@ -470,7 +470,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/14254)
 - 15260・Tree path array
 	- [题目](./playground/hard/15260-hard-tree-path-array.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/22354)
 - 19458・SnakeCase
 	- [题目](./playground/hard/19458-hard-snakecase.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
