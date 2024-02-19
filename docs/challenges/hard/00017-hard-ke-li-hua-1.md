@@ -2,7 +2,6 @@
 
 <BtnGroup 
 	issue="https://tsch.js.org/17/solutions"
-	answer="https://github.com/type-challenges/type-challenges/issues/UPDATE_HERE_AFTER_SUBMIT_ANSWER"
 />
 
 > 题目
