@@ -350,7 +350,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/122)
 - 57・获得必需的属性
 	- [题目](./playground/hard/00057-hard-huo-de-bi-xu-de-shu-xing.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/285)
 - 59・获得可选属性
 	- [题目](./playground/hard/00059-hard-huo-de-ke-xuan-shu-xing.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
