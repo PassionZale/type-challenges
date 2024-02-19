@@ -484,6 +484,10 @@ export const sidebar = {
 							text: "必需的键",
 							link: "/challenges/hard/00089-hard-bi-xu-de-jian"
 						},
+						{
+							text: "可选类型的键",
+							link: "/challenges/hard/00090-hard-ke-xuan-lei-xing-de-jian"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

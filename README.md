@@ -359,7 +359,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/2664)
 - 90・可选类型的键
 	- [题目](./playground/hard/00090-hard-ke-xuan-lei-xing-de-jian.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/210)
 - 112・Capitalize Words
 	- [题目](./playground/hard/00112-hard-capitalize-words.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
