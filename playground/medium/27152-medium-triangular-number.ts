@@ -12,10 +12,24 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Triangular<N extends number> = any
+type CountArr<N extends number, R extends string[] = []> = R["length"] extends N
+  ? R
+  : CountArr<N, [...R, ""]>;
+
+type Triangular<
+  N extends number,
+  R extends any[] = [],
+  Count extends string[] = []
+> = Count["length"] extends N
+  ? R["length"]
+  : Triangular<
+      N,
+      [...CountArr<[...Count, ""]["length"]>, ...R],
+      [...Count, ""]
+    >;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Triangular<0>, 0>>,
@@ -24,8 +38,8 @@ type cases = [
   Expect<Equal<Triangular<10>, 55>>,
   Expect<Equal<Triangular<20>, 210>>,
   Expect<Equal<Triangular<55>, 1540>>,
-  Expect<Equal<Triangular<100>, 5050>>,
-]
+  Expect<Equal<Triangular<100>, 5050>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

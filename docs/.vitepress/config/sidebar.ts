@@ -418,6 +418,10 @@ export const sidebar = {
 							text: "Square 🎯",
 							link: "/challenges/medium/27133-medium-square"
 						},
+						{
+							text: "Triangular number",
+							link: "/challenges/medium/27152-medium-triangular-number"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

@@ -310,6 +310,8 @@
   - [题目](./playground/medium/27133-medium-square.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32285)
 - 27152・Triangular number
+  - [题目](./playground/medium/27152-medium-triangular-number.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32286)
 - 27862・CartesianProduct
 - 27932・MergeAll
 - 27958・CheckRepeatedTuple
