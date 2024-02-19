@@ -628,6 +628,10 @@ export const sidebar = {
 							text: "FizzBuzz",
 							link: "/challenges/hard/14080-hard-fizzbuzz"
 						},
+						{
+							text: "Run-length encoding",
+							link: "/challenges/hard/14188-hard-run-length-encoding"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

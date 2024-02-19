@@ -467,7 +467,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/22044)
 - 14188・Run-length encoding
 	- [题目](./playground/hard/14188-hard-run-length-encoding.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/14254)
 - 15260・Tree path array
 	- [题目](./playground/hard/15260-hard-tree-path-array.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
