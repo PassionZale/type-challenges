@@ -419,7 +419,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/32246)
 - 2828・ClassPublicKeys
 	- [题目](./playground/hard/02828-hard-classpublickeys.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/25353)
 - 2857・IsRequiredKey
 	- [题目](./playground/hard/02857-hard-isrequiredkey.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

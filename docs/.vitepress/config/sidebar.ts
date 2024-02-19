@@ -564,6 +564,10 @@ export const sidebar = {
 							text: "Split",
 							link: "/challenges/hard/02822-hard-split"
 						},
+						{
+							text: "ClassPublicKeys",
+							link: "/challenges/hard/02828-hard-classpublickeys"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

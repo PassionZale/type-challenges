@@ -27,29 +27,27 @@
 
 /* _____________ 你的代码 _____________ */
 
-type ClassPublicKeys = any
+type ClassPublicKeys<T, P = keyof T> = P extends keyof T ? P : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 class A {
-  public str: string
-  protected num: number
-  private bool: boolean
+  public str: string;
+  protected num: number;
+  private bool: boolean;
   constructor() {
-    this.str = 'naive'
-    this.num = 19260917
-    this.bool = true
+    this.str = "naive";
+    this.num = 19260917;
+    this.bool = true;
   }
 
   getNum() {
-    return Math.random()
+    return Math.random();
   }
 }
 
-type cases = [
-  Expect<Equal<ClassPublicKeys<A>, 'str' | 'getNum'>>,
-]
+type cases = [Expect<Equal<ClassPublicKeys<A>, "str" | "getNum">>];
 
 /* _____________ 下一步 _____________ */
 /*
