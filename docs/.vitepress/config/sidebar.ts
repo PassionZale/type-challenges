@@ -492,6 +492,10 @@ export const sidebar = {
 							text: "Capitalize Words",
 							link: "/challenges/hard/00112-hard-capitalize-words"
 						},
+						{
+							text: "CamelCase",
+							link: "/challenges/hard/00114-hard-camelcase"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

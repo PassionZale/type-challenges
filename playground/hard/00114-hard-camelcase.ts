@@ -19,26 +19,39 @@
 
 /* _____________ 你的代码 _____________ */
 
-type CamelCase<S extends string> = any
+type IsAlphabet<T extends string> = Lowercase<T> extends Uppercase<T>
+  ? false
+  : true;
+
+type CamelCase<
+  S extends string,
+  Result extends string = ""
+> = S extends `${infer Left}${infer Rest}`
+  ? IsAlphabet<Left> extends true
+    ? Result extends `${infer Prefix}_`
+      ? CamelCase<Rest, `${Prefix}${Uppercase<Left>}`>
+      : CamelCase<Rest, `${Result}${Lowercase<Left>}`>
+    : CamelCase<Rest, `${Result}${Left}`>
+  : Result;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<CamelCase<'foobar'>, 'foobar'>>,
-  Expect<Equal<CamelCase<'FOOBAR'>, 'foobar'>>,
-  Expect<Equal<CamelCase<'foo_bar'>, 'fooBar'>>,
-  Expect<Equal<CamelCase<'foo__bar'>, 'foo_Bar'>>,
-  Expect<Equal<CamelCase<'foo_$bar'>, 'foo_$bar'>>,
-  Expect<Equal<CamelCase<'foo_bar_'>, 'fooBar_'>>,
-  Expect<Equal<CamelCase<'foo_bar__'>, 'fooBar__'>>,
-  Expect<Equal<CamelCase<'foo_bar_$'>, 'fooBar_$'>>,
-  Expect<Equal<CamelCase<'foo_bar_hello_world'>, 'fooBarHelloWorld'>>,
-  Expect<Equal<CamelCase<'HELLO_WORLD_WITH_TYPES'>, 'helloWorldWithTypes'>>,
-  Expect<Equal<CamelCase<'-'>, '-'>>,
-  Expect<Equal<CamelCase<''>, ''>>,
-  Expect<Equal<CamelCase<'😎'>, '😎'>>,
-]
+  Expect<Equal<CamelCase<"foobar">, "foobar">>,
+  Expect<Equal<CamelCase<"FOOBAR">, "foobar">>,
+  Expect<Equal<CamelCase<"foo_bar">, "fooBar">>,
+  Expect<Equal<CamelCase<"foo__bar">, "foo_Bar">>,
+  Expect<Equal<CamelCase<"foo_$bar">, "foo_$bar">>,
+  Expect<Equal<CamelCase<"foo_bar_">, "fooBar_">>,
+  Expect<Equal<CamelCase<"foo_bar__">, "fooBar__">>,
+  Expect<Equal<CamelCase<"foo_bar_$">, "fooBar_$">>,
+  Expect<Equal<CamelCase<"foo_bar_hello_world">, "fooBarHelloWorld">>,
+  Expect<Equal<CamelCase<"HELLO_WORLD_WITH_TYPES">, "helloWorldWithTypes">>,
+  Expect<Equal<CamelCase<"-">, "-">>,
+  Expect<Equal<CamelCase<"">, "">>,
+  Expect<Equal<CamelCase<"😎">, "😎">>
+];
 
 /* _____________ 下一步 _____________ */
 /*

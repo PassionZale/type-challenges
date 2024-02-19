@@ -365,7 +365,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/19571)
 - 114・CamelCase
 	- [题目](./playground/hard/00114-hard-camelcase.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/25014)
 - 147・C-printf Parser
 	- [题目](./playground/hard/00147-hard-c-printf-parser.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
