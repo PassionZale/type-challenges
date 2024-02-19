@@ -410,7 +410,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/27536)
 - 1383・Camelize
 	- [题目](./playground/hard/01383-hard-camelize.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/1403)
 - 2059・Drop String
 	- [题目](./playground/hard/02059-hard-drop-string.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

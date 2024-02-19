@@ -552,6 +552,10 @@ export const sidebar = {
 							text: "Pinia",
 							link: "/challenges/hard/01290-hard-pinia"
 						},
+						{
+							text: "Camelize",
+							link: "/challenges/hard/01383-hard-camelize"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
