@@ -674,6 +674,10 @@ export const sidebar = {
 							text: "Integers Comparator",
 							link: "/challenges/extreme/00274-extreme-integers-comparator"
 						},
+						{
+							text: "柯里化 2",
+							link: "/challenges/extreme/00462-extreme-ke-li-hua-2"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
