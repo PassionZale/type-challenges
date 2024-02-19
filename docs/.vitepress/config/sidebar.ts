@@ -536,6 +536,10 @@ export const sidebar = {
 							text: "Length of String 2",
 							link: "/challenges/hard/00651-hard-length-of-string-2"
 						},
+						{
+							text: "Union to Tuple",
+							link: "/challenges/hard/00730-hard-union-to-tuple"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

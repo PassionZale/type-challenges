@@ -398,7 +398,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/25349)
 - 730・Union to Tuple
 	- [题目](./playground/hard/00730-hard-union-to-tuple.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/10191)
 - 847・String Join
 	- [题目](./playground/hard/00847-hard-string-join.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
