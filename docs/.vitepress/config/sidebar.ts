@@ -679,11 +679,11 @@ export const sidebar = {
 							link: "/challenges/extreme/00462-extreme-ke-li-hua-2"
 						},
 						{
-							text: "Sum",
+							text: "Sum 🎯",
 							link: "/challenges/extreme/00476-extreme-sum"
 						},
 						{
-							text: "Multiply",
+							text: "Multiply 🎯",
 							link: "/challenges/extreme/00517-extreme-multiply"
 						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
