@@ -346,51 +346,143 @@
 	- [题目](./playground/hard/00017-hard-ke-li-hua-1.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 55・联合类型转化为交叉类型
+	- [题目](./playground/hard/00055-hard-lian-he-lei-xing-zhuan-hua-wei-jiao-cha-lei-xing.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 57・获得必需的属性
+	- [题目](./playground/hard/00057-hard-huo-de-bi-xu-de-shu-xing.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 59・获得可选属性
+	- [题目](./playground/hard/00059-hard-huo-de-ke-xuan-shu-xing.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 89・必需的键
+	- [题目](./playground/hard/00089-hard-bi-xu-de-jian.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 90・可选类型的键
+	- [题目](./playground/hard/00090-hard-ke-xuan-lei-xing-de-jian.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 112・Capitalize Words
+	- [题目](./playground/hard/00112-hard-capitalize-words.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 114・CamelCase
+	- [题目](./playground/hard/00114-hard-camelcase.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 147・C-printf Parser
+	- [题目](./playground/hard/00147-hard-c-printf-parser.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 213・Vue Basic Props
+	- [题目](./playground/hard/00213-hard-vue-basic-props.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 223・IsAny
+	- [题目](./playground/hard/00223-hard-isany.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 270・Typed Get
+	- [题目](./playground/hard/00270-hard-typed-get.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 300・String to Number
+	- [题目](./playground/hard/00300-hard-string-to-number.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 399・Tuple Filter
+	- [题目](./playground/hard/00399-hard-tuple-filter.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 472・Tuple to Enum Object
+	- [题目](./playground/hard/00472-hard-tuple-to-enum-object.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 545・printf
+	- [题目](./playground/hard/00545-hard-printf.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 553・Deep object to unique
+	- [题目](./playground/hard/00553-hard-deep-object-to-unique.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 651・Length of String 2
+	- [题目](./playground/hard/00651-hard-length-of-string-2.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 730・Union to Tuple
+	- [题目](./playground/hard/00730-hard-union-to-tuple.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 847・String Join
+	- [题目](./playground/hard/00847-hard-string-join.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 956・DeepPick
+	- [题目](./playground/hard/00956-hard-deeppick.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 1290・Pinia
+	- [题目](./playground/hard/01290-hard-pinia.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 1383・Camelize
+	- [题目](./playground/hard/01383-hard-camelize.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 2059・Drop String
+	- [题目](./playground/hard/02059-hard-drop-string.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 2822・Split
+	- [题目](./playground/hard/02822-hard-split.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 2828・ClassPublicKeys
+	- [题目](./playground/hard/02828-hard-classpublickeys.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 2857・IsRequiredKey
+	- [题目](./playground/hard/02857-hard-isrequiredkey.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 2949・ObjectFromEntries
+	- [题目](./playground/hard/02949-hard-objectfromentries.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 3376・InorderTraversal
+	- [题目](./playground/hard/03376-hard-inordertraversal.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 4037・IsPalindrome
+	- [题目](./playground/hard/04037-hard-ispalindrome.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 5181・Mutable Keys
+	- [题目](./playground/hard/05181-hard-mutable-keys.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 5423・Intersection
+	- [题目](./playground/hard/05423-hard-intersection.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 6141・Binary to Decimal
+	- [题目](./playground/hard/06141-hard-binary-to-decimal.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 7258・Object Key Paths
+	- [题目](./playground/hard/07258-hard-object-key-paths.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 8804・两数之和
+	- [题目](./playground/hard/08804-hard-liang-shu-zhi-he.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 9155・ValidDate
+	- [题目](./playground/hard/09155-hard-validdate.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 9160・Assign
+	- [题目](./playground/hard/09160-hard-assign.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 9384・Maximum
+	- [题目](./playground/hard/09384-hard-maximum.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 9775・Capitalize Nest Object Keys
+	- [题目](./playground/hard/09775-hard-capitalize-nest-object-keys.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 13580・Replace Union
+	- [题目](./playground/hard/13580-hard-replace-union.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 14080・FizzBuzz
+	- [题目](./playground/hard/14080-hard-fizzbuzz.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 14188・Run-length encoding
+	- [题目](./playground/hard/14188-hard-run-length-encoding.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 15260・Tree path array
+	- [题目](./playground/hard/15260-hard-tree-path-array.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 19458・SnakeCase
+	- [题目](./playground/hard/19458-hard-snakecase.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 25747・IsNegativeNumber
+	- [题目](./playground/hard/25747-hard-isnegativenumber.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 28143・OptionalUndefined
+	- [题目](./playground/hard/28143-hard-optionalundefined.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 - 30575・BitwiseXOR
+	- [题目](./playground/hard/30575-hard-bitwisexor.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
 
 ### 地狱 (15)
 
