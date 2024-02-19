@@ -568,6 +568,10 @@ export const sidebar = {
 							text: "ClassPublicKeys",
 							link: "/challenges/hard/02828-hard-classpublickeys"
 						},
+						{
+							text: "IsRequiredKey",
+							link: "/challenges/hard/02857-hard-isrequiredkey"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

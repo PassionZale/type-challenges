@@ -20,18 +20,20 @@
 
 /* _____________ 你的代码 _____________ */
 
-type IsRequiredKey<T, K extends keyof T> = any
+type IsRequiredKey<T, K extends keyof T> = T extends Record<K, T[K]>
+  ? true
+  : false;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'a'>, true>>,
-  Expect<Equal<IsRequiredKey<{ a: undefined, b: string }, 'a'>, true>>,
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'b'>, false>>,
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'b' | 'a'>, false>>,
-  Expect<Equal<IsRequiredKey<{ a: undefined, b: undefined }, 'b' | 'a'>, true>>,
-]
+  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "a">, true>>,
+  Expect<Equal<IsRequiredKey<{ a: undefined; b: string }, "a">, true>>,
+  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "b">, false>>,
+  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "b" | "a">, false>>,
+  Expect<Equal<IsRequiredKey<{ a: undefined; b: undefined }, "b" | "a">, true>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

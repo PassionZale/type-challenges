@@ -422,7 +422,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/25353)
 - 2857・IsRequiredKey
 	- [题目](./playground/hard/02857-hard-isrequiredkey.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/3315)
 - 2949・ObjectFromEntries
 	- [题目](./playground/hard/02949-hard-objectfromentries.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
