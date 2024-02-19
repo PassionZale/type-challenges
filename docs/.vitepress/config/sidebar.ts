@@ -620,6 +620,10 @@ export const sidebar = {
 							text: "Capitalize Nest Object Keys",
 							link: "/challenges/hard/09775-hard-capitalize-nest-object-keys"
 						},
+						{
+							text: "Replace Union",
+							link: "/challenges/hard/13580-hard-replace-union"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

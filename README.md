@@ -461,7 +461,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/25130)
 - 13580・Replace Union
 	- [题目](./playground/hard/13580-hard-replace-union.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/21337)
 - 14080・FizzBuzz
 	- [题目](./playground/hard/14080-hard-fizzbuzz.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
