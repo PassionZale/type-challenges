@@ -450,6 +450,10 @@ export const sidebar = {
 							text: "IsOdd",
 							link: "/challenges/medium/30301-medium-isodd"
 						},
+						{
+							text: "Tower of hanoi 🎯",
+							link: "/challenges/medium/30430-medium-tower-of-hanoi"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

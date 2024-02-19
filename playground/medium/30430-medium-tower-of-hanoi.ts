@@ -15,18 +15,80 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Hanoi<N extends number, From = 'A', To = 'B', Intermediate = 'C'> = any
+type Hanoi<
+  N extends number,
+  From = "A",
+  To = "B",
+  Intermediate = "C",
+  CurrentIndex extends 1[] = []
+> = CurrentIndex["length"] extends N
+  ? []
+  : [
+      ...Hanoi<N, From, Intermediate, To, [...CurrentIndex, 1]>,
+      [From, To],
+      ...Hanoi<N, Intermediate, To, From, [...CurrentIndex, 1]>
+    ];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type Tests = [
   Expect<Equal<Hanoi<0>, []>>,
-  Expect<Equal<Hanoi<1>, [['A', 'B']]>>,
-  Expect<Equal<Hanoi<2>, [['A', 'C'], ['A', 'B'], ['C', 'B']]>>,
-  Expect<Equal<Hanoi<3>, [['A', 'B'], ['A', 'C'], ['B', 'C'], ['A', 'B'], ['C', 'A'], ['C', 'B'], ['A', 'B']]>>,
-  Expect<Equal<Hanoi<5>, [['A', 'B'], ['A', 'C'], ['B', 'C'], ['A', 'B'], ['C', 'A'], ['C', 'B'], ['A', 'B'], ['A', 'C'], ['B', 'C'], ['B', 'A'], ['C', 'A'], ['B', 'C'], ['A', 'B'], ['A', 'C'], ['B', 'C'], ['A', 'B'], ['C', 'A'], ['C', 'B'], ['A', 'B'], ['C', 'A'], ['B', 'C'], ['B', 'A'], ['C', 'A'], ['C', 'B'], ['A', 'B'], ['A', 'C'], ['B', 'C'], ['A', 'B'], ['C', 'A'], ['C', 'B'], ['A', 'B']]>>,
-]
+  Expect<Equal<Hanoi<1>, [["A", "B"]]>>,
+  Expect<Equal<Hanoi<2>, [["A", "C"], ["A", "B"], ["C", "B"]]>>,
+  Expect<
+    Equal<
+      Hanoi<3>,
+      [
+        ["A", "B"],
+        ["A", "C"],
+        ["B", "C"],
+        ["A", "B"],
+        ["C", "A"],
+        ["C", "B"],
+        ["A", "B"]
+      ]
+    >
+  >,
+  Expect<
+    Equal<
+      Hanoi<5>,
+      [
+        ["A", "B"],
+        ["A", "C"],
+        ["B", "C"],
+        ["A", "B"],
+        ["C", "A"],
+        ["C", "B"],
+        ["A", "B"],
+        ["A", "C"],
+        ["B", "C"],
+        ["B", "A"],
+        ["C", "A"],
+        ["B", "C"],
+        ["A", "B"],
+        ["A", "C"],
+        ["B", "C"],
+        ["A", "B"],
+        ["C", "A"],
+        ["C", "B"],
+        ["A", "B"],
+        ["C", "A"],
+        ["B", "C"],
+        ["B", "A"],
+        ["C", "A"],
+        ["C", "B"],
+        ["A", "B"],
+        ["A", "C"],
+        ["B", "C"],
+        ["A", "B"],
+        ["C", "A"],
+        ["C", "B"],
+        ["A", "B"]
+      ]
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

@@ -334,6 +334,8 @@
   - [题目](./playground/medium/30301-medium-isodd.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32295)
 - 30430・Tower of hanoi
+  - [题目](./playground/medium/30430-medium-tower-of-hanoi.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32296)
 - 30958・Pascal's triangle
 - 30970・IsFixedStringLiteralType
 

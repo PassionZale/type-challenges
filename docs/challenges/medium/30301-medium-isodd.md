@@ -48,7 +48,3 @@ type IsOdd<T extends number> = `${T}` extends `${number | ""}${
 > ```
 >
 > simple way : [#30334 (comment)](https://github.com/type-challenges/type-challenges/issues/30334#issue-1929313282)
->
-> ```
->
-> ```
