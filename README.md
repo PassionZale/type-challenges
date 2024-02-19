@@ -336,7 +336,6 @@
 - 30430・Tower of hanoi
   - [题目](./playground/medium/30430-medium-tower-of-hanoi.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32296)
-- 30970・IsFixedStringLiteralType
 
 ### 困难 (47)
 
