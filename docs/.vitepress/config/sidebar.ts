@@ -528,6 +528,10 @@ export const sidebar = {
 							text: "printf",
 							link: "/challenges/hard/00545-hard-printf"
 						},
+						{
+							text: "Deep object to unique",
+							link: "/challenges/hard/00553-hard-deep-object-to-unique"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

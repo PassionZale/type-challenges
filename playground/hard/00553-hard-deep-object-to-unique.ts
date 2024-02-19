@@ -38,37 +38,51 @@
 
 /* _____________ 你的代码 _____________ */
 
-type DeepObjectToUniq<O extends object> = any
+type Key = string | number | symbol;
+
+declare const KEY: unique symbol;
+
+type DeepObjectToUniq<
+  O extends object,
+  Parent = O,
+  Path extends readonly Key[] = []
+> = {
+  [K in keyof O]: O[K] extends object
+    ? DeepObjectToUniq<O[K], O, [...Path, K]>
+    : O[K];
+} & {
+  readonly [KEY]?: readonly [Parent, Path];
+};
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, IsFalse, IsTrue } from '@type-challenges/utils'
+import type { Equal, IsFalse, IsTrue } from "@type-challenges/utils";
 
-type Quz = { quz: 4 }
+type Quz = { quz: 4 };
 
-type Foo = { foo: 2, baz: Quz, bar: Quz }
-type Bar = { foo: 2, baz: Quz, bar: Quz & { quzz?: 0 } }
+type Foo = { foo: 2; baz: Quz; bar: Quz };
+type Bar = { foo: 2; baz: Quz; bar: Quz & { quzz?: 0 } };
 
-type UniqQuz = DeepObjectToUniq<Quz>
-type UniqFoo = DeepObjectToUniq<Foo>
-type UniqBar = DeepObjectToUniq<Bar>
+type UniqQuz = DeepObjectToUniq<Quz>;
+type UniqFoo = DeepObjectToUniq<Foo>;
+type UniqBar = DeepObjectToUniq<Bar>;
 
-declare let foo: Foo
-declare let uniqFoo: UniqFoo
+declare let foo: Foo;
+declare let uniqFoo: UniqFoo;
 
-uniqFoo = foo
-foo = uniqFoo
+uniqFoo = foo;
+foo = uniqFoo;
 
 type cases = [
   IsFalse<Equal<UniqQuz, Quz>>,
   IsFalse<Equal<UniqFoo, Foo>>,
-  IsTrue<Equal<UniqFoo['foo'], Foo['foo']>>,
-  IsTrue<Equal<UniqFoo['bar']['quz'], Foo['bar']['quz']>>,
-  IsFalse<Equal<UniqQuz, UniqFoo['baz']>>,
-  IsFalse<Equal<UniqFoo['bar'], UniqFoo['baz']>>,
-  IsFalse<Equal<UniqBar['baz'], UniqFoo['baz']>>,
-  IsTrue<Equal<keyof UniqBar['baz'], keyof UniqFoo['baz']>>,
-  IsTrue<Equal<keyof Foo, keyof UniqFoo & string>>,
-]
+  IsTrue<Equal<UniqFoo["foo"], Foo["foo"]>>,
+  IsTrue<Equal<UniqFoo["bar"]["quz"], Foo["bar"]["quz"]>>,
+  IsFalse<Equal<UniqQuz, UniqFoo["baz"]>>,
+  IsFalse<Equal<UniqFoo["bar"], UniqFoo["baz"]>>,
+  IsFalse<Equal<UniqBar["baz"], UniqFoo["baz"]>>,
+  IsTrue<Equal<keyof UniqBar["baz"], keyof UniqFoo["baz"]>>,
+  IsTrue<Equal<keyof Foo, keyof UniqFoo & string>>
+];
 
 /* _____________ 下一步 _____________ */
 /*
