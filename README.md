@@ -512,7 +512,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/22316)
 - 734・Inclusive Range
 	- [题目](./playground/extreme/00734-extreme-inclusive-range.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/6111)
 - 741・Sort
 	- [题目](./playground/extreme/00741-extreme-sort.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)

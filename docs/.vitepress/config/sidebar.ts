@@ -690,6 +690,10 @@ export const sidebar = {
 							text: "Tag",
 							link: "/challenges/extreme/00697-extreme-tag"
 						},
+						{
+							text: "Inclusive Range",
+							link: "/challenges/extreme/00734-extreme-inclusive-range"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
