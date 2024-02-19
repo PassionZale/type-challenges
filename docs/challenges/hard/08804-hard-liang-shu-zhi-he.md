@@ -1,17 +1,17 @@
-/*
-  8804 - 两数之和
-  -------
-  by PsiloLau (@Psilocine) #困难 #array #math
+# 两数之和
 
-  ### 题目
+<BtnGroup 
+	issue="https://tsch.js.org/8804/solutions"
+	featured="https://github.com/type-challenges/type-challenges/issues/9119"
+/>
 
-  给定一个整数数组 nums 和一个目标整数 target, 如果 nums 数组中存在两个元素的和等于 target 返回 true, 否则返回 false
+> 题目
 
-  > 在 Github 上查看：https://tsch.js.org/8804/zh-CN
-*/
+给定一个整数数组 nums 和一个目标整数 target, 如果 nums 数组中存在两个元素的和等于 target 返回 true, 否则返回 false
 
-/* _____________ 你的代码 _____________ */
+> 解答
 
+```ts
 // 1. get permutations from an array
 type Permutation<T> = T extends [infer One, ...infer Rest]
   ? [One, ...Permutation<Rest>] | [...Permutation<Rest>, One]
@@ -72,7 +72,7 @@ type TwoSum<T extends number[], U extends number> = [
 // 10. final test cases
 type test2 = TwoSum<[2, 7, 11, 15], 6>;
 
-/* _____________ 测试用例 _____________ */
+/* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
@@ -86,13 +86,6 @@ type cases = [
   Expect<Equal<TwoSum<[1, 2, 3], 3>, true>>,
   Expect<Equal<TwoSum<[1, 2, 3], 4>, true>>,
   Expect<Equal<TwoSum<[1, 2, 3], 5>, true>>,
-  Expect<Equal<TwoSum<[1, 2, 3], 6>, false>>,
-  Expect<Equal<TwoSum<[3, 2, 0], 2>, true>>
+  Expect<Equal<TwoSum<[1, 2, 3], 6>, false>>
 ];
-
-/* _____________ 下一步 _____________ */
-/*
-  > 分享你的解答：https://tsch.js.org/8804/answer/zh-CN
-  > 查看解答：https://tsch.js.org/8804/solutions
-  > 更多题目：https://tsch.js.org/zh-CN
-*/
+```

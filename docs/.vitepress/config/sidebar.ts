@@ -600,6 +600,10 @@ export const sidebar = {
 							text: "Object Key Paths",
 							link: "/challenges/hard/07258-hard-object-key-paths"
 						},
+						{
+							text: "两数之和",
+							link: "/challenges/hard/08804-hard-liang-shu-zhi-he"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
