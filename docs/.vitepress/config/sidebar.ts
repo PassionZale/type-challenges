@@ -438,6 +438,10 @@ export const sidebar = {
 							text: "Public Type",
 							link: "/challenges/medium/28333-medium-public-type"
 						},
+						{
+							text: "ExtractToObject",
+							link: "/challenges/medium/29650-medium-extracttoobject"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

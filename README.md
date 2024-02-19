@@ -325,6 +325,8 @@
   - [题目](./playground/medium/28333-medium-public-type.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32292)
 - 29650・ExtractToObject
+  - [题目](./playground/medium/29650-medium-extracttoobject.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32293)
 - 29785・Deep Omit
 - 30301・IsOdd
 - 30430・Tower of hanoi
