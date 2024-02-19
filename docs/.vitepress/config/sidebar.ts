@@ -468,6 +468,10 @@ export const sidebar = {
 							text: "柯里化 1",
 							link: "/challenges/hard/00017-hard-ke-li-hua-1"
 						},
+						{
+							text: "联合类型转化为交叉类型",
+							link: "/challenges/hard/00055-hard-lian-he-lei-xing-zhuan-hua-wei-jiao-cha-lei-xing"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

@@ -18,15 +18,24 @@
 
 /* _____________ 你的代码 _____________ */
 
-type UnionToIntersection<U> = any
+type UnionToIntersection<U> = (
+  U extends any ? (arg: U) => any : never
+) extends (arg: infer I) => void
+  ? I
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<UnionToIntersection<'foo' | 42 | true>, 'foo' & 42 & true>>,
-  Expect<Equal<UnionToIntersection<(() => 'foo') | ((i: 42) => true)>, (() => 'foo') & ((i: 42) => true)>>,
-]
+  Expect<Equal<UnionToIntersection<"foo" | 42 | true>, "foo" & 42 & true>>,
+  Expect<
+    Equal<
+      UnionToIntersection<(() => "foo") | ((i: 42) => true)>,
+      (() => "foo") & ((i: 42) => true)
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*
