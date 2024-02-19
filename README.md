@@ -374,7 +374,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/215)
 - 223・IsAny
 	- [题目](./playground/hard/00223-hard-isany.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/232)
 - 270・Typed Get
 	- [题目](./playground/hard/00270-hard-typed-get.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

@@ -504,6 +504,10 @@ export const sidebar = {
 							text: "Vue Basic Props",
 							link: "/challenges/hard/00213-hard-vue-basic-props"
 						},
+						{
+							text: "IsAny",
+							link: "/challenges/hard/00223-hard-isany"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

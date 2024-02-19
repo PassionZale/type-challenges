@@ -14,7 +14,7 @@
 
 /* _____________ 你的代码 _____________ */
 
-type IsAny<T> = any
+type IsAny<T> = Equal<T, any>
 
 /* _____________ 测试用例 _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
