@@ -476,7 +476,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/20928)
 - 25747・IsNegativeNumber
 	- [题目](./playground/hard/25747-hard-isnegativenumber.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/26048)
 - 28143・OptionalUndefined
 	- [题目](./playground/hard/28143-hard-optionalundefined.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

@@ -640,6 +640,10 @@ export const sidebar = {
 							text: "SnakeCase",
 							link: "/challenges/hard/19458-hard-snakecase"
 						},
+						{
+							text: "IsNegativeNumber",
+							link: "/challenges/hard/25747-hard-isnegativenumber"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

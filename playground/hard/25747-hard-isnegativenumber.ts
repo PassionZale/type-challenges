@@ -22,10 +22,18 @@
 
 /* _____________ 你的代码 _____________ */
 
-type IsNegativeNumber<T extends number> = any
+type IsUnion<T, U = T> = U extends T ? ([T] extends [U] ? false : true) : never;
+
+type IsNegativeNumber<T extends number> = IsUnion<T> extends true
+  ? never //union
+  : number extends T
+  ? never //number
+  : `${T}` extends `-${number}`
+  ? true
+  : false; //negative number
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<IsNegativeNumber<0>, false>>,
@@ -36,8 +44,8 @@ type cases = [
   Expect<Equal<IsNegativeNumber<-100_000_000>, true>>,
   Expect<Equal<IsNegativeNumber<1>, false>>,
   Expect<Equal<IsNegativeNumber<1.9>, false>>,
-  Expect<Equal<IsNegativeNumber<100_000_000>, false>>,
-]
+  Expect<Equal<IsNegativeNumber<100_000_000>, false>>
+];
 
 /* _____________ 下一步 _____________ */
 /*
