@@ -532,6 +532,10 @@ export const sidebar = {
 							text: "Deep object to unique",
 							link: "/challenges/hard/00553-hard-deep-object-to-unique"
 						},
+						{
+							text: "Length of String 2",
+							link: "/challenges/hard/00651-hard-length-of-string-2"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
