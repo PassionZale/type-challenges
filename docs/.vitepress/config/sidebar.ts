@@ -7,7 +7,6 @@ export const sidebar = {
   ],
   "/challenges/": [
     {
-      text: "挑战",
       items: [
         {
           text: "热身",
