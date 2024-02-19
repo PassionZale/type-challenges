@@ -682,6 +682,10 @@ export const sidebar = {
 							text: "Sum",
 							link: "/challenges/extreme/00476-extreme-sum"
 						},
+						{
+							text: "Multiply",
+							link: "/challenges/extreme/00517-extreme-multiply"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
