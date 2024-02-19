@@ -23,19 +23,29 @@
 
 /* _____________ 你的代码 _____________ */
 
+type ConstructTuple<
+  L extends number,
+  R extends unknown[] = []
+> = R["length"] extends L ? R : ConstructTuple<L, [...R, unknown]>;
+
 // M => minuend, S => subtrahend
-type Subtract<M extends number, S extends number> = any
+type Subtract<M extends number, S extends number> = ConstructTuple<M> extends [
+  ...subtrahend: ConstructTuple<S>,
+  ...rest: infer Rest
+]
+  ? Rest["length"]
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<Subtract<1, 1>, 0>>,
   Expect<Equal<Subtract<2, 1>, 1>>,
   Expect<Equal<Subtract<1, 2>, never>>,
   // @ts-expect-error
-  Expect<Equal<Subtract<1000, 999>, 1>>,
-]
+  Expect<Equal<Subtract<1000, 999>, 1>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

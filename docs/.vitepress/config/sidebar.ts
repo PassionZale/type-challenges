@@ -706,6 +706,10 @@ export const sidebar = {
 							text: "JSON Parser",
 							link: "/challenges/extreme/06228-extreme-json-parser"
 						},
+						{
+							text: "Subtract",
+							link: "/challenges/extreme/07561-extreme-subtract"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
