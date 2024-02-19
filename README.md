@@ -322,6 +322,8 @@
   - [题目](./playground/medium/27958-medium-checkrepeatedtuple.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32291)
 - 28333・Public Type
+  - [题目](./playground/medium/28333-medium-public-type.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32292)
 - 29650・ExtractToObject
 - 29785・Deep Omit
 - 30301・IsOdd

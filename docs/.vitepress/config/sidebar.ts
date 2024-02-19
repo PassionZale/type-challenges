@@ -434,6 +434,10 @@ export const sidebar = {
 							text: "CheckRepeatedTuple",
 							link: "/challenges/medium/27958-medium-checkrepeatedtuple"
 						},
+						{
+							text: "Public Type",
+							link: "/challenges/medium/28333-medium-public-type"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
