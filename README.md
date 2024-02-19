@@ -509,7 +509,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/5814)
 - 697・Tag
 	- [题目](./playground/extreme/00697-extreme-tag.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/22316)
 - 734・Inclusive Range
 	- [题目](./playground/extreme/00734-extreme-inclusive-range.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)
