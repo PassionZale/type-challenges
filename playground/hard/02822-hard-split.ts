@@ -18,23 +18,60 @@
 
 /* _____________ 你的代码 _____________ */
 
-type Split<S extends string, SEP extends string> = any
+type Split<S extends string, SEP extends string = never> = [SEP] extends [never]
+  ? [S]
+  : S extends `${infer F}${SEP}${infer L}`
+  ? [F, ...Split<L, SEP>]
+  : string extends S
+  ? string[]
+  : SEP extends ""
+  ? []
+  : [S];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Split<'Hi! How are you?'>, ['Hi! How are you?']>>,
-  Expect<Equal<Split<'Hi! How are you?', 'z'>, ['Hi! How are you?']>>,
-  Expect<Equal<Split<'Hi! How are you?', ' '>, ['Hi!', 'How', 'are', 'you?']>>,
-  Expect<Equal<Split<'Hi! How are you?', ''>, ['H', 'i', '!', ' ', 'H', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u', '?']>>,
-  Expect<Equal<Split<'', ''>, []>>,
-  Expect<Equal<Split<'The sine in cosine', 'in'>, ['The s', 'e ', ' cos', 'e']>>,
-  Expect<Equal<Split<'Never say never, forever and ever.', 'ver'>, ['Ne', ' say ne', ', fore', ' and e', '.']>>,
-  Expect<Equal<Split<'', 'z'>, ['']>>,
-  Expect<Equal<Split<''>, ['']>>,
-  Expect<Equal<Split<string, 'whatever'>, string[]>>,
-]
+  Expect<Equal<Split<"Hi! How are you?">, ["Hi! How are you?"]>>,
+  Expect<Equal<Split<"Hi! How are you?", "z">, ["Hi! How are you?"]>>,
+  Expect<Equal<Split<"Hi! How are you?", " ">, ["Hi!", "How", "are", "you?"]>>,
+  Expect<
+    Equal<
+      Split<"Hi! How are you?", "">,
+      [
+        "H",
+        "i",
+        "!",
+        " ",
+        "H",
+        "o",
+        "w",
+        " ",
+        "a",
+        "r",
+        "e",
+        " ",
+        "y",
+        "o",
+        "u",
+        "?"
+      ]
+    >
+  >,
+  Expect<Equal<Split<"", "">, []>>,
+  Expect<
+    Equal<Split<"The sine in cosine", "in">, ["The s", "e ", " cos", "e"]>
+  >,
+  Expect<
+    Equal<
+      Split<"Never say never, forever and ever.", "ver">,
+      ["Ne", " say ne", ", fore", " and e", "."]
+    >
+  >,
+  Expect<Equal<Split<"", "z">, [""]>>,
+  Expect<Equal<Split<"">, [""]>>,
+  Expect<Equal<Split<string, "whatever">, string[]>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

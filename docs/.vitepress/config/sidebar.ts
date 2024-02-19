@@ -560,6 +560,10 @@ export const sidebar = {
 							text: "Drop String",
 							link: "/challenges/hard/02059-hard-drop-string"
 						},
+						{
+							text: "Split",
+							link: "/challenges/hard/02822-hard-split"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

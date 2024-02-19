@@ -416,7 +416,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/4911)
 - 2822・Split
 	- [题目](./playground/hard/02822-hard-split.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/32246)
 - 2828・ClassPublicKeys
 	- [题目](./playground/hard/02828-hard-classpublickeys.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
