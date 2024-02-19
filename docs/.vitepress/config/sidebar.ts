@@ -604,6 +604,10 @@ export const sidebar = {
 							text: "两数之和",
 							link: "/challenges/hard/08804-hard-liang-shu-zhi-he"
 						},
+						{
+							text: "ValidDate",
+							link: "/challenges/hard/09155-hard-validdate"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

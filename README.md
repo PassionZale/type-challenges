@@ -449,7 +449,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/9119)
 - 9155・ValidDate
 	- [题目](./playground/hard/09155-hard-validdate.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/9174)
 - 9160・Assign
 	- [题目](./playground/hard/09160-hard-assign.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
