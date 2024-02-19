@@ -540,6 +540,10 @@ export const sidebar = {
 							text: "Union to Tuple",
 							link: "/challenges/hard/00730-hard-union-to-tuple"
 						},
+						{
+							text: "String Join",
+							link: "/challenges/hard/00847-hard-string-join"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

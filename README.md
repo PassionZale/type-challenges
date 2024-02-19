@@ -401,7 +401,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/10191)
 - 847・String Join
 	- [题目](./playground/hard/00847-hard-string-join.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/850)
 - 956・DeepPick
 	- [题目](./playground/hard/00956-hard-deeppick.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
