@@ -430,6 +430,10 @@ export const sidebar = {
 							text: "MergeAll",
 							link: "/challenges/medium/27932-medium-mergeall"
 						},
+						{
+							text: "CheckRepeatedTuple",
+							link: "/challenges/medium/27958-medium-checkrepeatedtuple"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

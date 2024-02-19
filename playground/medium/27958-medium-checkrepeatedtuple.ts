@@ -19,10 +19,14 @@
 
 /* _____________ 你的代码 _____________ */
 
-type CheckRepeatedTuple<T extends unknown[]> = any
+type CheckRepeatedTuple<T extends unknown[]> = T extends [infer L, ...infer R]
+  ? L extends R[number]
+    ? true
+    : CheckRepeatedTuple<R>
+  : false;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<CheckRepeatedTuple<[number, number, string, boolean]>, true>>,
@@ -30,8 +34,8 @@ type cases = [
   Expect<Equal<CheckRepeatedTuple<[1, 2, 3]>, false>>,
   Expect<Equal<CheckRepeatedTuple<[1, 2, 1]>, true>>,
   Expect<Equal<CheckRepeatedTuple<[]>, false>>,
-  Expect<Equal<CheckRepeatedTuple<string[]>, false>>,
-]
+  Expect<Equal<CheckRepeatedTuple<string[]>, false>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

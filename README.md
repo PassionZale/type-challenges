@@ -319,6 +319,8 @@
   - [题目](./playground/medium/27932-medium-mergeall.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32289)
 - 27958・CheckRepeatedTuple
+  - [题目](./playground/medium/27958-medium-checkrepeatedtuple.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32291)
 - 28333・Public Type
 - 29650・ExtractToObject
 - 29785・Deep Omit
