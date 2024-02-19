@@ -428,7 +428,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/3382)
 - 3376・InorderTraversal
 	- [题目](./playground/hard/03376-hard-inordertraversal.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/14093)
 - 4037・IsPalindrome
 	- [题目](./playground/hard/04037-hard-ispalindrome.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

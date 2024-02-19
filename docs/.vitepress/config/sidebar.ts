@@ -576,6 +576,10 @@ export const sidebar = {
 							text: "ObjectFromEntries",
 							link: "/challenges/hard/02949-hard-objectfromentries"
 						},
+						{
+							text: "InorderTraversal",
+							link: "/challenges/hard/03376-hard-inordertraversal"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
