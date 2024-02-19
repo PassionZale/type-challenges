@@ -26,22 +26,25 @@
 
 /* _____________ 你的代码 _____________ */
 
-type ObjectFromEntries<T> = any
+type ObjectFromEntries<T extends [string, any]> = {
+  [K in T[0]]: T extends [K, any] ? T[1] : never;
+};
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 interface Model {
-  name: string
-  age: number
-  locations: string[] | null
+  name: string;
+  age: number;
+  locations: string[] | null;
 }
 
-type ModelEntries = ['name', string] | ['age', number] | ['locations', string[] | null]
+type ModelEntries =
+  | ["name", string]
+  | ["age", number]
+  | ["locations", string[] | null];
 
-type cases = [
-  Expect<Equal<ObjectFromEntries<ModelEntries>, Model>>,
-]
+type cases = [Expect<Equal<ObjectFromEntries<ModelEntries>, Model>>];
 
 /* _____________ 下一步 _____________ */
 /*

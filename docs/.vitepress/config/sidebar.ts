@@ -572,6 +572,10 @@ export const sidebar = {
 							text: "IsRequiredKey",
 							link: "/challenges/hard/02857-hard-isrequiredkey"
 						},
+						{
+							text: "ObjectFromEntries",
+							link: "/challenges/hard/02949-hard-objectfromentries"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
