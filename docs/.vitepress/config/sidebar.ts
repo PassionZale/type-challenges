@@ -624,6 +624,10 @@ export const sidebar = {
 							text: "Replace Union",
 							link: "/challenges/hard/13580-hard-replace-union"
 						},
+						{
+							text: "FizzBuzz",
+							link: "/challenges/hard/14080-hard-fizzbuzz"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
