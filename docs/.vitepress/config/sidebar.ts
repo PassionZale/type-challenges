@@ -662,6 +662,10 @@ export const sidebar = {
 							text: "获取只读属性",
 							link: "/challenges/extreme/00005-extreme-huo-qu-zhi-du-shu-xing"
 						},
+						{
+							text: "Query String Parser",
+							link: "/challenges/extreme/00151-extreme-query-string-parser"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
