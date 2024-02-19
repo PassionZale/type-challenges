@@ -7,7 +7,7 @@
 
 > 题目
 
-Implement the type version of Lodash.intersection with a little difference. Intersection<T> takes an Array T containing several arrays or any type element including the union type, and returns a new union containing all intersection elements.
+Implement the type version of Lodash.intersection with a little difference. `Intersection<T>` takes an Array T containing several arrays or any type element including the union type, and returns a new union containing all intersection elements.
 
 ```ts
 type Res = Intersection<[[1, 2], [2, 3], [2, 2]]>; // expected to be 2
