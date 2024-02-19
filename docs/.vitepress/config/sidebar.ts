@@ -648,6 +648,10 @@ export const sidebar = {
 							text: "OptionalUndefined",
 							link: "/challenges/hard/28143-hard-optionalundefined"
 						},
+						{
+							text: "BitwiseXOR",
+							link: "/challenges/hard/30575-hard-bitwisexor"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

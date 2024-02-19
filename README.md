@@ -482,7 +482,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/28200)
 - 30575・BitwiseXOR
 	- [题目](./playground/hard/30575-hard-bitwisexor.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/30577)
 
 ### 地狱 (15)
 

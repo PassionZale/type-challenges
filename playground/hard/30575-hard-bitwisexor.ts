@@ -20,18 +20,42 @@
 
 /* _____________ 你的代码 _____________ */
 
-type BitwiseXOR<S1 extends string, S2 extends string> = any
+type MakePrefix<
+  S extends string,
+  P extends string = ""
+> = S extends `${string}${infer R}` ? MakePrefix<R, `${P}0`> : P;
+
+type Pad<S1 extends string, S2 extends string> = [S1, S2] extends [
+  `${string}${infer RS1}`,
+  `${string}${infer RS2}`
+]
+  ? Pad<RS1, RS2>
+  : [MakePrefix<S2>, MakePrefix<S1>];
+
+type _XOR<S1 extends string, S2 extends string, R extends string = ""> = [
+  S1,
+  S2
+] extends [`${infer F1}${infer R1}`, `${infer F2}${infer R2}`]
+  ? _XOR<R1, R2, `${R}${F1 extends F2 ? "0" : "1"}`>
+  : R;
+
+type BitwiseXOR<S1 extends string, S2 extends string> = Pad<S1, S2> extends [
+  infer P1 extends string,
+  infer P2 extends string
+]
+  ? _XOR<`${P1}${S1}`, `${P2}${S2}`>
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<BitwiseXOR<'0', '1'>, '1'>>,
-  Expect<Equal<BitwiseXOR<'1', '1'>, '0'>>,
-  Expect<Equal<BitwiseXOR<'10', '1'>, '11'>>,
-  Expect<Equal<BitwiseXOR<'110', '1'>, '111'>>,
-  Expect<Equal<BitwiseXOR<'101', '11'>, '110'>>,
-]
+  Expect<Equal<BitwiseXOR<"0", "1">, "1">>,
+  Expect<Equal<BitwiseXOR<"1", "1">, "0">>,
+  Expect<Equal<BitwiseXOR<"10", "1">, "11">>,
+  Expect<Equal<BitwiseXOR<"110", "1">, "111">>,
+  Expect<Equal<BitwiseXOR<"101", "11">, "110">>
+];
 
 /* _____________ 下一步 _____________ */
 /*
