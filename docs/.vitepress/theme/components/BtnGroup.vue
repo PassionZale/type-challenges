@@ -13,7 +13,7 @@ const props = defineProps<Props>();
 <template>
   <div class="btn-group">
     <a
-      v-if="props.answer"
+      v-if="props.issue"
       class="btn btn-issue"
       :href="props.issue"
       target="_blank"

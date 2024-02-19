@@ -1,19 +1,19 @@
-
 # 联合类型转化为交叉类型
 
 <BtnGroup 
 	issue="https://tsch.js.org/55/solutions"
+	featured="https://github.com/type-challenges/type-challenges/issues/122"
 />
 
 > 题目
 
-  实现高级工具类型 `UnionToIntersection<U>`
+实现高级工具类型 `UnionToIntersection<U>`
 
-  例如
+例如
 
-  ```ts
-  type I = UnionToIntersection<'foo' | 42 | true> // expected to be 'foo' & 42 & true
-  ```
+```ts
+type I = UnionToIntersection<"foo" | 42 | true>; // expected to be 'foo' & 42 & true
+```
 
 > 解答
 
@@ -24,10 +24,3 @@ type UnionToIntersection<U> = (
   ? I
   : never;
 ```
-
-> 精选
-
-<BtnGroup 
-	featured="https://github.com/type-challenges/type-challenges/issues/122"
-/>
-	
