@@ -678,6 +678,10 @@ export const sidebar = {
 							text: "柯里化 2",
 							link: "/challenges/extreme/00462-extreme-ke-li-hua-2"
 						},
+						{
+							text: "Sum",
+							link: "/challenges/extreme/00476-extreme-sum"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },

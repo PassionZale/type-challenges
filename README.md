@@ -503,7 +503,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/3697)
 - 476・Sum
 	- [题目](./playground/extreme/00476-extreme-sum.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/23343)
 - 517・Multiply
 	- [题目](./playground/extreme/00517-extreme-multiply.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)
