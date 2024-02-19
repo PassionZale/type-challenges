@@ -371,7 +371,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/7074)
 - 213・Vue Basic Props
 	- [题目](./playground/hard/00213-hard-vue-basic-props.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/215)
 - 223・IsAny
 	- [题目](./playground/hard/00223-hard-isany.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

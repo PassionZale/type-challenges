@@ -500,6 +500,10 @@ export const sidebar = {
 							text: "C-printf Parser",
 							link: "/challenges/hard/00147-hard-c-printf-parser"
 						},
+						{
+							text: "Vue Basic Props",
+							link: "/challenges/hard/00213-hard-vue-basic-props"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
