@@ -437,7 +437,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/5221)
 - 5423・Intersection
 	- [题目](./playground/hard/05423-hard-intersection.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/11756)
 - 6141・Binary to Decimal
 	- [题目](./playground/hard/06141-hard-binary-to-decimal.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

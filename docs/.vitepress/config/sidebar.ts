@@ -588,6 +588,10 @@ export const sidebar = {
 							text: "Mutable Keys",
 							link: "/challenges/hard/05181-hard-mutable-keys"
 						},
+						{
+							text: "Intersection",
+							link: "/challenges/hard/05423-hard-intersection"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
