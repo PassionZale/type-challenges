@@ -584,6 +584,10 @@ export const sidebar = {
 							text: "IsPalindrome",
 							link: "/challenges/hard/04037-hard-ispalindrome"
 						},
+						{
+							text: "Mutable Keys",
+							link: "/challenges/hard/05181-hard-mutable-keys"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

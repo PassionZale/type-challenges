@@ -434,7 +434,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/4040)
 - 5181・Mutable Keys
 	- [题目](./playground/hard/05181-hard-mutable-keys.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/5221)
 - 5423・Intersection
 	- [题目](./playground/hard/05423-hard-intersection.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
