@@ -518,7 +518,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/11688)
 - 869・DistributeUnions
 	- [题目](./playground/extreme/00869-extreme-distributeunions.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/11761)
 - 925・Assert Array Index
 	- [题目](./playground/extreme/00925-extreme-assert-array-index.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)

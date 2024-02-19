@@ -698,6 +698,10 @@ export const sidebar = {
 							text: "Sort",
 							link: "/challenges/extreme/00741-extreme-sort"
 						},
+						{
+							text: "DistributeUnions",
+							link: "/challenges/extreme/00869-extreme-distributeunions"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
