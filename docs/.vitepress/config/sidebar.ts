@@ -644,6 +644,10 @@ export const sidebar = {
 							text: "IsNegativeNumber",
 							link: "/challenges/hard/25747-hard-isnegativenumber"
 						},
+						{
+							text: "OptionalUndefined",
+							link: "/challenges/hard/28143-hard-optionalundefined"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
