@@ -480,6 +480,10 @@ export const sidebar = {
 							text: "获得可选属性",
 							link: "/challenges/hard/00059-hard-huo-de-ke-xuan-shu-xing"
 						},
+						{
+							text: "必需的键",
+							link: "/challenges/hard/00089-hard-bi-xu-de-jian"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
