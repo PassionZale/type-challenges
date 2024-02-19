@@ -442,6 +442,10 @@ export const sidebar = {
 							text: "ExtractToObject",
 							link: "/challenges/medium/29650-medium-extracttoobject"
 						},
+						{
+							text: "Deep Omit",
+							link: "/challenges/medium/29785-medium-deep-omit"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

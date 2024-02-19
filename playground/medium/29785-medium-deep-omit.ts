@@ -30,26 +30,41 @@
 
 /* _____________ 你的代码 _____________ */
 
-type DeepOmit = any
+type DeepOmit<T, Paths> = Paths extends `${infer K}.${infer R}`
+  ? K extends keyof T
+    ? {
+        [P in keyof T]: P extends K ? DeepOmit<T[P], R> : T[P];
+      }
+    : T
+  : {
+      [K in keyof T as K extends Paths ? never : K]: T[K];
+    };
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type obj = {
   person: {
-    name: string
+    name: string;
     age: {
-      value: number
-    }
-  }
-}
+      value: number;
+    };
+  };
+};
 
 type cases = [
-  Expect<Equal<DeepOmit<obj, 'person'>, {}>>,
-  Expect<Equal<DeepOmit<obj, 'person.name'>, { person: { age: { value: number } } }>>,
-  Expect<Equal<DeepOmit<obj, 'name'>, obj>>,
-  Expect<Equal<DeepOmit<obj, 'person.age.value'>, { person: { name: string, age: {} } }>>,
-]
+  Expect<Equal<DeepOmit<obj, "person">, {}>>,
+  Expect<
+    Equal<DeepOmit<obj, "person.name">, { person: { age: { value: number } } }>
+  >,
+  Expect<Equal<DeepOmit<obj, "name">, obj>>,
+  Expect<
+    Equal<
+      DeepOmit<obj, "person.age.value">,
+      { person: { name: string; age: {} } }
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

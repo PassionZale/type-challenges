@@ -328,6 +328,8 @@
   - [题目](./playground/medium/29650-medium-extracttoobject.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32293)
 - 29785・Deep Omit
+  - [题目](./playground/medium/29785-medium-deep-omit.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32294)
 - 30301・IsOdd
 - 30430・Tower of hanoi
 - 30958・Pascal's triangle
