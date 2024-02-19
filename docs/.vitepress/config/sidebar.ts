@@ -426,6 +426,10 @@ export const sidebar = {
 							text: "CartesianProduct",
 							link: "/challenges/medium/27862-medium-cartesianproduct"
 						},
+						{
+							text: "MergeAll",
+							link: "/challenges/medium/27932-medium-mergeall"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },

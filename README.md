@@ -316,6 +316,8 @@
   - [题目](./playground/medium/27862-medium-cartesianproduct.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32288)
 - 27932・MergeAll
+  - [题目](./playground/medium/27932-medium-mergeall.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32289)
 - 27958・CheckRepeatedTuple
 - 28333・Public Type
 - 29650・ExtractToObject
