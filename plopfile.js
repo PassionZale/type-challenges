@@ -145,7 +145,7 @@ export default function (
         }
 
         if (unCompletedChallenges.length === 1) {
-          renderChallenge(plop, { level, challenge: unCompletedChallenges[1] });
+          renderChallenge(plop, { level, challenge: unCompletedChallenges[0] });
         } else {
           const { challenge } = await inquirer.prompt({
             type: "list",
