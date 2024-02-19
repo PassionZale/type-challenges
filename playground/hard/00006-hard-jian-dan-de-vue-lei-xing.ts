@@ -46,46 +46,54 @@
 
 /* _____________ 你的代码 _____________ */
 
-declare function SimpleVue(options: any): any
+type Computed<C extends Record<string, any>> = {
+  [P in keyof C]: ReturnType<C[P]>;
+};
+
+declare function SimpleVue<D, C extends Record<string, any>, M>(options: {
+  data(this: {}): D;
+  computed: C & ThisType<D & Computed<C> & M>;
+  methods: M & ThisType<D & Computed<C> & M>;
+}): D & Computed<C> & M;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 SimpleVue({
   data() {
     // @ts-expect-error
-    this.firstname
+    this.firstname;
     // @ts-expect-error
-    this.getRandom()
+    this.getRandom();
     // @ts-expect-error
-    this.data()
+    this.data();
 
     return {
-      firstname: 'Type',
-      lastname: 'Challenges',
+      firstname: "Type",
+      lastname: "Challenges",
       amount: 10,
-    }
+    };
   },
   computed: {
     fullname() {
-      return `${this.firstname} ${this.lastname}`
+      return `${this.firstname} ${this.lastname}`;
     },
   },
   methods: {
     getRandom() {
-      return Math.random()
+      return Math.random();
     },
     hi() {
-      alert(this.amount)
-      alert(this.fullname.toLowerCase())
-      alert(this.getRandom())
+      alert(this.amount);
+      alert(this.fullname.toLowerCase());
+      alert(this.getRandom());
     },
     test() {
-      const fullname = this.fullname
-      const cases: [Expect<Equal<typeof fullname, string>>] = [] as any
+      const fullname = this.fullname;
+      const cases: [Expect<Equal<typeof fullname, string>>] = [] as any;
     },
   },
-})
+});
 
 /* _____________ 下一步 _____________ */
 /*

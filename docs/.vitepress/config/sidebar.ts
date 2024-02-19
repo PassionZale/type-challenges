@@ -460,7 +460,11 @@ export const sidebar = {
         {
           text: "困难",
           items: [
-            /** PLOP_INJECT_SIDEBAR_HARD */
+            {
+							text: "简单的 Vue 类型",
+							link: "/challenges/hard/00006-hard-jian-dan-de-vue-lei-xing"
+						},
+						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
         {

@@ -340,6 +340,8 @@
 ### 困难 (47)
 
 - 6・简单的 Vue 类型
+	- [题目](./playground/hard/00006-hard-jian-dan-de-vue-lei-xing.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/172)
 - 17・柯里化 1
 - 55・联合类型转化为交叉类型
 - 57・获得必需的属性
