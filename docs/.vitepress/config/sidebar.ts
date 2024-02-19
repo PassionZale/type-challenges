@@ -516,6 +516,10 @@ export const sidebar = {
 							text: "String to Number",
 							link: "/challenges/hard/00300-hard-string-to-number"
 						},
+						{
+							text: "Tuple Filter",
+							link: "/challenges/hard/00399-hard-tuple-filter"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

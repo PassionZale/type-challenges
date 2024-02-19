@@ -17,19 +17,36 @@
 
 /* _____________ 你的代码 _____________ */
 
-type FilterOut<T extends any[], F> = any
+type FilterOut<T extends any[], F> = T extends [infer R, ...infer Rest]
+  ? [R] extends [F]
+    ? FilterOut<Rest, F>
+    : [R, ...FilterOut<Rest, F>]
+  : [];
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<FilterOut<[], never>, []>>,
   Expect<Equal<FilterOut<[never], never>, []>>,
-  Expect<Equal<FilterOut<['a', never], never>, ['a']>>,
-  Expect<Equal<FilterOut<[1, never, 'a'], never>, [1, 'a']>>,
-  Expect<Equal<FilterOut<[never, 1, 'a', undefined, false, null], never | null | undefined>, [1, 'a', false]>>,
-  Expect<Equal<FilterOut<[number | null | undefined, never], never | null | undefined>, [number | null | undefined]>>,
-]
+  Expect<Equal<FilterOut<["a", never], never>, ["a"]>>,
+  Expect<Equal<FilterOut<[1, never, "a"], never>, [1, "a"]>>,
+  Expect<
+    Equal<
+      FilterOut<
+        [never, 1, "a", undefined, false, null],
+        never | null | undefined
+      >,
+      [1, "a", false]
+    >
+  >,
+  Expect<
+    Equal<
+      FilterOut<[number | null | undefined, never], never | null | undefined>,
+      [number | null | undefined]
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

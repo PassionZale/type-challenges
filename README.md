@@ -383,7 +383,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/17355)
 - 399・Tuple Filter
 	- [题目](./playground/hard/00399-hard-tuple-filter.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/456)
 - 472・Tuple to Enum Object
 	- [题目](./playground/hard/00472-hard-tuple-to-enum-object.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
