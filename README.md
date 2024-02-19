@@ -386,7 +386,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/456)
 - 472・Tuple to Enum Object
 	- [题目](./playground/hard/00472-hard-tuple-to-enum-object.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/10450)
 - 545・printf
 	- [题目](./playground/hard/00545-hard-printf.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

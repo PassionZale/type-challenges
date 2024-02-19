@@ -520,6 +520,10 @@ export const sidebar = {
 							text: "Tuple Filter",
 							link: "/challenges/hard/00399-hard-tuple-filter"
 						},
+						{
+							text: "Tuple to Enum Object",
+							link: "/challenges/hard/00472-hard-tuple-to-enum-object"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
