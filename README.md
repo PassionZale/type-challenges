@@ -307,6 +307,8 @@
   - [题目](./playground/medium/26401-medium-json-schema-to-typescript.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32284)
 - 27133・Square
+  - [题目](./playground/medium/27133-medium-square.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32285)
 - 27152・Triangular number
 - 27862・CartesianProduct
 - 27932・MergeAll

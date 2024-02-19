@@ -414,6 +414,10 @@ export const sidebar = {
 							text: "JSON Schema to TypeScript 🎯",
 							link: "/challenges/medium/26401-medium-json-schema-to-typescript"
 						},
+						{
+							text: "Square 🎯",
+							link: "/challenges/medium/27133-medium-square"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
