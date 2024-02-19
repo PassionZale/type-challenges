@@ -304,6 +304,8 @@
   - [题目](./playground/medium/25270-medium-transpose.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32280)
 - 26401・JSON Schema to TypeScript
+  - [题目](./playground/medium/26401-medium-json-schema-to-typescript.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32284)
 - 27133・Square
 - 27152・Triangular number
 - 27862・CartesianProduct
