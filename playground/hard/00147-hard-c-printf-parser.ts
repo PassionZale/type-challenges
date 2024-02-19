@@ -33,32 +33,39 @@
 /* _____________ 你的代码 _____________ */
 
 type ControlsMap = {
-  c: 'char'
-  s: 'string'
-  d: 'dec'
-  o: 'oct'
-  h: 'hex'
-  f: 'float'
-  p: 'pointer'
-}
+  c: "char";
+  s: "string";
+  d: "dec";
+  o: "oct";
+  h: "hex";
+  f: "float";
+  p: "pointer";
+};
 
-type ParsePrintFormat = any
+type ParsePrintFormat<
+  S extends string,
+  ResultArr extends string[] = []
+> = S extends `${string}%${infer Letter}${infer Rest}`
+  ? Letter extends keyof ControlsMap
+    ? ParsePrintFormat<Rest, [...ResultArr, ControlsMap[Letter]]>
+    : ParsePrintFormat<Rest, ResultArr>
+  : ResultArr;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<ParsePrintFormat<''>, []>>,
-  Expect<Equal<ParsePrintFormat<'Any string.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'The result is %d.'>, ['dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %%d.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'The result is %%%d.'>, ['dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %f.'>, ['float']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %h.'>, ['hex']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %q.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'Hello %s: score is %d.'>, ['string', 'dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %'>, []>>,
-]
+  Expect<Equal<ParsePrintFormat<"">, []>>,
+  Expect<Equal<ParsePrintFormat<"Any string.">, []>>,
+  Expect<Equal<ParsePrintFormat<"The result is %d.">, ["dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %%d.">, []>>,
+  Expect<Equal<ParsePrintFormat<"The result is %%%d.">, ["dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %f.">, ["float"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %h.">, ["hex"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %q.">, []>>,
+  Expect<Equal<ParsePrintFormat<"Hello %s: score is %d.">, ["string", "dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %">, []>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

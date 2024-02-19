@@ -496,6 +496,10 @@ export const sidebar = {
 							text: "CamelCase",
 							link: "/challenges/hard/00114-hard-camelcase"
 						},
+						{
+							text: "C-printf Parser",
+							link: "/challenges/hard/00147-hard-c-printf-parser"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

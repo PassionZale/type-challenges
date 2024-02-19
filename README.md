@@ -368,7 +368,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/25014)
 - 147・C-printf Parser
 	- [题目](./playground/hard/00147-hard-c-printf-parser.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/7074)
 - 213・Vue Basic Props
 	- [题目](./playground/hard/00213-hard-vue-basic-props.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
