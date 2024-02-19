@@ -19,21 +19,37 @@
 
 /* _____________ 你的代码 _____________ */
 
-type IsPalindrome<T> = any
+type StringToTuple<T extends string> = T extends `${infer F}${infer R}`
+  ? [F, ...StringToTuple<R>]
+  : [];
+
+type IsIsPalindromeArray<T extends any[]> = T extends [
+  infer F,
+  ...infer M,
+  infer L
+]
+  ? F extends L
+    ? IsIsPalindromeArray<M>
+    : false
+  : true;
+
+type IsPalindrome<T extends string | number> = IsIsPalindromeArray<
+  StringToTuple<`${T}`>
+>;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<IsPalindrome<'abc'>, false>>,
-  Expect<Equal<IsPalindrome<'b'>, true>>,
-  Expect<Equal<IsPalindrome<'abca'>, false>>,
-  Expect<Equal<IsPalindrome<'abba'>, true>>,
-  Expect<Equal<IsPalindrome<'abcba'>, true>>,
+  Expect<Equal<IsPalindrome<"abc">, false>>,
+  Expect<Equal<IsPalindrome<"b">, true>>,
+  Expect<Equal<IsPalindrome<"abca">, false>>,
+  Expect<Equal<IsPalindrome<"abba">, true>>,
+  Expect<Equal<IsPalindrome<"abcba">, true>>,
   Expect<Equal<IsPalindrome<121>, true>>,
   Expect<Equal<IsPalindrome<2332>, true>>,
-  Expect<Equal<IsPalindrome<19260817>, false>>,
-]
+  Expect<Equal<IsPalindrome<19260817>, false>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

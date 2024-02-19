@@ -431,7 +431,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/14093)
 - 4037・IsPalindrome
 	- [题目](./playground/hard/04037-hard-ispalindrome.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/4040)
 - 5181・Mutable Keys
 	- [题目](./playground/hard/05181-hard-mutable-keys.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

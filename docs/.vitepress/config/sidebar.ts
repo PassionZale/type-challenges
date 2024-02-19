@@ -580,6 +580,10 @@ export const sidebar = {
 							text: "InorderTraversal",
 							link: "/challenges/hard/03376-hard-inordertraversal"
 						},
+						{
+							text: "IsPalindrome",
+							link: "/challenges/hard/04037-hard-ispalindrome"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
