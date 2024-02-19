@@ -548,6 +548,10 @@ export const sidebar = {
 							text: "DeepPick",
 							link: "/challenges/hard/00956-hard-deeppick"
 						},
+						{
+							text: "Pinia",
+							link: "/challenges/hard/01290-hard-pinia"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

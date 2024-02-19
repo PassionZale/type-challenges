@@ -407,7 +407,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/3294)
 - 1290・Pinia
 	- [题目](./playground/hard/01290-hard-pinia.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/27536)
 - 1383・Camelize
 	- [题目](./playground/hard/01383-hard-camelize.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
