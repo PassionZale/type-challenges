@@ -476,6 +476,10 @@ export const sidebar = {
 							text: "获得必需的属性",
 							link: "/challenges/hard/00057-hard-huo-de-bi-xu-de-shu-xing"
 						},
+						{
+							text: "获得可选属性",
+							link: "/challenges/hard/00059-hard-huo-de-ke-xuan-shu-xing"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
