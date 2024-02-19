@@ -455,7 +455,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/9277)
 - 9384・Maximum
 	- [题目](./playground/hard/09384-hard-maximum.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/21928)
 - 9775・Capitalize Nest Object Keys
 	- [题目](./playground/hard/09775-hard-capitalize-nest-object-keys.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

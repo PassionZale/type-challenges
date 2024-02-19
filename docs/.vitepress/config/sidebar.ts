@@ -612,6 +612,10 @@ export const sidebar = {
 							text: "Assign",
 							link: "/challenges/hard/09160-hard-assign"
 						},
+						{
+							text: "Maximum",
+							link: "/challenges/hard/09384-hard-maximum"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
