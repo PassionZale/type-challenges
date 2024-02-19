@@ -521,7 +521,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/11761)
 - 6228・JSON Parser
 	- [题目](./playground/extreme/06228-extreme-json-parser.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/6329)
 - 7561・Subtract
 	- [题目](./playground/extreme/07561-extreme-subtract.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)

@@ -702,6 +702,10 @@ export const sidebar = {
 							text: "DistributeUnions",
 							link: "/challenges/extreme/00869-extreme-distributeunions"
 						},
+						{
+							text: "JSON Parser",
+							link: "/challenges/extreme/06228-extreme-json-parser"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
