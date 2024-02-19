@@ -1,22 +1,22 @@
-/*
-  31447 - CountReversePairs
-  -------
-  by jiangshan (@jiangshanmeta) #地狱
+# CountReversePairs
 
-  ### 题目
+<BtnGroup 
+	issue="https://tsch.js.org/31447/solutions"
+	featured="https://github.com/type-challenges/type-challenges/issues/31454"
+/>
 
-  Given an integer array nums, return the number of reverse pairs in the array.
+> 题目
 
-  A reverse pair is a pair (i, j) where:
+Given an integer array nums, return the number of reverse pairs in the array.
 
-  * 0 <= i < j < nums.length and
-  * nums[i] > nums[j].
+A reverse pair is a pair (i, j) where:
 
-  > 在 Github 上查看：https://tsch.js.org/31447/zh-CN
-*/
+- 0 <= i < j < nums.length and
+- nums[i] > nums[j].
 
-/* _____________ 你的代码 _____________ */
+> 解答
 
+```ts
 type ParseNumber<S extends string> = S extends `${infer I}.${infer D}`
   ? [I, D]
   : [S, ""];
@@ -143,20 +143,4 @@ type CountSorted<
   : R;
 
 type CountReversePairs<T extends number[]> = MergeSort<T>[1]["length"];
-
-/* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from "@type-challenges/utils";
-
-type cases = [
-  Expect<Equal<CountReversePairs<[5, 2, 6, 1]>, 4>>,
-  Expect<Equal<CountReversePairs<[1, 2, 3, 4]>, 0>>,
-  Expect<Equal<CountReversePairs<[-1, -1]>, 0>>,
-  Expect<Equal<CountReversePairs<[-1]>, 0>>
-];
-
-/* _____________ 下一步 _____________ */
-/*
-  > 分享你的解答：https://tsch.js.org/31447/answer/zh-CN
-  > 查看解答：https://tsch.js.org/31447/solutions
-  > 更多题目：https://tsch.js.org/zh-CN
-*/
+```

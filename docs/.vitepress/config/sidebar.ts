@@ -710,6 +710,10 @@ export const sidebar = {
 							text: "Subtract",
 							link: "/challenges/extreme/07561-extreme-subtract"
 						},
+						{
+							text: "CountReversePairs",
+							link: "/challenges/extreme/31447-extreme-countreversepairs"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },

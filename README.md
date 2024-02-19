@@ -527,4 +527,4 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/7680)
 - 31447・CountReversePairs
 	- [题目](./playground/extreme/31447-extreme-countreversepairs.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/31454)
