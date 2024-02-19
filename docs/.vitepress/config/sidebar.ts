@@ -488,6 +488,10 @@ export const sidebar = {
 							text: "可选类型的键",
 							link: "/challenges/hard/00090-hard-ke-xuan-lei-xing-de-jian"
 						},
+						{
+							text: "Capitalize Words",
+							link: "/challenges/hard/00112-hard-capitalize-words"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

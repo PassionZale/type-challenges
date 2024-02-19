@@ -362,7 +362,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/210)
 - 112・Capitalize Words
 	- [题目](./playground/hard/00112-hard-capitalize-words.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/19571)
 - 114・CamelCase
 	- [题目](./playground/hard/00114-hard-camelcase.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

@@ -40,7 +40,7 @@ const renderChallenge = (plop, { level, challenge }) => {
   const [no, title] = challengeContents[1].trim().split(" - ");
   const content = challengeContents.slice(7, foundIndex - 2).join("\n");
 
-  const challengeDocTemplate = `
+  const _challengeDocTemplate = `
 # {{title}}
 
 <BtnGroup 
@@ -60,6 +60,22 @@ const renderChallenge = (plop, { level, challenge }) => {
 	featured="https://github.com/type-challenges/type-challenges/issues/UPDATE_HERE_IF_NEED_DISPLAY_FEATURED"
 />
 	`;
+
+  const challengeDocTemplate = `
+# {{title}}
+
+<BtnGroup 
+	issue="https://tsch.js.org/{{no}}/solutions"
+	featured="https://github.com/type-challenges/type-challenges/issues/UPDATE_HERE_IF_NEED_DISPLAY_FEATURED"
+/>
+
+> 题目
+
+{{{content}}}
+
+> 解答
+
+	`;	
 
   const challengeDoc = plop.renderString(challengeDocTemplate, {
     no,
