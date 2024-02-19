@@ -12,17 +12,24 @@
 
 /* _____________ 你的代码 _____________ */
 
-type IsOdd<T extends number> = any
+type IsOdd<T extends number> = `${T}` extends `${number | ""}${
+  | 1
+  | 3
+  | 5
+  | 7
+  | 9}`
+  ? true
+  : false;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
   Expect<Equal<IsOdd<2023>, true>>,
   Expect<Equal<IsOdd<1453>, true>>,
   Expect<Equal<IsOdd<1926>, false>>,
-  Expect<Equal<IsOdd<number>, false>>,
-]
+  Expect<Equal<IsOdd<number>, false>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

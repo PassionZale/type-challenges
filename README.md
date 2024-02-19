@@ -331,6 +331,8 @@
   - [题目](./playground/medium/29785-medium-deep-omit.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32294)
 - 30301・IsOdd
+  - [题目](./playground/medium/30301-medium-isodd.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32295)
 - 30430・Tower of hanoi
 - 30958・Pascal's triangle
 - 30970・IsFixedStringLiteralType
