@@ -487,17 +487,47 @@
 ### 地狱 (15)
 
 - 5・获取只读属性
+	- [题目](./playground/extreme/00005-extreme-huo-qu-zhi-du-shu-xing.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 151・Query String Parser
+	- [题目](./playground/extreme/00151-extreme-query-string-parser.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 216・Slice
+	- [题目](./playground/extreme/00216-extreme-slice.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 274・Integers Comparator
+	- [题目](./playground/extreme/00274-extreme-integers-comparator.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 462・柯里化 2
+	- [题目](./playground/extreme/00462-extreme-ke-li-hua-2.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 476・Sum
+	- [题目](./playground/extreme/00476-extreme-sum.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 517・Multiply
+	- [题目](./playground/extreme/00517-extreme-multiply.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 697・Tag
+	- [题目](./playground/extreme/00697-extreme-tag.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 734・Inclusive Range
+	- [题目](./playground/extreme/00734-extreme-inclusive-range.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 741・Sort
+	- [题目](./playground/extreme/00741-extreme-sort.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 869・DistributeUnions
+	- [题目](./playground/extreme/00869-extreme-distributeunions.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 925・Assert Array Index
+	- [题目](./playground/extreme/00925-extreme-assert-array-index.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 6228・JSON Parser
+	- [题目](./playground/extreme/06228-extreme-json-parser.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 7561・Subtract
+	- [题目](./playground/extreme/07561-extreme-subtract.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
 - 31447・CountReversePairs
+	- [题目](./playground/extreme/31447-extreme-countreversepairs.ts)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/)
