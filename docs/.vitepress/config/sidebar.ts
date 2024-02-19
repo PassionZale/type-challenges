@@ -694,6 +694,10 @@ export const sidebar = {
 							text: "Inclusive Range",
 							link: "/challenges/extreme/00734-extreme-inclusive-range"
 						},
+						{
+							text: "Sort",
+							link: "/challenges/extreme/00741-extreme-sort"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
