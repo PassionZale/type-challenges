@@ -636,6 +636,10 @@ export const sidebar = {
 							text: "Tree path array",
 							link: "/challenges/hard/15260-hard-tree-path-array"
 						},
+						{
+							text: "SnakeCase",
+							link: "/challenges/hard/19458-hard-snakecase"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
