@@ -670,6 +670,10 @@ export const sidebar = {
 							text: "Slice",
 							link: "/challenges/extreme/00216-extreme-slice"
 						},
+						{
+							text: "Integers Comparator",
+							link: "/challenges/extreme/00274-extreme-integers-comparator"
+						},
 						/** PLOP_INJECT_SIDEBAR_EXTREME */
           ],
         },
