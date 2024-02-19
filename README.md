@@ -488,7 +488,7 @@
 
 - 5・获取只读属性
 	- [题目](./playground/extreme/00005-extreme-huo-qu-zhi-du-shu-xing.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/12656)
 - 151・Query String Parser
 	- [题目](./playground/extreme/00151-extreme-query-string-parser.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/)
