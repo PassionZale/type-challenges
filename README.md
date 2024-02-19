@@ -313,6 +313,8 @@
   - [题目](./playground/medium/27152-medium-triangular-number.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/32286)
 - 27862・CartesianProduct
+  - [题目](./playground/medium/27862-medium-cartesianproduct.ts)
+  - [解答](https://github.com/type-challenges/type-challenges/issues/32288)
 - 27932・MergeAll
 - 27958・CheckRepeatedTuple
 - 28333・Public Type

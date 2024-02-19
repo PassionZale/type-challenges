@@ -422,6 +422,10 @@ export const sidebar = {
 							text: "Triangular number",
 							link: "/challenges/medium/27152-medium-triangular-number"
 						},
+						{
+							text: "CartesianProduct",
+							link: "/challenges/medium/27862-medium-cartesianproduct"
+						},
 						/** PLOP_INJECT_SIDEBAR_MEDIUM */
           ],
         },
