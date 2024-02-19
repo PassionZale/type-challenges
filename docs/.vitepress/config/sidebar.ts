@@ -512,6 +512,10 @@ export const sidebar = {
 							text: "Typed Get",
 							link: "/challenges/hard/00270-hard-typed-get"
 						},
+						{
+							text: "String to Number",
+							link: "/challenges/hard/00300-hard-string-to-number"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },

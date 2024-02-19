@@ -12,18 +12,20 @@
 
 /* _____________ 你的代码 _____________ */
 
-type ToNumber<S extends string> = any
+type ToNumber<S extends string> = S extends `${infer N extends number}`
+  ? N
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<ToNumber<'0'>, 0>>,
-  Expect<Equal<ToNumber<'5'>, 5>>,
-  Expect<Equal<ToNumber<'12'>, 12>>,
-  Expect<Equal<ToNumber<'27'>, 27>>,
-  Expect<Equal<ToNumber<'18@7_$%'>, never>>,
-]
+  Expect<Equal<ToNumber<"0">, 0>>,
+  Expect<Equal<ToNumber<"5">, 5>>,
+  Expect<Equal<ToNumber<"12">, 12>>,
+  Expect<Equal<ToNumber<"27">, 27>>,
+  Expect<Equal<ToNumber<"18@7_$%">, never>>
+];
 
 /* _____________ 下一步 _____________ */
 /*

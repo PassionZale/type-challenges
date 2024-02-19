@@ -380,7 +380,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/397)
 - 300・String to Number
 	- [题目](./playground/hard/00300-hard-string-to-number.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/17355)
 - 399・Tuple Filter
 	- [题目](./playground/hard/00399-hard-tuple-filter.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
