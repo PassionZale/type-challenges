@@ -458,7 +458,7 @@
   - [精选](https://github.com/type-challenges/type-challenges/issues/21928)
 - 9775・Capitalize Nest Object Keys
 	- [题目](./playground/hard/09775-hard-capitalize-nest-object-keys.ts)
-  - [精选](https://github.com/type-challenges/type-challenges/issues/28634)
+  - [精选](https://github.com/type-challenges/type-challenges/issues/25130)
 - 13580・Replace Union
 	- [题目](./playground/hard/13580-hard-replace-union.ts)
   - [精选](https://github.com/type-challenges/type-challenges/issues/28634)

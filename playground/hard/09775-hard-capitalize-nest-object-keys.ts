@@ -12,26 +12,44 @@
 
 /* _____________ 你的代码 _____________ */
 
-type CapitalizeNestObjectKeys<T> = any
+type CapitalizeNestObjectKeys<T extends object> = T extends [
+  infer F extends object,
+  ...infer R
+]
+  ? //数组遍历
+    [
+      CapitalizeNestObjectKeys<F>,
+      ...(R extends []
+        ? []
+        : CapitalizeNestObjectKeys<R> extends any[]
+        ? CapitalizeNestObjectKeys<R>
+        : never)
+    ]
+  : //结构体
+    {
+      [P in keyof T as P extends string
+        ? Capitalize<P>
+        : P]: T[P] extends object ? CapitalizeNestObjectKeys<T[P]> : T[P];
+    };
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type foo = {
-  foo: string
-  bars: [{ foo: string }]
-}
+  foo: string;
+  bars: [{ foo: string }];
+};
 
 type Foo = {
-  Foo: string
-  Bars: [{
-    Foo: string
-  }]
-}
+  Foo: string;
+  Bars: [
+    {
+      Foo: string;
+    }
+  ];
+};
 
-type cases = [
-  Expect<Equal<Foo, CapitalizeNestObjectKeys<foo>>>,
-]
+type cases = [Expect<Equal<Foo, CapitalizeNestObjectKeys<foo>>>];
 
 /* _____________ 下一步 _____________ */
 /*

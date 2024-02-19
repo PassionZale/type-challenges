@@ -616,6 +616,10 @@ export const sidebar = {
 							text: "Maximum",
 							link: "/challenges/hard/09384-hard-maximum"
 						},
+						{
+							text: "Capitalize Nest Object Keys",
+							link: "/challenges/hard/09775-hard-capitalize-nest-object-keys"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
