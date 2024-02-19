@@ -556,6 +556,10 @@ export const sidebar = {
 							text: "Camelize",
 							link: "/challenges/hard/01383-hard-camelize"
 						},
+						{
+							text: "Drop String",
+							link: "/challenges/hard/02059-hard-drop-string"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
