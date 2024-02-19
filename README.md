@@ -52,7 +52,7 @@
   - [题目](./playground/easy/03312-easy-parameters.ts)
   - [解答](https://github.com/type-challenges/type-challenges/issues/31870)
 
-### 中等 (97)
+### 中等 (94)
 
 - 2・获取函数返回类型
   - [题目](./playground/medium/00002-medium-huo-qu-han-shu-fan-hui-lei-xing.ts)
