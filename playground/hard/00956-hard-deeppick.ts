@@ -36,39 +36,58 @@
 
 /* _____________ 你的代码 _____________ */
 
-type DeepPick = any
+type DeepPick<T extends Record<string, any>, U extends string> = (
+  U extends string
+    ? U extends `${infer F}.${infer R}`
+      ? (arg: {
+          [K in F]: DeepPick<T[F], R>;
+        }) => void
+      : U extends keyof T
+      ? (arg: Pick<T, U>) => void
+      : (arg: unknown) => void
+    : never
+) extends (arg: infer Z) => void
+  ? Z
+  : never;
 
 /* _____________ 测试用例 _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type Obj = {
-  a: number
-  b: string
-  c: boolean
+  a: number;
+  b: string;
+  c: boolean;
   obj: {
-    d: number
-    e: string
-    f: boolean
+    d: number;
+    e: string;
+    f: boolean;
     obj2: {
-      g: number
-      h: string
-      i: boolean
-    }
-  }
+      g: number;
+      h: string;
+      i: boolean;
+    };
+  };
   obj3: {
-    j: number
-    k: string
-    l: boolean
-  }
-}
+    j: number;
+    k: string;
+    l: boolean;
+  };
+};
 
 type cases = [
-  Expect<Equal<DeepPick<Obj, ''>, unknown>>,
-  Expect<Equal<DeepPick<Obj, 'a'>, { a: number }>>,
-  Expect<Equal<DeepPick<Obj, 'a' | ''>, { a: number } & unknown>>,
-  Expect<Equal<DeepPick<Obj, 'a' | 'obj.e'>, { a: number } & { obj: { e: string } }>>,
-  Expect<Equal<DeepPick<Obj, 'a' | 'obj.e' | 'obj.obj2.i'>, { a: number } & { obj: { e: string } } & { obj: { obj2: { i: boolean } } }>>,
-]
+  Expect<Equal<DeepPick<Obj, "">, unknown>>,
+  Expect<Equal<DeepPick<Obj, "a">, { a: number }>>,
+  Expect<Equal<DeepPick<Obj, "a" | "">, { a: number } & unknown>>,
+  Expect<
+    Equal<DeepPick<Obj, "a" | "obj.e">, { a: number } & { obj: { e: string } }>
+  >,
+  Expect<
+    Equal<
+      DeepPick<Obj, "a" | "obj.e" | "obj.obj2.i">,
+      { a: number } & { obj: { e: string } } & { obj: { obj2: { i: boolean } } }
+    >
+  >
+];
 
 /* _____________ 下一步 _____________ */
 /*

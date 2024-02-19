@@ -544,6 +544,10 @@ export const sidebar = {
 							text: "String Join",
 							link: "/challenges/hard/00847-hard-string-join"
 						},
+						{
+							text: "DeepPick",
+							link: "/challenges/hard/00956-hard-deeppick"
+						},
 						/** PLOP_INJECT_SIDEBAR_HARD */
           ],
         },
